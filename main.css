@@ -15,8 +15,8 @@
 html {
   font-size: 10px;
   font-family: "HelveticaNeue", "Montserrat", sans-serif;
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory; 
+  /* scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;  */
 }
 
 a{
