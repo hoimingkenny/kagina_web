@@ -311,6 +311,7 @@ section {
 #treatment .treatment-logo h1{
   letter-spacing: 3px;
 }
+
 #treatment .logo-container {
   max-width: 120px;
   margin: 5px 10px;
@@ -321,6 +322,12 @@ section {
   color: #5B7781;
   font-weight: 300;
   width: 140px;
+}
+
+#treatment .treatment-logo .treatment-logo-eng{
+  font-size: 1.2rem;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
 }
 
 
