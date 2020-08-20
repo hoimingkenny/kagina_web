@@ -289,7 +289,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  margin-top: 10px;
+  margin-top: .5rem;
 }
 
 #treatment .treatment-logo {
@@ -303,6 +303,19 @@ section {
   transform: scale(1.1) rotate(0.01deg);
 }
 
+#treatment .treatment-logo {
+  transition: .3s ease transform;
+  -webkit-transition: .3s ease transform;
+}
+
+#treatment .treatment-logo h1{
+  letter-spacing: 3px;
+}
+#treatment .logo-container {
+  max-width: 120px;
+  margin: 5px 10px;
+}
+
 #treatment .treatment-logo h1 {
   text-align: center;
   color: #5B7781;
@@ -310,10 +323,6 @@ section {
   width: 140px;
 }
 
-#treatment .treatment-logo {
-  transition: .3s ease transform;
-  -webkit-transition: .3s ease transform;
-}
 
 #treatment .treatment-row-last {
   text-align: center;
