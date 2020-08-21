@@ -363,6 +363,7 @@ section {
   width: 80%;
   margin: 0 auto;
   padding: 4rem 0;
+  justify-content: normal;
 }
 
 .caseStudies-top{
@@ -383,13 +384,13 @@ section {
   justify-content: center;
   width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 
 /* Post Slider */
 .post-slider{
   width: 85%;
-  height: 300px;
-  border: 2px solid red;
+  height: 55vh;
   overflow: hidden;
 }
 
@@ -399,15 +400,28 @@ section {
 }
 
 .post-wrapper .post{
-  background-color: yellow;
-  height: 300px;
+  /* background-color: yellow; */
+  height: 100%;
   margin: 0 10px;
-  width: 300px;
-  border: 2px black solid;
+  width: 500px;
+}
+
+.caseStudies-middle i{
+  position: absolute;
+  font-size: 3rem;
+  top: 50%;
+  left: -7%;
+  color: white;
+  cursor: pointer;
+}
+
+.caseStudies-middle .next {
+  left: 100%;
 }
 
 .caseStudy-item img{
-  border-radius: 1%;
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
   max-width: 100%;
   height: auto;
 }
