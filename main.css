@@ -405,7 +405,7 @@ section {
 .caseStudies-middle i{
   position: absolute;
   font-size: 3rem;
-  top: 50%;
+  top: 45%;
   left: -7%;
   color: white;
   cursor: pointer;
@@ -440,6 +440,14 @@ section {
 .caseStudy-example h3{
   font-size: 1.2rem;
 }
+
+.caseStudy-example h3::before{
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f13a";
+  margin-right: 5px;
+}
+
 
 .elderly-title {
   display: inline;

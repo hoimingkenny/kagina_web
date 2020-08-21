@@ -24,37 +24,12 @@ $(document).ready(function(){
   $('.post-wrapper').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     nextArrow: $(".next"),
     prevArrow: $(".prev")
   });
     
-  // $('.post-wrapper').slick({
-  //   centerMode: true,
-  //   centerPadding: '60px',
-  //   slidesToShow: 3,
-  //   responsive: [
-  //     {
-  //       breakpoint: 768,
-  //       settings: {
-  //         arrows: false,
-  //         centerMode: true,
-  //         centerPadding: '40px',
-  //         slidesToShow: 3
-  //       }
-  //     },
-  //     {
-  //       breakpoint: 480,
-  //       settings: {
-  //         arrows: false,
-  //         centerMode: true,
-  //         centerPadding: '40px',
-  //         slidesToShow: 1
-  //       }
-  //     }
-  //   ]
-  // });
 		
 });
 
