@@ -407,11 +407,18 @@ section {
 }
 
 .caseStudy-title {
-  background-color: #D1F0F7;
+  /* background-color: #D1F0F7; */
+  background: linear-gradient(180deg, #D1F0F7 90%, #5b7781 10%);
   padding: .7rem;
   width: 85%;
   position: relative;
   top: -38px;
+}
+
+.castStydy-title-bottom {
+  position: relative;
+  background-color: #5b7781;
+  width: 100%;
 }
 
 .caseStudy-title h3 {
