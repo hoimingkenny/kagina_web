@@ -366,8 +366,8 @@ section {
 }
 
 .caseStudies-top{
-  align-self: flex-start;
-  margin-bottom: 4rem;
+  /* align-self: flex-start; */
+  margin-bottom: 3rem;
 }
 
 #caseStudies .caseStudies-top h1{
@@ -388,8 +388,7 @@ section {
 
 /* Post Slider */
 .post-slider{
-  width: 85%;
-  height: 55vh;
+  width: 90%;
   overflow: hidden;
 }
 
@@ -402,7 +401,7 @@ section {
   /* background-color: yellow; */
   height: 100%;
   margin: 0 10px;
-  width: 500px;
+  width: 100%;
 }
 
 .caseStudies-middle i{
@@ -427,17 +426,11 @@ section {
 
 .caseStudy-title {
   /* background-color: #D1F0F7; */
-  background: linear-gradient(180deg, #D1F0F7 90%, #5b7781 10%);
+  background: linear-gradient(180deg, #D1F0F7 95%, #5b7781 5%);
   padding: .7rem;
-  width: 85%;
+  width: 90%;
   position: relative;
   top: -38px;
-}
-
-.castStydy-title-bottom {
-  position: relative;
-  background-color: #5b7781;
-  width: 100%;
 }
 
 .caseStudy-title h3 {
@@ -446,13 +439,29 @@ section {
   margin-bottom: 0.5rem;
 }
 
+.caseStudy-example h3{
+  font-size: 1.2rem;
+}
+
+.elderly-title {
+  display: inline;
+}
+
+.caseStudy-example-elderly{
+  margin-top: 0.5rem;
+}
+.castStydy-title-bottom {
+  background-color: #5b7781;
+  width: 100%;
+}
+
 .caseStudies-bottom {
   align-self: flex-end;
   margin-top: 3rem;
 }
 
 .caseStudies-bottom h3 {
-  font-size: .9rem;
+  font-size: .8rem;
   color: white;
   padding: 0.2rem;
   letter-spacing: 0.15rem;
