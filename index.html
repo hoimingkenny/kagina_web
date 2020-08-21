@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kagina</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
     <!-- Hero Section -->
@@ -133,32 +135,41 @@
           <h1 class="section-title-eng caseStudies-title-eng">Case Study</h1>
         </div>
         <div class="caseStudies-middle">
-          <div class="caseStudy-item">
-            <div>
-              <img src="all_asset/treatment/Mask Group 15.png" />
-              <div class="caseStudy-title">
-                <h3>運動創傷</h3>
-                <h3>SPORTS INJURIES</h3>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">                
+                <div class="caseStudy-item">
+                  <div>
+                    <img src="all_asset/treatment/Mask Group 15.png" />
+                  </div>
+                  <div class="caseStudy-title">
+                    <h3>運動創傷</h3>
+                    <h3>SPORTS INJURIES</h3>
+                  </div>
+                </div>
               </div>
-            </div>
-
-          </div>
-          <div class="caseStudy-item">
-            <div>
-              <img src="all_asset/treatment/Mask Group 25.png" />
-            </div>
-            <div class="caseStudy-title">
-              <h3>慢性痛症</h3>
-              <h3>CLINICAL PAIN</h3>
-            </div>
-          </div>
-          <div class="caseStudy-item">
-            <div>
-              <img src="all_asset/treatment/Mask Group 26.png" />
-            </div>
-            <div class="caseStudy-title">
-              <h3>老人復康</h3>
-              <h3>ELDERLY TREATMENT</h3>
+              <div class="swiper-slide">
+                <div class="caseStudy-item">
+                  <div>
+                    <img src="all_asset/treatment/Mask Group 25.png" />
+                  </div>
+                  <div class="caseStudy-title">
+                    <h3>慢性痛症</h3>
+                    <h3>CLINICAL PAIN</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="caseStudy-item">
+                  <div>
+                    <img src="all_asset/treatment/Mask Group 26.png" />
+                  </div>
+                  <div class="caseStudy-title">
+                    <h3>老人復康</h3>
+                    <h3>ELDERLY TREATMENT</h3>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -235,6 +246,13 @@
     <!-- End of Footer -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script> -->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container');
+    </script>
+
     <script src="main.js"></script>
   </body>
 </html>
