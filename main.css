@@ -354,7 +354,7 @@ section {
   background: linear-gradient(90deg, #D1F0F7 70%, #95C6D1 30%);
 }
 #aboutUs .aboutUs {
-  min-height: 94vh;
+  min-height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -364,7 +364,7 @@ section {
 
 .aboutUs-top {
   padding: 3rem;
-  margin-top: 1.5rem;
+  margin-top: 7rem;
 }
 
 .aboutUs-title {

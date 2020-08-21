@@ -29,7 +29,7 @@ hamburger.addEventListener('click', ()=>{
 // Meun Bar Darken
 document.addEventListener('scroll', ()=>{
   var scroll_position = window.scrollY;
-  if (scroll_position > 250){
+  if (scroll_position > 600){
     header.style.backgroundColor = '#5B7781'
   } else{
     header.style.backgroundColor = 'transparent'
