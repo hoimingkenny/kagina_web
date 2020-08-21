@@ -137,7 +137,8 @@
         <div class="caseStudies-middle">
           <div class="swiper-container">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">                
+              <!-- Slides -->
+              <div class="swiper-slide">
                 <div class="caseStudy-item">
                   <div>
                     <img src="all_asset/treatment/Mask Group 15.png" />
@@ -171,14 +172,21 @@
                 </div>
               </div>
             </div>
+            <!-- If we need pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+        
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+        
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
           </div>
         </div>
         <div class="caseStudies-bottom">
           <h3>了解更多</h3>
           <h3>Learn More</h3>
         </div>
-        
-        
       </div>
     </section>
     <!-- End of Case Study -->
@@ -250,8 +258,28 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
     <script>
-    var swiper = new Swiper('.swiper-container');
+    var mySwiper = new Swiper('.swiper-container', {
+      // Optional parameters
+      loop: true,
+    
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    
+      // And if we need scrollbar
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    })
     </script>
+      
 
     <script src="main.js"></script>
   </body>
