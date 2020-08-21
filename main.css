@@ -355,14 +355,14 @@ section {
 /* Case Study */
 #caseStudies {
   background-color: #95C6D1;
-  min-height: 85vh;
+  min-height: 90vh;
 }
 
 #caseStudies .caseStudies {
   flex-direction: column;
   width: 80%;
   margin: 0 auto;
-  /* padding-top: 2rem ; */
+  padding: 4.5rem 0;
 }
 
 .caseStudies-top{
@@ -393,13 +393,11 @@ section {
 }
 
 .post-wrapper {
-  height: 100%;
   display: flex;
 }
 
 .post-wrapper .post{
   /* background-color: yellow; */
-  height: 100%;
   margin: 0 10px;
   width: 100%;
 }
