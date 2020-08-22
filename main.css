@@ -247,9 +247,12 @@ section {
   font-size: 1.8rem;
   width: fit-content;
   position: relative;
-  color: transparent;
-  animation: text_reveal .5s ease forwards;
-  animation-delay: 1s;
+  color: #95C6D1;
+
+
+  /* color: transparent; */
+  /* animation: text_reveal .5s ease forwards; */
+  /* animation-delay: 1s; */
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -277,7 +280,7 @@ section {
   text-align: center;
 }
 
-#hero h1 span,
+/* #hero h1 span,
 #hero h3 span {
   position: absolute;
   top: 0;
@@ -287,7 +290,7 @@ section {
   background-color: #e0f2ff7c;
   animation: text_reveal_box 1s ease;
   animation-delay: 1s;
-}
+} */
 
 #hero h1:nth-child(1) span{
   animation-delay: .5s;
