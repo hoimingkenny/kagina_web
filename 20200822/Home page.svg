@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="4561" viewBox="0 0 375 4561">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="375" height="812" transform="translate(0 -2)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="231.458" height="56.146" transform="translate(75.146 29.163)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="339" height="185" transform="translate(0.103 1050.117)" fill="#5b7781"/>
+    </clipPath>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 3000 2000">
+      <image width="3000" height="2000" xlink:href="../photoshoot/Jordan%202/DSC07870.jpg"/>
+    </pattern>
+    <clipPath id="clip-path-5">
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="65" cy="65" r="65" transform="translate(340.865 1758.865)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="65" cy="65" r="65" transform="translate(345.865 1761.865)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <pattern id="pattern-2" width="1" height="1" viewBox="2 0 269 269">
+      <image preserveAspectRatio="none" width="269" height="269" xlink:href="Home%20page-image2.png"/>
+    </pattern>
+    <pattern id="pattern-3" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1300 1300">
+      <image width="1300" height="1300" xlink:href="Home%20page-image3.png"/>
+    </pattern>
+    <pattern id="pattern-4" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1300 1300">
+      <image width="1300" height="1300" xlink:href="Home%20page-image4.png"/>
+    </pattern>
+    <pattern id="pattern-5" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1300 1300">
+      <image width="1300" height="1300" xlink:href="Home%20page-image5.png"/>
+    </pattern>
+    <pattern id="pattern-6" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1300 1300">
+      <image width="1300" height="1300" xlink:href="Home%20page-image6.png"/>
+    </pattern>
+    <clipPath id="clip-path-11">
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="112.5" cy="112.5" r="112.5" transform="translate(139 3440)" fill="#5b7781"/>
+    </clipPath>
+    <clipPath id="clip-path-12">
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="127.5" cy="127.5" r="127.5" transform="translate(875 3440)" fill="#5b7781"/>
+    </clipPath>
+    <pattern id="pattern-7" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1300 1300">
+      <image width="1300" height="1300" xlink:href="Home%20page-image7.png"/>
+    </pattern>
+    <pattern id="pattern-8" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1300 1300">
+      <image width="1300" height="1300" xlink:href="Home%20page-image8.png"/>
+    </pattern>
+    <clipPath id="clip-path-15">
+      <rect width="338.5" height="431" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-16">
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="302" height="304" transform="translate(-40)" fill="#d1f0f7"/>
+    </clipPath>
+    <clipPath id="clip-path-17">
+      <rect id="Rectangle_34" data-name="Rectangle 34" width="303" height="304" transform="translate(892.311 2652)" fill="#d1f0f7"/>
+    </clipPath>
+    <clipPath id="clip-path-18">
+      <rect id="Rectangle_33" data-name="Rectangle 33" width="301" height="302" transform="translate(517 2652)" fill="#d1f0f7"/>
+    </clipPath>
+    <pattern id="pattern-9" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 230 230">
+      <image width="230" height="230" xlink:href="../icon/apps%20icon/app%20icon-03.png"/>
+    </pattern>
+    <clipPath id="clip-Home_page">
+      <rect width="375" height="4561"/>
+    </clipPath>
+    <image id="image" width="238.009" height="168.437" xlink:href="../../asset/Kagina-Logo%20(2)-01.png"/>
+    <image id="image-2" width="337.5" height="224.945" xlink:href="../photoshoot/Jordan/DSC07577_edited.jpg"/>
+  </defs>
+  <g id="Home_page" data-name="Home page" clip-path="url(#clip-Home_page)">
+    <rect width="375" height="4561" fill="#fff"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="375" height="627" transform="translate(0 2439)" fill="#5b7781"/>
+    <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(0 2)" clip-path="url(#clip-path)">
+      <image id="font_image_2" data-name="font image 2" width="1221.564" height="814.272" transform="translate(-428 -2.249)" xlink:href="../../image/font%20image%202.jpg"/>
+    </g>
+    <rect id="Menu" width="375" height="89" fill="#b2dae3"/>
+    <rect id="Menu-2" data-name="Menu" width="375" height="89" transform="translate(0 811)" fill="#b2dae3"/>
+    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-53.375 -12.736)" clip-path="url(#clip-path-2)">
+      <use id="Kagina-Logo_2_-01" data-name="Kagina-Logo (2)-01" transform="translate(75.146 -18.962)" xlink:href="#image"/>
+    </g>
+    <g id="Mask_Group_35" data-name="Mask Group 35" transform="translate(-53.375 805.264)" clip-path="url(#clip-path-2)">
+      <use id="Kagina-Logo_2_-01-2" data-name="Kagina-Logo (2)-01" transform="translate(75.146 -18.962)" xlink:href="#image"/>
+    </g>
+    <g id="Group_1" data-name="Group 1" transform="translate(273 -10)">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="29" height="3" transform="translate(36 47)" fill="#5b7781"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="29" height="3" transform="translate(36 53)" fill="#5b7781"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="29" height="3" transform="translate(36 59)" fill="#5b7781"/>
+    </g>
+    <g id="Group_13" data-name="Group 13" transform="translate(273 809)">
+      <rect id="Rectangle_2-2" data-name="Rectangle 2" width="29" height="3" transform="translate(36 47)" fill="#5b7781"/>
+      <rect id="Rectangle_3-2" data-name="Rectangle 3" width="29" height="3" transform="translate(36 53)" fill="#5b7781"/>
+      <rect id="Rectangle_4-2" data-name="Rectangle 4" width="29" height="3" transform="translate(36 59)" fill="#5b7781"/>
+    </g>
+    <text id="BE_better_for_you" data-name="BE better 
+for you" transform="translate(186.5 356)" fill="#95c6d1" font-size="30" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.1em"><tspan x="-101.28" y="0">BE BETTER </tspan><tspan x="-77.355" y="35">FOR YOU</tspan></text>
+    <text id="專業稱心_依然為你" data-name="專業稱心  
+依然為你" transform="translate(36 222)" fill="#95c6d1" font-size="40" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="59" y="34" xml:space="preserve">專業稱心  </tspan><tspan x="59" y="79">依然為你</tspan></text>
+    <text id="Providing_a_professional_and_comprehensive_treatment_across_different_generation" data-name="Providing a professional and comprehensive treatment across different generation" transform="translate(36 149)" fill="#95c6d1" font-size="12" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.12em"><tspan x="28.888" y="12">PROVIDING A PROFESSIONAL AND </tspan><tspan x="11.998" y="27">COMPREHENSIVE TREATMENT ACROSS </tspan><tspan x="62.884" y="42">DIFFERENT GENERATION</tspan></text>
+    <g id="Group_2" data-name="Group 2" transform="translate(21.487 -278.729)">
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="1.557" height="14.535" transform="translate(156.201 766.495) rotate(-45)" fill="#5b7781"/>
+      <rect id="Rectangle_6" data-name="Rectangle 6" width="1.557" height="14.535" transform="translate(175.582 765.393) rotate(45)" fill="#5b7781"/>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(0 14)">
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="125" height="512" transform="translate(250 886)" fill="#95c6d1"/>
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="250" height="512" transform="translate(0 886)" fill="#d1f0f7"/>
+    </g>
+    <text id="About_us" data-name="About us" transform="translate(36 962)" fill="#5b7781" font-size="30" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.15em"><tspan x="0" y="29">ABOUT US</tspan></text>
+    <text id="關於我們" transform="translate(36 934)" fill="#5b7781" font-size="25" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.15em"><tspan x="0" y="22">關於我們</tspan></text>
+    <g id="Mask_Group_4" data-name="Mask Group 4" transform="translate(-1.103 -24.117)" clip-path="url(#clip-path-4)">
+      <rect id="DSC07773_edited_2" data-name="DSC07773_edited 2" width="342.243" height="228.162" transform="translate(0 1032.232)" fill="url(#pattern)"/>
+    </g>
+    <text id="我們一直從患者的角度堅持_優質及先進的治療方案_" data-name="我們一直從患者的角度堅持 “優質及先進的治療方案”" transform="translate(36 1249)" fill="#5b7781" font-size="14" font-family="PingFangHK-Medium, PingFang HK" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="15">我們一直從患者的角度堅持</tspan><tspan y="15" font-family="HelveticaNeue-Medium, Helvetica Neue"> </tspan><tspan x="0" y="35" font-family="HelveticaNeue-Medium, Helvetica Neue">“</tspan><tspan y="35">優質及先進的治療方案</tspan><tspan y="35" font-family="HelveticaNeue-Medium, Helvetica Neue">”</tspan></text>
+    <text id="了解更多_Learn_more" data-name="了解更多
+Learn more" transform="translate(210 1347)" fill="#fff" font-size="10" font-family="PingFangHK-Medium, PingFang HK" font-weight="500" letter-spacing="0.12em"><tspan x="83.2" y="11">了解更多</tspan><tspan y="11" font-family="HelveticaNeue-Medium, Helvetica Neue"></tspan><tspan font-family="HelveticaNeue-Medium, Helvetica Neue"><tspan x="51.62" y="24">LEARN MORE</tspan></tspan></text>
+    <text id="了解更多_Learn_more-2" data-name="了解更多
+Learn more" transform="translate(210 3021)" fill="#fff" font-size="10" font-family="PingFangHK-Medium, PingFang HK" font-weight="500" letter-spacing="0.12em"><tspan x="83.2" y="11">了解更多</tspan><tspan y="11" font-family="HelveticaNeue-Medium, Helvetica Neue"></tspan><tspan font-family="HelveticaNeue-Medium, Helvetica Neue"><tspan x="51.62" y="24">LEARN MORE</tspan></tspan></text>
+    <text id="Treatment" transform="translate(36 1496)" fill="#5b7781" font-size="30" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.15em"><tspan x="0" y="29">TREATMENT</tspan></text>
+    <text id="治療提供" transform="translate(36 1466)" fill="#5b7781" font-size="25" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.15em"><tspan x="0" y="22">治療提供</tspan></text>
+    <text id="Cold_Therapy" data-name="Cold Therapy" transform="translate(36 2143)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.2em"><tspan x="23.565" y="10">COLD THERAPY</tspan></text>
+    <text id="Shockwave_Therapy" data-name="Shockwave 
+Therapy" transform="translate(31.5 1943)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.2em"><tspan x="38.49" y="10">SHOCKWAVE </tspan><tspan x="48.845" y="22">THERAPY</tspan></text>
+    <text id="冷敷" transform="translate(36 2125)" fill="#5b7781" font-size="13" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="58.7" y="11">冷敷</tspan></text>
+    <g id="Mask_Group_9" data-name="Mask Group 9" transform="translate(-297.865 230.135)" clip-path="url(#clip-path-5)">
+      <image id="icon_design_20200816-02" data-name="icon design 20200816-02" width="269" height="269" transform="translate(273.833 1686.755)" xlink:href="Home%20page-image.png"/>
+    </g>
+    <text id="電刺激療法" transform="translate(35.5 1717)" fill="#5b7781" font-size="13" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="35.8" y="11">電刺激療法</tspan></text>
+    <text id="Electrical_Nerve_Stimulation" data-name="Electrical Nerve Stimulation" transform="translate(36 1740)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.2em"><tspan x="9.745" y="10">ELECTRICAL NERVE </tspan><tspan x="29.84" y="22">STIMULATION</tspan></text>
+    <text id="衝擊波" transform="translate(33.5 1922)" fill="#5b7781" font-size="13" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="55.9" y="11">衝擊波</tspan></text>
+    <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(-302.865 -180.865)" clip-path="url(#clip-path-6)">
+      <rect id="icon_design_20200816-01" data-name="icon design 20200816-01" width="269" height="269" transform="translate(279.849 1689.755)" fill="url(#pattern-2)"/>
+    </g>
+    <g id="Mask_Group_6" data-name="Mask Group 6" transform="translate(-298.865 24.135)" clip-path="url(#clip-path-6)">
+      <rect id="icon_design_20200816-01-2" data-name="icon design 20200816-01" width="269" height="269" transform="translate(279.849 1689.755)" fill="url(#pattern-3)"/>
+    </g>
+    <text id="Ultrasound_Therapy" data-name="Ultrasound Therapy" transform="translate(194 1945)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.2em"><tspan x="30.29" y="10">ULTRASOUND </tspan><tspan x="43.845" y="22">THERAPY</tspan></text>
+    <text id="超聲波" transform="translate(189 1922)" fill="#5b7781" font-size="13" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="55.9" y="11">超聲波</tspan></text>
+    <g id="Mask_Group_11" data-name="Mask Group 11" transform="translate(-138.865 27.135)" clip-path="url(#clip-path-5)">
+      <rect id="icon_design_20200816-02-2" data-name="icon design 20200816-02" width="269" height="269" transform="translate(273.833 1686.755)" fill="url(#pattern-4)"/>
+    </g>
+    <text id="Manual_therapy" data-name="Manual therapy" transform="translate(193 1738)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.2em"><tspan x="14.75" y="10">MANUAL THERAPY</tspan></text>
+    <text id="正骨_手法治療_" data-name="正骨（手法治療）" transform="translate(193 1717)" fill="#5b7781" font-size="13" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="12.4" y="11">正骨（手法治療）</tspan></text>
+    <g id="Mask_Group_7" data-name="Mask Group 7" transform="translate(-143.865 -180.865)" clip-path="url(#clip-path-6)">
+      <rect id="icon_design_20200816-01-3" data-name="icon design 20200816-01" width="269" height="269" transform="translate(279.849 1689.755)" fill="url(#pattern-5)"/>
+    </g>
+    <text id="Rehabilitation_Exercise" data-name="Rehabilitation Exercise" transform="translate(38 2350)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.2em"><tspan x="20.57" y="10">REHABILITATION </tspan><tspan x="42.05" y="22">EXERCISE</tspan></text>
+    <text id="運動療法_鍛練_拉伸_" data-name="運動療法
+（鍛練/拉伸）" transform="translate(32 2317)" fill="#5b7781" font-size="13" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="46.6" y="11">運動療法</tspan><tspan x="26.86" y="27">（鍛練/拉伸）</tspan></text>
+    <g id="Mask_Group_8" data-name="Mask Group 8" transform="translate(-296.365 420.135)" clip-path="url(#clip-path-6)">
+      <rect id="icon_design_20200816-01-4" data-name="icon design 20200816-01" width="269" height="269" transform="translate(279.849 1689.755)" fill="url(#pattern-6)"/>
+    </g>
+    <text id="了解更多_Learn_more-3" data-name="了解更多
+Learn more" transform="translate(210 2382)" fill="#5b7781" font-size="10" font-family="PingFangHK-Medium, PingFang HK" font-weight="500" letter-spacing="0.12em"><tspan x="83.2" y="11">了解更多</tspan><tspan y="11" font-family="HelveticaNeue-Medium, Helvetica Neue"></tspan><tspan font-family="HelveticaNeue-Medium, Helvetica Neue"><tspan x="51.62" y="24">LEARN MORE</tspan></tspan></text>
+    <text id="Case_study" data-name="Case study" transform="translate(36 2509)" fill="#fff" font-size="30" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.15em"><tspan x="0" y="29">CASE STUDY</tspan></text>
+    <text id="個案研究" transform="translate(36 2480)" fill="#fff" font-size="25" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.15em"><tspan x="0" y="22">個案研究</tspan></text>
+    <rect id="Rectangle_32" data-name="Rectangle 32" width="303" height="125" transform="translate(36 2870)" fill="#d1f0f7"/>
+    <text id="Contact" transform="translate(36 3179)" fill="#5b7781" font-size="30" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.15em"><tspan x="0" y="29">CONTACT</tspan></text>
+    <text id="聯絡我們" transform="translate(36 3149)" fill="#5b7781" font-size="25" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.15em"><tspan x="0" y="22">聯絡我們</tspan></text>
+    <g id="Mask_Group_15" data-name="Mask Group 15" transform="translate(-64 -172)" clip-path="url(#clip-path-11)">
+      <use id="DSC07577_edited" transform="translate(26.5 3440)" xlink:href="#image-2"/>
+    </g>
+    <text id="Jardon_" data-name="Jardon
+" transform="translate(36 3563)" fill="#5b7781" font-size="30" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.15em"><tspan x="76.405" y="29">JARDON</tspan></text>
+    <text id="佐敦診所_" data-name="佐敦診所
+" transform="translate(36 3520)" fill="#5b7781" font-size="30" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.15em"><tspan x="84.25" y="26">佐敦診所</tspan></text>
+    <text id="Gold_Coast" data-name="Gold Coast" transform="translate(36 4004)" fill="#5b7781" font-size="30" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.15em"><tspan x="31.555" y="29">GOLD COAST</tspan></text>
+    <text id="Gold_Coast-2" data-name="Gold Coast" transform="translate(36 4251)" fill="#5b7781" font-size="8" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.15em"><tspan x="7.148" y="8">GOLD COAST</tspan></text>
+    <text id="jordon" transform="translate(36 4307)" fill="#5b7781" font-size="8" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.15em"><tspan x="18.736" y="8">JORDON</tspan></text>
+    <text id="Address" transform="translate(36 4198)" fill="#5b7781" font-size="8" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.15em"><tspan x="16.06" y="8">ADDRESS</tspan></text>
+    <text id="Office_hour" data-name="Office hour" transform="translate(149 4151)" fill="#5b7781" font-size="8" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.15em"><tspan x="4.368" y="8">OFFICE HOUR</tspan></text>
+    <text id="_9:30-12:30" data-name="9:30-12:30" transform="translate(132 4191)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.15em"><tspan x="7.475" y="10">9:30-12:30</tspan></text>
+    <text id="_14:30-17:30" data-name="14:30-17:30" transform="translate(241 4191)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.15em"><tspan x="8.445" y="10">14:30-17:30</tspan></text>
+    <text id="黃金海岸診所" transform="translate(36 3961)" fill="#5b7781" font-size="30" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.15em"><tspan x="49.75" y="26">黃金海岸診所</tspan></text>
+    <text id="黃金海岸診所-2" data-name="黃金海岸診所" transform="translate(43 4239)" fill="#5b7781" font-size="8" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.15em"><tspan x="5" y="7">黃金海岸診所</tspan></text>
+    <text id="佐敦診所" transform="translate(43 4295)" fill="#5b7781" font-size="8" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.15em"><tspan x="14.2" y="7">佐敦診所</tspan></text>
+    <text id="地址" transform="translate(43 4186)" fill="#5b7781" font-size="8" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.15em"><tspan x="23.4" y="7">地址</tspan></text>
+    <text id="門診時間_" data-name="門診時間 " transform="translate(144 4139)" fill="#5b7781" font-size="8" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.15em"><tspan x="22.7" y="7">門診時間 </tspan></text>
+    <g id="Mask_Group_16" data-name="Mask Group 16" transform="translate(-815 239)" clip-path="url(#clip-path-12)">
+      <image id="DSC07060" width="382.5" height="254.938" transform="translate(795.313 3440)" xlink:href="../photoshoot/gold%20coast/DSC07060.jpg"/>
+    </g>
+    <text id="Hot_Therapy" data-name="Hot Therapy" transform="translate(194 2143)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.2em"><tspan x="28.08" y="10">HOT THERAPY</tspan></text>
+    <text id="熱敷" transform="translate(189 2125)" fill="#5b7781" font-size="13" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="63.7" y="11">熱敷</tspan></text>
+    <g id="Mask_Group_10" data-name="Mask Group 10" transform="translate(-138.865 230.135)" clip-path="url(#clip-path-5)">
+      <rect id="icon_design_20200816-02-3" data-name="icon design 20200816-02" width="269" height="269" transform="translate(273.833 1686.755)" fill="url(#pattern-7)"/>
+    </g>
+    <use id="DSC07577_edited-2" data-name="DSC07577_edited" transform="translate(-1 560) scale(1.114 1.114)" xlink:href="#image-2"/>
+    <g id="Mask_Group_36" data-name="Mask Group 36" transform="translate(-143.865 419.135)" clip-path="url(#clip-path-6)">
+      <rect id="icon_design_20200816-01-5" data-name="icon design 20200816-01" width="269" height="269" transform="translate(279.849 1689.755)" fill="url(#pattern-8)"/>
+    </g>
+    <text id="Acupuncture_therapy" data-name="Acupuncture 
+therapy" transform="translate(147 2338)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.2em"><tspan x="72.035" y="10">ACUPUNCTURE </tspan><tspan x="90.845" y="22">THERAPY</tspan></text>
+    <text id="針灸" transform="translate(162 2317)" fill="#5b7781" font-size="13" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="90.2" y="11">針灸</tspan></text>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(36.5 2566)" clip-path="url(#clip-path-15)">
+      <g transform="translate(-36.5 -2566)">
+        <g id="Group_22" data-name="Group 22">
+          <g id="Mask_Group_12" data-name="Mask Group 12" transform="translate(76.5 2566)" clip-path="url(#clip-path-16)">
+            <image id="DSC07494" width="399" height="304" transform="translate(-107)" xlink:href="../photoshoot/gold%20coast/DSC07494.jpg"/>
+          </g>
+          <text id="Sport_treatment" data-name="Sport treatment" transform="translate(52 2904)" fill="#5b7781" font-size="16" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="16">SPORT TREATMENT</tspan></text>
+          <text id="Lorem_ipsum" data-name="Lorem ipsum" transform="translate(52 2934)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="10">LOREM IPSUM</tspan></text>
+          <text id="Lorem_ipsum-2" data-name="Lorem ipsum" transform="translate(52 2951)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="10">LOREM IPSUM</tspan></text>
+          <text id="Lorem_ipsum-3" data-name="Lorem ipsum" transform="translate(52 2968)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="10">LOREM IPSUM</tspan></text>
+          <text id="肌肉慢性發炎" transform="translate(138 2934)" fill="#5b7781" font-size="10" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="9">肌肉慢性發炎</tspan></text>
+          <text id="疲勞性創傷" transform="translate(138 2951)" fill="#5b7781" font-size="10" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="9">疲勞性創傷</tspan></text>
+          <text id="拉扯性創傷" transform="translate(138 2968)" fill="#5b7781" font-size="10" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="9">拉扯性創傷</tspan></text>
+          <text id="運動治療" transform="translate(52 2887)" fill="#5b7781" font-size="16" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="14">運動治療</tspan></text>
+        </g>
+        <g id="Group_15" data-name="Group 15" transform="translate(414.229 60.229)">
+          <circle id="Ellipse_28" data-name="Ellipse 28" cx="25" cy="25" r="25" transform="translate(-101.229 2673.771)" fill="#d1f0f7"/>
+          <g id="Group_16" data-name="Group 16" transform="translate(-80.269 2690.524)">
+            <line id="Line_1" data-name="Line 1" x2="8.997" y2="8.497" fill="none" stroke="#5b7781" stroke-linecap="round" stroke-width="2"/>
+            <line id="Line_2" data-name="Line 2" x1="8.997" y2="7.997" transform="translate(0 8.497)" fill="none" stroke="#5b7781" stroke-linecap="round" stroke-width="2"/>
+          </g>
+        </g>
+        <g id="Group_20" data-name="Group 20" transform="translate(66)">
+          <rect id="Rectangle_34-2" data-name="Rectangle 34" width="303" height="132" transform="translate(697 2865)" fill="#d1f0f7"/>
+          <text id="Lorem_ipsum-4" data-name="Lorem ipsum" transform="translate(723 2935)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="10">LOREM IPSUM</tspan></text>
+          <text id="Lorem_ipsum-5" data-name="Lorem ipsum" transform="translate(723 2952)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="10">LOREM IPSUM</tspan></text>
+          <text id="Lorem_ipsum-6" data-name="Lorem ipsum" transform="translate(723 2969)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="10">LOREM IPSUM</tspan></text>
+          <text id="肌肉慢性發炎-2" data-name="肌肉慢性發炎" transform="translate(809 2935)" fill="#5b7781" font-size="10" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="9">肌肉慢性發炎</tspan></text>
+          <text id="疲勞性創傷-2" data-name="疲勞性創傷" transform="translate(809 2952)" fill="#5b7781" font-size="10" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="9">疲勞性創傷</tspan></text>
+          <text id="拉扯性創傷-2" data-name="拉扯性創傷" transform="translate(809 2969)" fill="#5b7781" font-size="10" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="9">拉扯性創傷</tspan></text>
+          <g id="Mask_Group_14" data-name="Mask Group 14" transform="translate(-195.311 -85)" clip-path="url(#clip-path-17)">
+            <image id="iStock-835733188" width="487.413" height="324.942" transform="translate(761.618 2631.058)" xlink:href="../../image/stock/iStock-835733188.jpg"/>
+          </g>
+          <text id="Elderly_treatment" data-name="Elderly treatment" transform="translate(722 2903)" fill="#5b7781" font-size="16" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="16">ELDERLY </tspan></text>
+          <text id="老人復康" transform="translate(722 2884)" fill="#5b7781" font-size="16" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="14">老人復康</tspan></text>
+        </g>
+        <g id="Group_21" data-name="Group 21" transform="translate(30)">
+          <g id="Mask_Group_13" data-name="Mask Group 13" transform="translate(-142 -85)" clip-path="url(#clip-path-18)">
+            <image id="iStock-1152095321" width="537.233" height="358.155" transform="translate(344.306 2596.227)" xlink:href="../../image/stock/iStock-1152095321.jpg"/>
+          </g>
+          <rect id="Rectangle_33-2" data-name="Rectangle 33" width="303" height="132" transform="translate(375 2865)" fill="#d1f0f7"/>
+          <text id="Normal_injury" data-name="Normal injury" transform="translate(400 2907)" fill="#5b7781" font-size="16" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="16">NORMAL INJURY</tspan></text>
+          <text id="慢性疾病" transform="translate(400 2886)" fill="#5b7781" font-size="16" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="14">慢性疾病</tspan></text>
+          <text id="Lorem_ipsum-7" data-name="Lorem ipsum" transform="translate(401 2935)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="10">LOREM IPSUM</tspan></text>
+          <text id="Lorem_ipsum-8" data-name="Lorem ipsum" transform="translate(401 2952)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="10">LOREM IPSUM</tspan></text>
+          <text id="Lorem_ipsum-9" data-name="Lorem ipsum" transform="translate(401 2969)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="10">LOREM IPSUM</tspan></text>
+          <text id="肌肉慢性發炎-3" data-name="肌肉慢性發炎" transform="translate(487 2935)" fill="#5b7781" font-size="10" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="9">肌肉慢性發炎</tspan></text>
+          <text id="疲勞性創傷-3" data-name="疲勞性創傷" transform="translate(487 2952)" fill="#5b7781" font-size="10" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="9">疲勞性創傷</tspan></text>
+          <text id="拉扯性創傷-3" data-name="拉扯性創傷" transform="translate(487 2969)" fill="#5b7781" font-size="10" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="9">拉扯性創傷</tspan></text>
+        </g>
+        <g id="Group_23" data-name="Group 23" transform="translate(783.229 60.229)">
+          <circle id="Ellipse_28-2" data-name="Ellipse 28" cx="25" cy="25" r="25" transform="translate(-101.229 2673.771)" fill="#d1f0f7"/>
+          <g id="Group_16-2" data-name="Group 16" transform="translate(-80.269 2690.524)">
+            <line id="Line_1-2" data-name="Line 1" x2="8.997" y2="8.497" fill="none" stroke="#5b7781" stroke-linecap="round" stroke-width="2"/>
+            <line id="Line_2-2" data-name="Line 2" x1="8.997" y2="7.997" transform="translate(0 8.497)" fill="none" stroke="#5b7781" stroke-linecap="round" stroke-width="2"/>
+          </g>
+        </g>
+        <g id="Group_25" data-name="Group 25" transform="translate(742 2734)">
+          <circle id="Ellipse_28-3" data-name="Ellipse 28" cx="25" cy="25" r="25" fill="#d1f0f7"/>
+          <g id="Group_16-3" data-name="Group 16" transform="translate(20.043 16.753)">
+            <line id="Line_1-3" data-name="Line 1" x1="8.997" y2="8.497" fill="none" stroke="#5b7781" stroke-linecap="round" stroke-width="2"/>
+            <line id="Line_2-3" data-name="Line 2" x2="8.997" y2="7.997" transform="translate(0 8.497)" fill="none" stroke="#5b7781" stroke-linecap="round" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <line id="Line_3" data-name="Line 3" x2="302" transform="translate(36 4221)" fill="none" stroke="#5b7781" stroke-width="1"/>
+    <line id="Line_9" data-name="Line 9" x2="302" transform="translate(36 4176)" fill="none" stroke="#5b7781" stroke-width="1"/>
+    <line id="Line_10" data-name="Line 10" x2="302" transform="translate(36 4126)" fill="none" stroke="#5b7781" stroke-linecap="round" stroke-width="1"/>
+    <line id="Line_6" data-name="Line 6" y2="161" transform="translate(114 4176)" fill="none" stroke="#5b7781" stroke-width="1"/>
+    <line id="Line_11" data-name="Line 11" y2="211" transform="translate(36 4126)" fill="none" stroke="#5b7781" stroke-linecap="round" stroke-width="1"/>
+    <line id="Line_12" data-name="Line 12" y2="211" transform="translate(338 4126)" fill="none" stroke="#5b7781" stroke-linecap="round" stroke-width="1"/>
+    <line id="Line_7" data-name="Line 7" y2="161" transform="translate(229 4176)" fill="none" stroke="#5b7781" stroke-width="1"/>
+    <line id="Line_4" data-name="Line 4" x2="302" transform="translate(36 4277)" fill="none" stroke="#5b7781" stroke-width="1"/>
+    <line id="Line_5" data-name="Line 5" x2="302" transform="translate(36 4337)" fill="none" stroke="#5b7781" stroke-linecap="round" stroke-width="1"/>
+    <circle id="Ellipse_29" data-name="Ellipse 29" cx="7" cy="7" r="7" transform="translate(163.5 4243)" fill="#5b7781"/>
+    <circle id="Ellipse_30" data-name="Ellipse 30" cx="7" cy="7" r="7" transform="translate(277 4304)" fill="#95c6d1"/>
+    <rect id="Menu-3" data-name="Menu" width="375" height="73" transform="translate(0 4488)" fill="#5b7781"/>
+    <rect id="Rectangle_50" data-name="Rectangle 50" width="375" height="84" transform="translate(0 4404)" fill="#95c6d1"/>
+    <g id="Group_17" data-name="Group 17" transform="translate(-15 -9)">
+      <image id="app_icon-01" data-name="app icon-01" width="24" height="24" transform="translate(60 4429)" xlink:href="../icon/apps%20icon/app%20icon-01.png"/>
+      <text id="電話聯絡" transform="translate(43 4460)" fill="#fff" font-size="8" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.15em"><tspan x="14.2" y="7">電話聯絡</tspan></text>
+      <text id="Call" transform="translate(28 4470)" fill="#fff" font-size="8" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.15em"><tspan x="33.252" y="8">CALL</tspan></text>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(0 -9)">
+      <image id="app_icon-02" data-name="app icon-02" width="24" height="24" transform="translate(175.5 4429)" xlink:href="../icon/apps%20icon/app%20icon-02.png"/>
+      <text id="門診時間" transform="translate(156 4460)" fill="#fff" font-size="8" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.15em"><tspan x="14.2" y="7">門診時間</tspan></text>
+      <text id="Office_hour-2" data-name="Office hour" transform="translate(142 4470)" fill="#fff" font-size="8" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.15em"><tspan x="11.868" y="8">OFFICE HOUR</tspan></text>
+    </g>
+    <g id="Group_19" data-name="Group 19" transform="translate(9 -9)">
+      <rect id="app_icon-03" data-name="app icon-03" width="24" height="24" rx="12" transform="translate(291 4429)" fill="url(#pattern-9)"/>
+      <text id="診所地點" transform="translate(271 4460)" fill="#fff" font-size="8" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.15em"><tspan x="14.2" y="7">診所地點</tspan></text>
+      <text id="Location" transform="translate(258 4470)" fill="#fff" font-size="8" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.15em"><tspan x="20.78" y="8">LOCATION</tspan></text>
+    </g>
+    <line id="Line_13" data-name="Line 13" y2="65" transform="translate(122 4414)" fill="none" stroke="#fff" stroke-width="2"/>
+    <line id="Line_14" data-name="Line 14" y2="65" transform="translate(253 4414)" fill="none" stroke="#fff" stroke-width="2"/>
+  </g>
+</svg>

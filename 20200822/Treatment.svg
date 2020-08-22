@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="3136" viewBox="0 0 375 3136">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="231.458" height="56.146" transform="translate(75.146 29.163)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_47" data-name="Rectangle 47" width="376" height="812" transform="translate(0 -2)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <circle id="Ellipse_31" data-name="Ellipse 31" cx="65" cy="65" r="65" transform="translate(340.865 1758.865)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <circle id="Ellipse_32" data-name="Ellipse 32" cx="65" cy="65" r="65" transform="translate(345.865 1761.865)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <pattern id="pattern" width="1" height="1" viewBox="2 0 269 269">
+      <image preserveAspectRatio="none" width="269" height="269" xlink:href="Treatment-image2.png"/>
+    </pattern>
+    <pattern id="pattern-2" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1300 1300">
+      <image width="1300" height="1300" xlink:href="Treatment-image3.png"/>
+    </pattern>
+    <pattern id="pattern-3" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1300 1300">
+      <image width="1300" height="1300" xlink:href="Treatment-image4.png"/>
+    </pattern>
+    <pattern id="pattern-4" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1300 1300">
+      <image width="1300" height="1300" xlink:href="Treatment-image5.png"/>
+    </pattern>
+    <pattern id="pattern-5" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1300 1300">
+      <image width="1300" height="1300" xlink:href="Treatment-image6.png"/>
+    </pattern>
+    <pattern id="pattern-6" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1300 1300">
+      <image width="1300" height="1300" xlink:href="Treatment-image7.png"/>
+    </pattern>
+    <pattern id="pattern-7" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1300 1300">
+      <image width="1300" height="1300" xlink:href="Treatment-image8.png"/>
+    </pattern>
+    <clipPath id="clip-Treatment">
+      <rect width="375" height="3136"/>
+    </clipPath>
+    <image id="image" width="238.009" height="168.437" xlink:href="../../asset/Kagina-Logo%20(2)-01.png"/>
+  </defs>
+  <g id="Treatment" clip-path="url(#clip-Treatment)">
+    <rect width="375" height="3136" fill="#fff"/>
+    <rect id="Rectangle_42" data-name="Rectangle 42" width="375" height="2001" transform="translate(0 812)" fill="#d1f0f7"/>
+    <rect id="Menu" width="375" height="89" fill="#b2dae3"/>
+    <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(-1.375 -12.736)" clip-path="url(#clip-path)">
+      <use id="Kagina-Logo_2_-01" data-name="Kagina-Logo (2)-01" transform="translate(75.146 -18.962)" xlink:href="#image"/>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(0 -10)">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="29" height="3" transform="translate(36 47)" fill="#5b7781"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="29" height="3" transform="translate(36 53)" fill="#5b7781"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="29" height="3" transform="translate(36 59)" fill="#5b7781"/>
+    </g>
+    <g id="Mask_Group_33" data-name="Mask Group 33" transform="translate(-1 2)" clip-path="url(#clip-path-2)">
+      <image id="font_image_2" data-name="font image 2" width="1218.52" height="812.243" transform="translate(-455.483 -2.253)" xlink:href="../../image/font%20image%202.jpg"/>
+    </g>
+    <text id="Treatment-2" data-name="Treatment" transform="translate(187 361)" fill="#95c6d1" font-size="30" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.2em"><tspan x="-115.38" y="0">TREATMENT</tspan></text>
+    <text id="治療提供" transform="translate(187 318)" fill="#95c6d1" font-size="40" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="-92" y="0">治療提供</tspan></text>
+    <text id="我們一直從患者的角度堅持_優質及先進的治療方案_" data-name="我們一直從患者的角度堅持 “優質及先進的治療方案”" transform="translate(0 391)" fill="#95c6d1" font-size="12" font-family="PingFangHK-Medium, PingFang HK" font-weight="500" letter-spacing="0.1em"><tspan x="32.604" y="13">我們一直從患者的角度堅持</tspan><tspan y="13" xml:space="preserve" font-family="HelveticaNeue-Medium, Helvetica Neue"> “</tspan><tspan y="13">優質及先進的治療方案</tspan><tspan y="13" font-family="HelveticaNeue-Medium, Helvetica Neue">”</tspan></text>
+    <g id="Group_2" data-name="Group 2" transform="translate(21.487 -2.729)">
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="1.557" height="14.535" transform="translate(156.201 766.495) rotate(-45)" fill="#5b7781"/>
+      <rect id="Rectangle_6" data-name="Rectangle 6" width="1.557" height="14.535" transform="translate(175.582 765.393) rotate(45)" fill="#5b7781"/>
+    </g>
+    <text id="Treatment-3" data-name="Treatment" transform="translate(36 875)" fill="#5b7781" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.2em"><tspan x="0" y="20">TREATMENT</tspan></text>
+    <text id="治療提供-2" data-name="治療提供" transform="translate(37 853)" fill="#5b7781" font-size="20" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="0" y="17">治療提供</tspan></text>
+    <rect id="Rectangle_48" data-name="Rectangle 48" width="146" height="452" transform="translate(36 916)" fill="#fff"/>
+    <rect id="Rectangle_53" data-name="Rectangle 53" width="146" height="452" transform="translate(36 1380)" fill="#fff"/>
+    <rect id="Rectangle_56" data-name="Rectangle 56" width="146" height="452" transform="translate(36 1844)" fill="#fff"/>
+    <rect id="Rectangle_58" data-name="Rectangle 58" width="146" height="452" transform="translate(36 2312)" fill="#fff"/>
+    <rect id="Rectangle_52" data-name="Rectangle 52" width="146" height="452" transform="translate(192 916)" fill="#fff"/>
+    <rect id="Rectangle_54" data-name="Rectangle 54" width="146" height="452" transform="translate(192 1380)" fill="#fff"/>
+    <rect id="Rectangle_55" data-name="Rectangle 55" width="146" height="452" transform="translate(192 1844)" fill="#fff"/>
+    <rect id="Rectangle_57" data-name="Rectangle 57" width="146" height="452" transform="translate(192 2312)" fill="#fff"/>
+    <rect id="Menu-2" data-name="Menu" width="375" height="89" fill="#b2dae3"/>
+    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-53.375 -12.736)" clip-path="url(#clip-path)">
+      <use id="Kagina-Logo_2_-01-2" data-name="Kagina-Logo (2)-01" transform="translate(75.146 -18.962)" xlink:href="#image"/>
+    </g>
+    <g id="Group_1" data-name="Group 1" transform="translate(273 -10)">
+      <rect id="Rectangle_2-2" data-name="Rectangle 2" width="29" height="3" transform="translate(36 47)" fill="#5b7781"/>
+      <rect id="Rectangle_3-2" data-name="Rectangle 3" width="29" height="3" transform="translate(36 53)" fill="#5b7781"/>
+      <rect id="Rectangle_4-2" data-name="Rectangle 4" width="29" height="3" transform="translate(36 59)" fill="#5b7781"/>
+    </g>
+    <g id="Group_30" data-name="Group 30" transform="translate(-1 471)">
+      <text id="Cold_Therapy" data-name="Cold Therapy" transform="translate(38 1542)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.2em"><tspan x="23.565" y="10">COLD THERAPY</tspan></text>
+      <text id="冷敷" transform="translate(38 1524)" fill="#5b7781" font-size="13" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="58.7" y="11">冷敷</tspan></text>
+      <g id="Mask_Group_38" data-name="Mask Group 38" transform="translate(-295.865 -370.865)" clip-path="url(#clip-path-4)">
+        <image id="icon_design_20200816-02" data-name="icon design 20200816-02" width="269" height="269" transform="translate(273.833 1686.755)" xlink:href="Treatment-image.png"/>
+      </g>
+    </g>
+    <g id="Group_26" data-name="Group 26" transform="translate(-1.5 -50)">
+      <text id="電刺激療法" transform="translate(37.5 1116)" fill="#5b7781" font-size="13" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="35.8" y="11">電刺激療法</tspan></text>
+      <text id="Electrical_Nerve_Stimulation" data-name="Electrical Nerve Stimulation" transform="translate(38 1139)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.2em"><tspan x="9.745" y="10">ELECTRICAL NERVE </tspan><tspan x="29.84" y="22">STIMULATION</tspan></text>
+      <g id="Mask_Group_39" data-name="Mask Group 39" transform="translate(-300.865 -781.865)" clip-path="url(#clip-path-5)">
+        <rect id="icon_design_20200816-01" data-name="icon design 20200816-01" width="269" height="269" transform="translate(279.849 1689.755)" fill="url(#pattern)"/>
+      </g>
+    </g>
+    <g id="Group_28" data-name="Group 28" transform="translate(-2.5 206)">
+      <text id="Shockwave_Therapy" data-name="Shockwave 
+Therapy" transform="translate(33.5 1342)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.2em"><tspan x="38.49" y="10">SHOCKWAVE </tspan><tspan x="48.845" y="22">THERAPY</tspan></text>
+      <text id="衝擊波" transform="translate(35.5 1321)" fill="#5b7781" font-size="13" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="55.9" y="11">衝擊波</tspan></text>
+      <g id="Mask_Group_40" data-name="Mask Group 40" transform="translate(-296.865 -576.865)" clip-path="url(#clip-path-5)">
+        <rect id="icon_design_20200816-01-2" data-name="icon design 20200816-01" width="269" height="269" transform="translate(279.849 1689.755)" fill="url(#pattern-2)"/>
+      </g>
+    </g>
+    <g id="Group_32" data-name="Group 32" transform="translate(-1 744)">
+      <text id="Rehabilitation_Exercise" data-name="Rehabilitation Exercise" transform="translate(40 1749)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.2em"><tspan x="20.57" y="10">REHABILITATION </tspan><tspan x="42.05" y="22">EXERCISE</tspan></text>
+      <text id="運動療法_鍛練_拉伸_" data-name="運動療法
+（鍛練/拉伸）" transform="translate(34 1716)" fill="#5b7781" font-size="13" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="46.6" y="11">運動療法</tspan><tspan x="26.86" y="27">（鍛練/拉伸）</tspan></text>
+      <g id="Mask_Group_43" data-name="Mask Group 43" transform="translate(-294.365 -180.865)" clip-path="url(#clip-path-5)">
+        <rect id="icon_design_20200816-01-3" data-name="icon design 20200816-01" width="269" height="269" transform="translate(279.849 1689.755)" fill="url(#pattern-3)"/>
+      </g>
+    </g>
+    <g id="Group_29" data-name="Group 29" transform="translate(-2 206)">
+      <text id="Ultrasound_Therapy" data-name="Ultrasound Therapy" transform="translate(196 1344)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.2em"><tspan x="30.29" y="10">ULTRASOUND </tspan><tspan x="43.845" y="22">THERAPY</tspan></text>
+      <text id="超聲波" transform="translate(191 1321)" fill="#5b7781" font-size="13" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="55.9" y="11">超聲波</tspan></text>
+      <g id="Mask_Group_41" data-name="Mask Group 41" transform="translate(-136.865 -573.865)" clip-path="url(#clip-path-4)">
+        <rect id="icon_design_20200816-02-2" data-name="icon design 20200816-02" width="269" height="269" transform="translate(273.833 1686.755)" fill="url(#pattern-4)"/>
+      </g>
+    </g>
+    <g id="Group_27" data-name="Group 27" transform="translate(-1 -50)">
+      <text id="Manual_therapy" data-name="Manual therapy" transform="translate(195 1137)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.2em"><tspan x="14.75" y="10">MANUAL THERAPY</tspan></text>
+      <text id="正骨_手法治療_" data-name="正骨（手法治療）" transform="translate(195 1116)" fill="#5b7781" font-size="13" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="12.4" y="11">正骨（手法治療）</tspan></text>
+      <g id="Mask_Group_42" data-name="Mask Group 42" transform="translate(-141.865 -781.865)" clip-path="url(#clip-path-5)">
+        <rect id="icon_design_20200816-01-4" data-name="icon design 20200816-01" width="269" height="269" transform="translate(279.849 1689.755)" fill="url(#pattern-5)"/>
+      </g>
+    </g>
+    <g id="Group_31" data-name="Group 31" transform="translate(-2 471)">
+      <text id="Hot_Therapy" data-name="Hot Therapy" transform="translate(196 1542)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.2em"><tspan x="28.08" y="10">HOT THERAPY</tspan></text>
+      <text id="熱敷" transform="translate(191 1524)" fill="#5b7781" font-size="13" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="63.7" y="11">熱敷</tspan></text>
+      <g id="Mask_Group_44" data-name="Mask Group 44" transform="translate(-136.865 -370.865)" clip-path="url(#clip-path-4)">
+        <rect id="icon_design_20200816-02-3" data-name="icon design 20200816-02" width="269" height="269" transform="translate(273.833 1686.755)" fill="url(#pattern-6)"/>
+      </g>
+    </g>
+    <g id="Group_33" data-name="Group 33" transform="translate(-2 744)">
+      <g id="Mask_Group_45" data-name="Mask Group 45" transform="translate(-141.865 -181.865)" clip-path="url(#clip-path-5)">
+        <rect id="icon_design_20200816-01-5" data-name="icon design 20200816-01" width="269" height="269" transform="translate(279.849 1689.755)" fill="url(#pattern-7)"/>
+      </g>
+      <text id="Acupuncture_therapy" data-name="Acupuncture 
+therapy" transform="translate(149 1737)" fill="#5b7781" font-size="10" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.2em"><tspan x="72.035" y="10">ACUPUNCTURE </tspan><tspan x="90.845" y="22">THERAPY</tspan></text>
+      <text id="針灸" transform="translate(164 1716)" fill="#5b7781" font-size="13" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.2em"><tspan x="90.2" y="11">針灸</tspan></text>
+    </g>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua._Ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat." data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." transform="translate(45 1148)" fill="#5b7781" font-size="8" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="8">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="20">consectetur adipiscing elit, </tspan><tspan x="0" y="32">sed do eiusmod tempor </tspan><tspan x="0" y="44">incididunt ut labore et dolore </tspan><tspan x="0" y="56">magna aliqua. Ut enim ad </tspan><tspan x="0" y="68">minim veniam, quis nostrud </tspan><tspan x="0" y="80">exercitation ullamco laboris </tspan><tspan x="0" y="92">nisi ut aliquip ex ea </tspan><tspan x="0" y="104">commodo consequat.</tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua._Ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat.-2" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." transform="translate(45 1597)" fill="#5b7781" font-size="8" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="8">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="20">consectetur adipiscing elit, </tspan><tspan x="0" y="32">sed do eiusmod tempor </tspan><tspan x="0" y="44">incididunt ut labore et dolore </tspan><tspan x="0" y="56">magna aliqua. Ut enim ad </tspan><tspan x="0" y="68">minim veniam, quis nostrud </tspan><tspan x="0" y="80">exercitation ullamco laboris </tspan><tspan x="0" y="92">nisi ut aliquip ex ea </tspan><tspan x="0" y="104">commodo consequat.</tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua._Ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat.-3" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." transform="translate(45 2060)" fill="#5b7781" font-size="8" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="8">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="20">consectetur adipiscing elit, </tspan><tspan x="0" y="32">sed do eiusmod tempor </tspan><tspan x="0" y="44">incididunt ut labore et dolore </tspan><tspan x="0" y="56">magna aliqua. Ut enim ad </tspan><tspan x="0" y="68">minim veniam, quis nostrud </tspan><tspan x="0" y="80">exercitation ullamco laboris </tspan><tspan x="0" y="92">nisi ut aliquip ex ea </tspan><tspan x="0" y="104">commodo consequat.</tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua._Ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat.-4" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." transform="translate(45 2540)" fill="#5b7781" font-size="8" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="8">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="20">consectetur adipiscing elit, </tspan><tspan x="0" y="32">sed do eiusmod tempor </tspan><tspan x="0" y="44">incididunt ut labore et dolore </tspan><tspan x="0" y="56">magna aliqua. Ut enim ad </tspan><tspan x="0" y="68">minim veniam, quis nostrud </tspan><tspan x="0" y="80">exercitation ullamco laboris </tspan><tspan x="0" y="92">nisi ut aliquip ex ea </tspan><tspan x="0" y="104">commodo consequat.</tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua._Ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat.-5" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." transform="translate(205 1148)" fill="#5b7781" font-size="8" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="8">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="20">consectetur adipiscing elit, </tspan><tspan x="0" y="32">sed do eiusmod tempor </tspan><tspan x="0" y="44">incididunt ut labore et dolore </tspan><tspan x="0" y="56">magna aliqua. Ut enim ad </tspan><tspan x="0" y="68">minim veniam, quis nostrud </tspan><tspan x="0" y="80">exercitation ullamco laboris </tspan><tspan x="0" y="92">nisi ut aliquip ex ea </tspan><tspan x="0" y="104">commodo consequat.</tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua._Ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat.-6" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." transform="translate(205 1597)" fill="#5b7781" font-size="8" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="8">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="20">consectetur adipiscing elit, </tspan><tspan x="0" y="32">sed do eiusmod tempor </tspan><tspan x="0" y="44">incididunt ut labore et dolore </tspan><tspan x="0" y="56">magna aliqua. Ut enim ad </tspan><tspan x="0" y="68">minim veniam, quis nostrud </tspan><tspan x="0" y="80">exercitation ullamco laboris </tspan><tspan x="0" y="92">nisi ut aliquip ex ea </tspan><tspan x="0" y="104">commodo consequat.</tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua._Ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat.-7" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." transform="translate(205 2060)" fill="#5b7781" font-size="8" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="8">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="20">consectetur adipiscing elit, </tspan><tspan x="0" y="32">sed do eiusmod tempor </tspan><tspan x="0" y="44">incididunt ut labore et dolore </tspan><tspan x="0" y="56">magna aliqua. Ut enim ad </tspan><tspan x="0" y="68">minim veniam, quis nostrud </tspan><tspan x="0" y="80">exercitation ullamco laboris </tspan><tspan x="0" y="92">nisi ut aliquip ex ea </tspan><tspan x="0" y="104">commodo consequat.</tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua._Ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat.-8" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." transform="translate(205 2540)" fill="#5b7781" font-size="8" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" letter-spacing="0.08em"><tspan x="0" y="8">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="20">consectetur adipiscing elit, </tspan><tspan x="0" y="32">sed do eiusmod tempor </tspan><tspan x="0" y="44">incididunt ut labore et dolore </tspan><tspan x="0" y="56">magna aliqua. Ut enim ad </tspan><tspan x="0" y="68">minim veniam, quis nostrud </tspan><tspan x="0" y="80">exercitation ullamco laboris </tspan><tspan x="0" y="92">nisi ut aliquip ex ea </tspan><tspan x="0" y="104">commodo consequat.</tspan></text>
+    <rect id="Menu-3" data-name="Menu" width="375" height="73" transform="translate(0 3064)" fill="#5b7781"/>
+    <text id="Case_study" data-name="Case study" transform="translate(187.5 2931)" fill="#5b7781" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.1em"><tspan x="-73.1" y="0">CASE STUDY</tspan></text>
+    <text id="我們一直從患者的角度堅持_優質及先進的治療方案_2" data-name="我們一直從患者的角度堅持 “優質及先進的治療方案”" transform="translate(36 2944)" fill="#5b7781" font-size="10" font-family="PingFangHK-Medium, PingFang HK" font-weight="500" letter-spacing="0.12em"><tspan x="20.77" y="11">我們一直從患者的角度堅持</tspan><tspan y="11" xml:space="preserve" font-family="HelveticaNeue-Medium, Helvetica Neue"> “</tspan><tspan y="11">優質及先進的治療方案</tspan><tspan y="11" font-family="HelveticaNeue-Medium, Helvetica Neue">”</tspan></text>
+    <text id="個案研究" transform="translate(11.5 2883)" fill="#5b7781" font-size="22" font-family="STHeitiTC-Medium, Heiti TC" font-weight="500" letter-spacing="0.15em"><tspan x="127.05" y="19">個案研究</tspan></text>
+    <text id="了解更多_Learn_more" data-name="了解更多
+Learn more" transform="translate(124 2994)" fill="#5b7781" font-size="10" font-family="PingFangHK-Medium, PingFang HK" font-weight="500" letter-spacing="0.12em"><tspan x="41.6" y="11">了解更多</tspan><tspan y="11" font-family="HelveticaNeue-Medium, Helvetica Neue"></tspan><tspan font-family="HelveticaNeue-Medium, Helvetica Neue"><tspan x="25.81" y="24">LEARN MORE</tspan></tspan></text>
+  </g>
+</svg>
