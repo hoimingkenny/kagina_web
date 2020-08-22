@@ -65,9 +65,15 @@ section {
 }
 
 #header .header{
+  background-image: url(all_asset/landing_page/font\ image\ 2.png);
+  background-size: cover;
+  background-position: top center;
   min-height: 8vh;
   /* background: rgba(31, 30, 30, 0.24); */
   transition: .3s ease background-color;
+  box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.459);
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
 }
 
 #header .brand{
@@ -76,7 +82,7 @@ section {
 
 #header .brand img{
   height: 60px;
-  margin-top: 1.5rem;
+  margin-top: .6rem;
   margin-left: .5rem;
   transform: scale(1.1);
   
@@ -84,7 +90,6 @@ section {
 
 #header .nav-bar{
   display: flex;
-  align-items: center;
   justify-content: space-between;
   width: 100%;
   height: 100%;
@@ -570,7 +575,7 @@ section {
   position: absolute;
   font-size: 3rem;
   top: 45%;
-  left: -7%;
+  left: -6%;
   color: white;
   cursor: pointer;
 }
