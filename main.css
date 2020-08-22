@@ -244,7 +244,7 @@ section {
 
 #hero h1{
   display: block;
-  font-size: 1.8rem;
+  font-size: 5vw;
   width: fit-content;
   position: relative;
   color: #95C6D1;
@@ -680,6 +680,40 @@ section {
   color: #5B7781;
 }
 
+#contactUs .table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-bottom: 1px dotted #999;
+  border-top: 1px dotted #999;
+  color: #5B7781;
+}
+
+.table th {
+  padding: 10px 5px;
+  font-size: 1.5rem;
+  vertical-align: middle;
+  line-height: 2.2rem;
+}
+
+.table tbody tr{
+  border-bottom: 1px dotted black;
+  border-top: 1px dotted black;
+}
+
+.table tbody td{
+  width: 50px;
+  text-align: center;
+}
+
+.table .circleBlue{
+  font-size: 3rem;
+  color: #5B7781;
+}
+
+.table .circleSmallBlue{
+  font-size: 3rem;
+  color: #95C6D1;
+}
 .contactUs-title-chi{
   letter-spacing: 1rem;
 }
