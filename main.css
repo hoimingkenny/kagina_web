@@ -705,15 +705,43 @@ section {
   text-align: center;
 }
 
-.table .circleBlue{
+#table .location-circle{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 22rem;
+}
+
+.table .circleBlue,
+#table h3 .circleBlue{
   font-size: 3.7rem;
   color: #5B7781;
 }
 
-.table .circleSmallBlue{
+.table .circleSmallBlue,
+#table h3 .circleSmallBlue{
   font-size: 3.7rem;
   color: #95C6D1;
 }
+
+#table h3 .circleSmallBlue,
+#table h3 .circleBlue{
+  font-size: 2rem;
+}
+
+#table h3 .circleSmallGreen{
+  font-size: 2rem;
+  color: #D1F0F7;
+}
+
+#table h3{
+  font-size: 1.2rem;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+
 .contactUs-title-chi{
   letter-spacing: 1rem;
 }
