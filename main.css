@@ -669,7 +669,7 @@ section {
   width: 90%;
   margin: 0 auto;
   padding: 4rem 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   justify-content: normal;
   background-color: white;
   border-radius: 15px;
@@ -713,9 +713,6 @@ section {
 #table .location-circle{
   margin-top: 10px;
   display: flex;
-  flex-direction: column;
-  width: 40%;
-  margin-left: 22rem;
 }
 
 .table .circleSunday{
@@ -755,6 +752,7 @@ section {
   vertical-align: middle;
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
 
 .contactUs-title-chi{
