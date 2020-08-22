@@ -238,7 +238,7 @@ section {
 #hero .hero {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 30px;
   text-align: center;
 }
 
@@ -327,7 +327,7 @@ section {
   animation: title_animation 1s ease-in forwards;
   animation-iteration-count: 1;
   display: inline-block;
-  font-size: 3.5rem;
+  font-size: 35px;
   color: #95C6D1;
   text-transform: uppercase;
 }
