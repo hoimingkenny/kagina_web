@@ -661,13 +661,18 @@ section {
 /* Contact Us */
 #contactUs {
   min-height: 80vh;
+  background-color: #D1F0F7;
+  padding-top: 9rem;
 }
 #contactUs .contactUs {
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  padding-top: 9rem;
+  padding: 4rem 2rem;
   margin-bottom: 4rem;
+  justify-content: normal;
+  background-color: white;
+  border-radius: 15px;
 }
 
 .contactUs-header {
@@ -713,6 +718,11 @@ section {
   margin-left: 22rem;
 }
 
+.table .circleSunday{
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.664);
+}
+
 .table .circleBlue,
 #table h3 .circleBlue{
   font-size: 3.7rem;
@@ -723,6 +733,11 @@ section {
 #table h3 .circleSmallBlue{
   font-size: 3.7rem;
   color: #95C6D1;
+}
+
+.table .circleSmallGreen{
+  font-size: 3.7rem;
+  color: #D1F0F7;
 }
 
 #table h3 .circleSmallBlue,
