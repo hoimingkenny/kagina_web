@@ -318,6 +318,16 @@ section {
   background-color: #5B7781;
 }
 
+#hero .letter {
+  font-family: 'Noto Sans HK', sans-serif;
+  opacity: 0;
+  animation: title_animation 1s ease-in forwards;
+  animation-iteration-count: 1;
+  display: inline-block;
+  font-size: 3.5rem;
+  color: #95C6D1;
+}
+
 .scroll-down {
   height: 50px;
   width: 30px;
@@ -350,21 +360,7 @@ section {
   animation-delay: .3s;
 }
 
-@keyframes scroll-down{
-  0%{
-    opacity: 0;
-  }
-  30%{
-    opacity: 1;
-  }
-  60%{
-    opacity: 1;
-  }
-  100%{
-    opacity: 1;
-    top: 88%;
-  }
-}
+
 /* End of Hero Section */
 
 
@@ -803,6 +799,14 @@ section {
   }
 }
 
+@keyframes title_animation{
+  0%{
+    opacity: 0;
+  }100% {
+    opacity: 1;
+  }
+}
+
 @keyframes hamburger_plus{
   0%{
     opacity: 1;
@@ -811,6 +815,23 @@ section {
   100%{
     opacity: 0;
     transform: scale(1.4);
+  }
+}
+
+
+@keyframes scroll-down{
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 1;
+  }
+  60%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+    top: 88%;
   }
 }
 /* End of Keyframes */
