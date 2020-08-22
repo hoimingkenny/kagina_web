@@ -445,7 +445,7 @@ section {
   width: 85%;
   margin: 0 auto;
   padding-top: 9rem;
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
 }
 
 #treatment .treatment-top{
@@ -538,7 +538,8 @@ section {
   flex-direction: column;
   width: 80%;
   margin: 0 auto;
-  padding: 9rem 0;
+  padding-top: 9rem;
+  padding-bottom: 5rem;
 }
 
 .caseStudies-top{
@@ -666,6 +667,7 @@ section {
   width: 80%;
   margin: 0 auto;
   padding-top: 9rem;
+  margin-bottom: 4rem;
 }
 
 .contactUs-header {
@@ -745,10 +747,10 @@ section {
 }
 
 #footer .footer{
-  min-height: 180px;
+  min-height: 40px;
   flex-direction: column;
-  padding-top: 30px;
-  padding-bottom: 10px;  
+  padding-top: 15px;
+  padding-bottom: 15px;  
 }
 
 #footer .brand {
