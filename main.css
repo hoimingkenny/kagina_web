@@ -280,8 +280,9 @@ section {
 #hero .hero {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 30vh 30px;
   text-align: center;
+  align-items: normal;
 }
 
 #hero h1{
