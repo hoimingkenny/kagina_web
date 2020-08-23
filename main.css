@@ -78,9 +78,9 @@ section {
 
 #header .brand img{
   height: 60px;
-  margin-top: .9rem;
-  margin-left: .5rem;
-  transform: scale(1.1);
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  transform: scale(1.2);
 }
 
 #header .nav-bar{

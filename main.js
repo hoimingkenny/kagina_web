@@ -45,8 +45,8 @@ document.addEventListener("scroll", () => {
     header.style.backgroundImage =
       "url('all_asset/landing_page/font image 2.png')";
     home_button.src = "small_Kagina.png";
-    home_button.style.marginTop = ".9rem";
-    home_button.style.marginLeft = ".5rem";
+    home_button.style.marginTop = "1rem";
+    home_button.style.marginLeft = "1.5rem";
     home_button.style.height = "60px";
     home_button.style.width = "auto";
   }
