@@ -218,14 +218,14 @@ section {
   bottom: 0;
   left: 0;
   width: 100vw;
-  height: 50px;
   background-color: #95C6D1;
   box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.459);
+  border: 5px solid #95C6D1;
 }
 
 #button-bar ul{
   list-style: none;
-  border-top: 1px solid #5b7781;
+
 }
 
 #button-bar a{
@@ -238,7 +238,7 @@ section {
 #button-bar .backToTop{
   width: 25%;
   height: 50px;
-  border-right: 1px solid #5B7781;
+  border-right: 1.5px solid white;
   float: left;
   font-family: "HelveticaNeue", sans-serif;
   font-weight: bold;
@@ -246,12 +246,16 @@ section {
   text-align: center;
   padding-top: 2.5px;
   color: white;
+  position: relative;
 }
   
 #button-bar .backToTop{
   border: 0px;
 }
 
+#button-bar h3{
+  font-size: 1rem;
+}
 /* End of Button Bar */
 
 
@@ -381,7 +385,7 @@ section {
   border: 2px solid #95C6D1;
   position: absolute;
   left: 50%;
-  bottom: 90px;
+  bottom: 22vh;
   transform: translateX(-50%);
   border-radius: 50px;
   cursor: pointer;
