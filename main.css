@@ -435,7 +435,7 @@ section {
 .aboutUs-top {
   padding: 3rem;
   margin-top: 7rem;
-  margin-left: 20px;
+
 }
 
 .aboutUs-title {
@@ -444,10 +444,11 @@ section {
 
 .aboutUs-title-chi {
   letter-spacing: 1rem;
+  font-size: 2.5rem
 }
 
 .aboutUs-title-eng {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .aboutUs-bottom {
