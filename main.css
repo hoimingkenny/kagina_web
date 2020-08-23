@@ -255,7 +255,11 @@ section {
 
 #button-bar h3{
   font-size: 1rem;
+  color: white;
 }
+
+
+
 /* End of Button Bar */
 
 
@@ -877,7 +881,7 @@ section {
   min-height: 40px;
   flex-direction: column;
   padding-top: 15px;
-  padding-bottom: 4.5rem;  
+  padding-bottom: 6rem;  
 }
 
 #footer .brand {
