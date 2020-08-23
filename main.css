@@ -814,7 +814,6 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 4rem;
 }
 
 .location {
@@ -865,6 +864,10 @@ section {
   text-transform: uppercase;
 }
 
+.contactUs .timetable-container{
+  padding-top: 9rem;
+}
+
 .contactUs .phone-details{
   width: 100%;
   padding: 1rem;
@@ -874,7 +877,7 @@ section {
   position: relative;
   padding-top: 7rem;
   padding-bottom: 2rem;
-  margin-top: 6rem;
+  margin-top: 7rem;
 }
 
 .contactUs .phone-detail-title-chi{
