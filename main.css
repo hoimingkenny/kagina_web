@@ -257,9 +257,6 @@ section {
   font-size: 1rem;
   color: white;
 }
-
-
-
 /* End of Button Bar */
 
 
@@ -808,11 +805,16 @@ section {
   letter-spacing: 1rem;
 }
 
+.contactUs-title-eng{
+  font-size: 2.5rem;
+}
+
 .contactUs-allLocation {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 4rem;
 }
 
 .location {
@@ -861,6 +863,71 @@ section {
   letter-spacing: .15rem;
   text-align: right;
   text-transform: uppercase;
+}
+
+.contactUs .phone-details{
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #999;
+  text-align: center;
+  color: #5b7781;
+  position: relative;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+  margin-top: 6rem;
+}
+
+.contactUs .phone-detail-title-chi{
+  font-size: 2.2rem;
+  letter-spacing: .3rem;
+}
+
+.contactUs .phone-detail-title-eng{
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+}
+
+.contactUs .phone-detail-reminder{
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+
+/* .contactUs .phone-details:before{
+  content: "";
+  position: absolute;
+  height: 5rem;
+  width: 80%;
+  background-color: #95C6D1;
+  left: 3.5rem;
+  top: -1rem;
+} */
+
+.contactUs .phone-detail-title{
+  background-color: #D1F0F7;
+  padding: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  position: absolute;
+  font-size: 1.5rem;
+  top: -2rem;
+  left: 3.5rem;
+}
+
+.contactUs .phone-details:after{
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 80%;
+  left: 3.3rem;
+  background: #ccc;
+  bottom: -5px;
+}
+
+.contactUs .phone-detail{
+  font-family: 'Noto Sans HK', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 0.15rem;
 }
 
 #map {
