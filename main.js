@@ -3,7 +3,7 @@ const scroll = new SmoothScroll('#hero a[href*="#"]', {
   speed: 800
 });
 
-const scroll1 = new SmoothScroll('#button-bar a[href*="#"]'a, {
+const scroll1 = new SmoothScroll('#button-bar a[href*="#"]', {
   speed: 800,
 });
 
