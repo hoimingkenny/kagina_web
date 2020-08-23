@@ -234,9 +234,8 @@ section {
 
 #button-bar .call,
 #button-bar .timetable,
-#button-bar .googleMap,
-#button-bar .backToTop{
-  width: 25%;
+#button-bar .googleMap{
+  width: 33.3%;
   height: 50px;
   border-right: 1.5px solid white;
   float: left;
@@ -254,7 +253,7 @@ section {
   width: auto;
 }
   
-#button-bar .backToTop{
+#button-bar .googleMap{
   border: 0px;
 }
 
