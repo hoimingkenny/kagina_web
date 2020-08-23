@@ -248,6 +248,11 @@ section {
   color: white;
   position: relative;
 }
+
+#button-bar img{
+  height: 28px;
+  width: auto;
+}
   
 #button-bar .backToTop{
   border: 0px;
