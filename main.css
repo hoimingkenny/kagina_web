@@ -384,7 +384,7 @@ section {
 .scroll-down {
   height: 50px;
   width: 30px;
-  border: 2px solid #95C6D1;
+  /* border: 2px solid #95C6D1; */
   position: absolute;
   left: 50%;
   bottom: 25vh;
@@ -865,7 +865,7 @@ section {
 }
 
 .contactUs .timetable-container{
-  padding-top: 9rem;
+  padding-top: 4rem;
 }
 
 .contactUs .phone-details{
@@ -878,6 +878,7 @@ section {
   padding-top: 7rem;
   padding-bottom: 2rem;
   margin-top: 7rem;
+  margin-bottom: 3rem;
 }
 
 .contactUs .phone-detail-title-chi{
