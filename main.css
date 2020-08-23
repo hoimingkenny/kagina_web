@@ -375,14 +375,15 @@ section {
   animation: title_animation 1s ease-in forwards;
   animation-iteration-count: 1;
   display: inline-block;
-  font-size: 35px;
+  font-size: 32px;
   color: #95C6D1;
   text-transform: uppercase;
+  letter-spacing: .2rem;
 }
 
 #hero .eng-letter {
   font-size: 2.7rem;
-  /* letter-spacing: .001rem; */
+  letter-spacing: 0rem;
 }
 
 .scroll-down {
