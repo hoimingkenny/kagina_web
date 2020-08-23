@@ -36,34 +36,15 @@ hamburger.addEventListener("click", () => {
 // Meun Bar Darken
 document.addEventListener("scroll", () => {
   var scroll_position = window.scrollY;
-  if (scroll_position > 570) {
+  if (scroll_position > 600) {
     header.style.backgroundColor = "#5B7781";
     header.style.backgroundImage = "url('')";
     home_button.src = "./Kagina-Logo (2)_edited-04.png";
-    // home_button.style.transform = "scale(1.3)";
-    // home_button.style.marginTop = "1.2rem";
-    // home_button.style.marginLeft = "2rem";
-
-    // home_button.src = "large_Kagina.png";
-    // home_button.style.width = "180px";
-    // home_button.style.height = "auto";
-    
+  
   } else {
     header.style.backgroundImage =
       "url('all_asset/landing_page/font image 2.png')";
     home_button.src = "Kagina-Logo (2)_edited-03.png";
-    // home_button.style.transform = "scale(1.01)";
-    // home_button.style.marginTop = ".5rem";
-    // home_button.style.marginLeft = "-.55rem";
-
-
-
-
-    // home_button.src = "small_Kagina.png";
-    // home_button.style.marginTop = "1rem";
-    // home_button.style.marginLeft = "1.5rem";
-    // home_button.style.height = "60px";
-    // home_button.style.width = "auto";
   }
 });
 
