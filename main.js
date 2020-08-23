@@ -1,11 +1,11 @@
 // Smooth Scroll
-const scroll = new SmoothScroll('#hero a[href*="#"]', {
+const scroll = new SmoothScroll('#button-bar a[href*="#"]', {
   speed: 800
 });
 
-const scroll1 = new SmoothScroll('#button-bar a[href*="#"]', {
-  speed: 800,
-});
+// const scroll1 = new SmoothScroll('#button-bar a[href*="#"]', {
+//   speed: 800,
+// });
 
 // Slick
 $(document).ready(function () {
