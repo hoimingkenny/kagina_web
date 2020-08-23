@@ -35,20 +35,27 @@ document.addEventListener("scroll", () => {
   if (scroll_position > 570) {
     header.style.backgroundColor = "#5B7781";
     header.style.backgroundImage = "url('')";
-    home_button.src = "large_Kagina.png";
-    home_button.style.marginTop = "1.2rem";
-    home_button.style.marginLeft = "0rem";
-    home_button.style.width = "180px";
-    home_button.style.height = "auto";
+    home_button.src = "small_Kagina.png";
+
+
+    // home_button.src = "large_Kagina.png";
+    // home_button.style.marginTop = "1.2rem";
+    // home_button.style.marginLeft = "0rem";
+    // home_button.style.width = "180px";
+    // home_button.style.height = "auto";
     
   } else {
     header.style.backgroundImage =
       "url('all_asset/landing_page/font image 2.png')";
-    home_button.src = "small_Kagina.png";
-    home_button.style.marginTop = "1rem";
-    home_button.style.marginLeft = "1.5rem";
-    home_button.style.height = "60px";
-    home_button.style.width = "auto";
+
+
+
+
+    // home_button.src = "small_Kagina.png";
+    // home_button.style.marginTop = "1rem";
+    // home_button.style.marginLeft = "1.5rem";
+    // home_button.style.height = "60px";
+    // home_button.style.width = "auto";
   }
 });
 
@@ -59,5 +66,3 @@ menu_item.forEach((item) => {
     mobile_menu.classList.toggle("active");
   });
 });
-
-console.log(home_button);

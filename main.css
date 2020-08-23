@@ -623,7 +623,6 @@ section {
   margin-right: 5px;
 }
 
-
 .elderly-title {
   display: inline;
 }
@@ -705,7 +704,7 @@ section {
 }
 
 #table .location-circle{
-  margin-top: 10px;
+  margin: 10px 0;
   display: flex;
 }
 
@@ -806,6 +805,11 @@ section {
   letter-spacing: .15rem;
   text-align: right;
   text-transform: uppercase;
+}
+
+#map {
+  width: 100%;
+  height: 300px;
 }
 
 /* End of Contact Us */

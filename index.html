@@ -94,8 +94,8 @@
           </div>
         </div>
         <div class="aboutUs-img">
-          <img src="all_asset/landing_page/Mask Group 1.png" />
-          <!-- <img src="./Kagina-Logo (2)-02.svg"> -->
+          <!-- <img src="all_asset/landing_page/Mask Group 1.png" /> -->
+          <img src="./aboutUs.jpg">
         </div>
       </div>
     </section>
@@ -311,9 +311,7 @@
         <div class="phone-details">
 
         </div>
-        <div class="map">
-
-        </div>
+        <div id="map"></div>
       </div>  
     <!-- End of contact us__tt -->
 
@@ -392,8 +390,42 @@
     <!-- Slick Carouse -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- Google Map API -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5TtzdlqZAU-LbHV83tmdCI_BCQoa-YGg&callback=initMap"
-    type="text/javascript"></script>
+    <script>
+      function initMap() {
+        // Map options
+        var options ={
+          zoom: 18,
+          center: { lat: 22.304832, lng: 114.172025 }
+        }
+
+        // New Map
+        var map = new google.maps.Map(document.getElementById("map"), options);
+
+        var marker = new google.maps.Marker({
+          position: {lat: 22.304832, lng: 114.172025},
+          map: map,
+        });
+
+        var infoWindow = new google.maps.Infowindow({
+          content: props.content
+        })
+
+        marker.addListener('click', function(){
+          infoWindow.open(map, marker);
+        });
+      }
+      
+      
+
+
+
+      
+    </script>
+    
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5TtzdlqZAU-LbHV83tmdCI_BCQoa-YGg&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
     <script src="main.js"></script>
     
   </body>
