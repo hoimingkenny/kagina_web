@@ -589,7 +589,7 @@ section {
   width: 85%;
   margin: 0 auto;
   padding-top: 9rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 .caseStudies-top{
@@ -716,7 +716,7 @@ section {
 #contactUs {
   min-height: 80vh;
   background-color: #D1F0F7;
-  padding-top: 9rem;
+  padding-top: 2.5rem;
 }
 #contactUs .contactUs {
   flex-direction: column;
