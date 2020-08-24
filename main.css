@@ -45,6 +45,7 @@ section {
   font-weight: 300;
   font-size: 3rem;
   letter-spacing: 0.15rem;
+  color: #5B7781;
 }
 
 .section-title-eng {
@@ -53,6 +54,7 @@ section {
   font-size: 3rem;
   text-transform: uppercase;
   letter-spacing: .8rem;
+  color: #5B7781;
 }
 
 *:focus{
@@ -769,7 +771,7 @@ section {
 
 
 .table tbody tr th .table-time-top{
-  padding: .5rem 0;
+  padding: 1rem 0;
   letter-spacing: .12rem;
 }
 
