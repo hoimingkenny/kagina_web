@@ -722,7 +722,6 @@ section {
 #contactUs .contactUs-header {
   margin-bottom: 30px;
   align-self: flex-start;
-  margin-left: 3rem;
 }
 
 #contactUs .contactUs-header h1{
@@ -753,11 +752,19 @@ section {
   margin-bottom: 1.5rem;
 }
 
-.location img {
+.contactUs-allLocation .location .location-img-jordan{
+  background-image: url(./Photos/Jordan.jpg);
+  background-position: right;
+  background-size: cover;
   width: 200px;
-  border-radius: 50%;
   height: 200px;
-  
+  border-radius: 50%;
+}
+
+.location-img-gc img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .location-info {
@@ -843,13 +850,10 @@ section {
   text-align: center;
 }
 
-.table tbody tr th{
-
-}
-
 .timetable-container .location-circle{
   margin: 10px 0;
   display: flex;
+  justify-content: space-between;
 }
 
 .table .circleSunday{
@@ -897,9 +901,41 @@ section {
   vertical-align: middle;
   display: flex;
   align-items: center;
-  margin: 0 auto;
+  width: fit-content;
+  padding-left: .3rem;
 }
 
+.timetable-container .location-circle .circleBlue{
+  font-size: 3.7rem;
+  color: #5B7781;
+}
+
+.timetable-container .location-circle .circle-gc,
+.timetable-container .location-circle .circle-jd,
+.timetable-container .location-circle .circle-fe{
+  display: flex;
+  align-items: center;
+}
+
+.timetable-container .location-circle .circleSmallBlue{
+  font-size: 3.7rem;
+  color: #95C6D1;
+}
+
+.timetable-container .location-circle .circle-title-chi{
+  font-size: 1rem;
+}
+
+.timetable-container .location-circle .circle-title-eng{
+  letter-spacing: .1rem;
+  font-size: 1rem;
+  font-weight: 200;
+
+}
+
+.location-circle .circle-fe .circle-fe-circle{
+  padding-left: .4rem;
+}
 .contactUs .timetable-container .table-special{
   padding: 2rem;
   width: fit-content;
