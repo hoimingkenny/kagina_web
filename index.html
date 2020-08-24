@@ -240,9 +240,9 @@
                     <h3>運動創傷 SPORTS INJURIES</h3>
                     <!-- <h3>SPORTS INJURIES</h3> -->
                     <div class="caseStudy-example">
-                      <h3>Sprain Injuries</h3> 
-                      <h3>Swollen Muscles</h3> 
-                      <h3>Achilles Tendon Rupture</h3> 
+                      <h3>扭傷 Sprain Injuries</h3> 
+                      <h3>肌肉發炎 Swollen Muscles</h3> 
+                      <h3>阿基里斯腱斷裂<span> Achilles Tendon Rupture</span></h3>
                     </div>
                   </div>
                 </div>
@@ -408,40 +408,41 @@
             </div>
             
         </div>
-        <div class="phone-details">
-          <h3 class="phone-detail">佐敦診所</h3>
-          <h3 class="phone-detail">Tel.&nbsp2328-3373</h3>
-          <br>
-          <h3 class="phone-detail">黃金海岸診所</h3>
-          <h3 class="phone-detail">Tel.&nbsp2618-0199</h3>
-          <br>
-          <h3 class="phone-detail-reminder">(服務時間&nbsp 10:00&nbsp～18:00)</h3>
-          <div class="phone-detail-title">
-            <h3 class="phone-detail-title-chi">預約電話</h3>
-            <h3 class="phone-detail-title-eng">Appointment</h3>
+        <div class="contact-details">
+          <div class="contact-detail-title">
+            <h3 class="contact-detail-title-chi chi">聯絡預約</h3>
+            <h3 class="contact-detail-title-eng">Appointment</h3>
           </div>
+          <h3 class="contact-detail-name contact-detail-name-chi">佐敦診所</h3>
+          <h3 class="contact-detail-name contact-detail-name-eng">jordan</h3><br>
+          <h3 class="address-title-chi chi">地址:</h3>
+          <h3 class="address-chi chi">九龍彌敦道238號19樓1907-08室</h3>
+          <h3 class="address-title-eng">Address:</h3>
+          <h3 class="address-eng">Room 1907-08, 19/F, 238 Nathan Road, Jordan, Kowloon</h3>
+          <h3 class="phone-detail">電話 Tel:&nbsp2328-3373</h3>
+          <h3 class="phone-detail-reminder"><span class="chi">(服務時間</span>Service Hours)</h3>
+          <h3>10:00&nbsp～18:00</h3>
+          <div id="map1"></div>
+          <br>
+          <h3 class="contact-detail-name contact-detail-name-chi">黃金海岸診所</h3>
+          <h3 class="contact-detail-name contact-detail-name-eng">Gold coast</h3>
+          <h3 class="address-title-chi chi">地址:</h3>
+          <h3 class="address-chi chi">屯門黃金海岸商場地下28號鋪</h3>
+          <h3 class="address-title-eng">Address:</h3>
+          <h3 class="address-eng">Shop 28, G/F, Gold Coast Plazza, Gold Coast, Tuen Mun, N.T.</h3>
+          <h3 class="phone-detail">電話 Tel:&nbsp2618-0199</h3>
+          <h3 class="phone-detail-reminder chi">(服務時間&nbsp 10:00&nbsp～18:00)</h3>
+          <br>
+          
+          <div id="map2"></div>
         </div>
-        <div id="map"></div>
+        
         <div class="contactUs-bottom">
           <h3>了解更多</h3>
           <h3>Learn More</h3>
         </div>
       </div>  
-    <!-- End of contact us__tt -->
-
-
-    <!-- Contact Us__First Version -->
-    <!-- <section id="contactUs">
-      <div class="container contactUs">
-        <div class="contactUs-header">
-          <h1 class="section-title-chi contactUs-title-chi">門診地址</h1>
-          <h1 class="section-title-eng contactUs-title-eng">Location</h1>
-        </div>
-        
-
-      </div>
-    </section> -->
-    <!-- End of Contact Us__First Version -->
+    <!-- End of contact us-->
 
 
     <!-- Footer -->
@@ -573,7 +574,8 @@
 
 
         // New Map
-        var map = new google.maps.Map(document.getElementById("map"), options);
+        var map = new google.maps.Map(document.getElementById("map1"), options);
+        var map2 = new google.maps.Map(document.getElementById("map2"), options);
 
         var marker = new google.maps.Marker({
           position: {lat: 22.304832, lng: 114.172025},
@@ -588,8 +590,6 @@
           infoWindow.open(map, marker);
         });
       }
-      
-      
       
     </script>
     

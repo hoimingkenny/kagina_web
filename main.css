@@ -48,6 +48,10 @@ section {
   color: #5B7781;
 }
 
+.chi{
+  font-family: 'Noto Sans HK', sans-serif;
+}
+
 .section-title-eng {
   font-family: "HelveticaNeue", sans-serif;
   font-weight: bold;
@@ -582,7 +586,7 @@ section {
   flex-direction: column;
   width: 85%;
   margin: 0 auto;
-  padding-top: 3rem;
+  padding-top: 1.5rem;
   padding-bottom: 3rem;
 }
 
@@ -797,7 +801,7 @@ section {
 }
 
 .contactUs .timetable-container{
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 .timetable-container .table-title{
@@ -889,7 +893,7 @@ section {
 }
 
 .timetable-container .table .not-circle{
-  padding-top: .3rem;
+  padding-top: .4em;
 }
 
 .timetable-container .table .triangle{
@@ -951,38 +955,22 @@ section {
   color: #5B7781;
 }
 
-.contactUs .phone-details{
+.contactUs .contact-details{
   width: 100%;
   padding: 1rem;
   border: 1px solid #999;
   text-align: center;
   color: #5b7781;
   position: relative;
-  padding-top: 7rem;
+  padding-top: 9rem;
   padding-bottom: 2rem;
   margin-top: 4rem;
   margin-bottom: 3rem;
-}
-
-.contactUs .phone-details h3{
-  color: #5B7781;
-}
-.contactUs .phone-detail-title-chi{
-  font-size: 2.2rem;
-  letter-spacing: .3rem;
-}
-
-.contactUs .phone-detail-title-eng{
+  border-radius: 10px;
   text-transform: uppercase;
-  letter-spacing: .3rem;
 }
 
-.contactUs .phone-detail-reminder{
-  font-size: 1.6rem;
-  font-weight: 200;
-}
-
-.contactUs .phone-detail-title{
+.contactUs .contact-detail-title{
   background-color: #D1F0F7;
   padding: 1rem;
   width: 80%;
@@ -993,7 +981,7 @@ section {
   left: 3.5rem;
 }
 
-.contactUs .phone-details:after{
+.contactUs .contact-details:after{
   content: "";
   position: absolute;
   height: 6px;
@@ -1003,15 +991,75 @@ section {
   bottom: -5px;
 }
 
-.contactUs .phone-detail{
-  font-family: 'Noto Sans HK', sans-serif;
-  font-weight: 500;
-  font-size: 2rem;
-  letter-spacing: 0.15rem;
-  color: #5B7781;
+.contactUs .contact-detail-title-chi{ 
+  font-size: 2.2rem;
+  letter-spacing: .3rem;
 }
 
-#map {
+.contactUs .contact-detail-title-eng{
+  letter-spacing: .3rem;
+}
+
+.contactUs .contact-details .contact-detail-name{
+  font-size: 2.2rem;
+  letter-spacing: 0.6rem;
+  color: #5B7781;
+  line-height: 2.4rem;
+}
+
+.contactUs .contact-details .contact-detail-name-chi{
+  font-family: 'Noto Sans HK', sans-serif;
+  font-weight: 300;
+}
+
+.contactUs .contact-details .contact-detail-name-eng{
+  font-weight: bold;
+  font-size: 2.1rem;
+}
+
+.contactUs .contact-details .address-title-chi,
+.contactUs .contact-details .address-chi,
+.contactUs .contact-details .address-title-eng,
+.contactUs .contact-details .address-eng,
+.contactUs .contact-details .phone-detail{
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 2.5rem;
+  letter-spacing: .1rem;
+}
+
+.contactUs .contact-details .address-title-chi,
+.contactUs .contact-details .address-title-eng{
+  padding-top: 2.5rem;
+}
+
+.contactUs .contact-details .address-title-eng,
+.contactUs .contact-details .address-eng{
+  /* font-size: 1.5rem; */
+}
+
+.contactUs .contact-details .address-eng{
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+}
+
+.contactUs .contact-details .phone-detail{
+  font-weight: bold;
+  padding-top: 2.5rem;
+}
+
+.contactUs .phone-detail-reminder{
+  font-size: 1.4rem;
+  font-weight: 200;
+  letter-spacing: .2rem;
+}
+
+#map1 {
+  width: 100%;
+  height: 300px;
+}
+
+#map2 {
   width: 100%;
   height: 300px;
 }
