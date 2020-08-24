@@ -23,6 +23,11 @@ a{
   text-decoration: none;
 }
 
+/* 
+h1,h2,h3,h4,h5,h6 { 
+  font-weight:normal; 
+}  */
+
 section {
   scroll-snap-align: start;
 }
@@ -328,18 +333,6 @@ section {
   text-align: center;
 }
 
-/* #hero h1 span,
-#hero h3 span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 0;
-  background-color: #e0f2ff7c;
-  animation: text_reveal_box 1s ease;
-  animation-delay: 1s;
-} */
-
 #hero h1:nth-child(1) span{
   animation-delay: .5s;
 }
@@ -437,7 +430,6 @@ section {
 .aboutUs-top {
   padding: 3rem;
   margin-top: 6rem;
-
 }
 
 .aboutUs-title {
@@ -613,8 +605,7 @@ section {
   position: relative;
 }
 
-/* Post Slider */
-.post-slider{
+.post-slider{ /* Post Slider */
   width: 90%;
   overflow: hidden;
 }
@@ -641,10 +632,6 @@ section {
   left: 87%;
   top: 42%;
   color: #D1F0F7;
-}
-
-.caseStudies-middle button{
-  /* background: url(./Group\ 1.png); */
 }
 
 .caseStudy-item img{
@@ -712,6 +699,7 @@ section {
 
 /* End of Case Study */
 
+
 /* Contact Us */
 #contactUs {
   min-height: 80vh;
@@ -720,7 +708,7 @@ section {
 }
 #contactUs .contactUs {
   flex-direction: column;
-  width: 90%;
+  width: 92%;
   margin: 0 auto;
   padding: 4rem 2rem;
   margin-bottom: 3rem;
@@ -729,13 +717,13 @@ section {
   border-radius: 15px;
 }
 
-.contactUs-header {
+#contactUs .contactUs-header {
   margin-bottom: 30px;
   align-self: flex-start;
   margin-left: 3rem;
 }
 
-.contactUs-header h1{
+#contactUs .contactUs-header h1{
   color: #5B7781;
 }
 
@@ -745,13 +733,52 @@ section {
   border-bottom: 1px dotted #999;
   border-top: 1px dotted #999;
   color: #5B7781;
+  text-align: center;
+  margin: 0 auto;
 }
 
-.table th {
-  padding: 10px 5px;
-  font-size: 1.5rem;
+.contactUs .timetable-container{
+  padding-top: 2rem;
+}
+
+.timetable-container .table-title{
+  font-size: 2rem;
+  color: #5B7781;
+  width: fit-content;
+  margin: 0 auto;
+  font-weight: 200;
+  line-height: 2rem;
+}
+
+.timetable-container .table-title-eng{
+  letter-spacing: .2rem;
+  padding-bottom: 1rem;
+} 
+
+.timetable-container .table thead tr th {
+  padding: 5px 5px;
+  font-size: .9rem;
   vertical-align: middle;
-  line-height: 2.2rem;
+  line-height: 1.3rem;
+}
+
+.table-first-row h3,
+.table tbody tr th h3{
+  font-weight: lighter;
+}
+
+
+.table tbody tr th .table-time-top{
+  padding: .5rem 0;
+  letter-spacing: .12rem;
+}
+
+.table tbody tr th .table-time-mid{
+  font-size: 1rem;
+}
+
+.table tbody tr th .table-time-bottom{
+  padding-bottom: 1rem;
 }
 
 .table tbody tr{
@@ -764,7 +791,11 @@ section {
   text-align: center;
 }
 
-#table .location-circle{
+.table tbody tr th{
+
+}
+
+.timetable-container .location-circle{
   margin: 10px 0;
   display: flex;
 }
@@ -775,13 +806,13 @@ section {
 }
 
 .table .circleBlue,
-#table h3 .circleBlue{
+.timetable-container h3 .circleBlue{
   font-size: 3.7rem;
   color: #5B7781;
 }
 
 .table .circleSmallBlue,
-#table h3 .circleSmallBlue{
+.timetable-container h3 .circleSmallBlue{
   font-size: 3.7rem;
   color: #95C6D1;
 }
@@ -791,25 +822,25 @@ section {
   color: #D1F0F7;
 }
 
-#table h3 .circleSmallBlue,
-#table h3 .circleBlue{
+.timetable-container h3 .circleSmallBlue,
+.timetable-container h3 .circleBlue{
   font-size: 2rem;
 }
 
-#table h3 .circleSmallGreen{
+.timetable-container h3 .circleSmallGreen{
   font-size: 2rem;
   color: #D1F0F7;
 }
 
-#table .table .not-circle{
+.timetable-container .table .not-circle{
   padding-top: .3rem;
 }
 
-#table .table .triangle{
+.timetable-container .table .triangle{
   padding-top: 3px;
 }
 
-#table h3{
+.timetable-container .location-circle h3{
   font-size: 1.2rem;
   vertical-align: middle;
   display: flex;
@@ -865,10 +896,6 @@ section {
   font-size: 1.8rem;
   text-transform: uppercase;
   letter-spacing: .6rem;
-}
-
-.contactUs .timetable-container{
-  padding-top: 4rem;
 }
 
 .contactUs .timetable-container .table-special{
