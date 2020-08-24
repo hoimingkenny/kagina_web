@@ -901,7 +901,7 @@ section {
 }
 
 .timetable-container .table .triangle{
-  padding-top: 3px;
+  padding-top: 7px;
 }
 
 .timetable-container .location-circle h3{
@@ -942,6 +942,7 @@ section {
 }
 
 .location-circle .circle-fe .circle-fe-circle{
+  padding-top: .4rem;
   padding-left: .4rem;
 }
 .contactUs .timetable-container .table-special{
