@@ -888,7 +888,7 @@ section {
 
 .location-info-chi{
   font-family: 'Noto Sans HK', sans-serif;
-  font-weight: 300;
+  /* font-weight: 300; */
   font-size: 2rem;
   padding-top: .5rem;
   letter-spacing: .5rem;
