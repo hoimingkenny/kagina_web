@@ -52,6 +52,10 @@ section {
   font-family: 'Noto Sans HK', sans-serif;
 }
 
+.eng{
+  font-family: "HelveticaNeue", "Montserrat", sans-serif;
+}
+
 .section-title-eng {
   font-family: "HelveticaNeue", sans-serif;
   font-weight: bold;
@@ -716,8 +720,8 @@ section {
   flex-direction: column;
   width: 92%;
   margin: 0 auto;
-  padding: 4rem 2rem;
-  margin-bottom: 3rem;
+  padding: 2rem 2rem;
+  margin-bottom: 2rem;
   justify-content: normal;
   background-color: white;
   border-radius: 15px;
@@ -949,11 +953,13 @@ section {
 
 .contactUs .timetable-container .table-special h3{
   font-family: 'Noto Sans HK', sans-serif;
-  font-weight: 500;
-  font-size: 1.3rem !important;
+  font-weight: 200;
+  font-size: 1rem !important;
   letter-spacing: 0.15rem;
   color: #5B7781;
 }
+
+
 
 .contactUs .contact-details{
   width: 100%;
@@ -1007,6 +1013,9 @@ section {
   line-height: 2.4rem;
 }
 
+.contactUs .contact-details .contact-detail-name-gc{
+  margin-top: 4rem;
+}
 .contactUs .contact-details .contact-detail-name-chi{
   font-family: 'Noto Sans HK', sans-serif;
   font-weight: 300;
@@ -1054,19 +1063,22 @@ section {
   letter-spacing: .2rem;
 }
 
-#map1 {
-  width: 100%;
-  height: 300px;
+.contactUs .phone-detail-time{
+  padding-top: .5rem;
+  font-size: 1.5rem;
+  font-weight: 200;
 }
 
+#map1,
 #map2 {
   width: 100%;
   height: 300px;
+  margin-top: 2rem;
 }
+
 
 .contactUs-bottom {
   width: 100%;
-  padding: 1rem 0;
 }
 .contactUs-bottom h3 {
   font-size: .9rem;
