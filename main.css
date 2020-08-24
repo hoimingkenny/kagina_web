@@ -900,6 +900,12 @@ section {
   padding-top: 7px;
 }
 
+.timetable-container .table .not-circle img{
+  width: 17px;
+  height: 17px;
+}
+
+
 .timetable-container .table .triangle{
   padding-top: 7px;
 }
