@@ -488,7 +488,7 @@
     <script>
       function initMap() {
         // Map options
-        var options ={
+        var options_jd ={
           zoom: 18,
           center: { lat: 22.304832, lng: 114.172025 },
           styles: [
@@ -573,14 +573,103 @@
           ]  
         }
 
+        var options_gc ={
+          zoom: 18,
+          center: { lat: 22.372312, lng: 113.992353 },
+          styles: [
+            {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+            {
+              featureType: 'administrative.locality',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'geometry',
+              stylers: [{color: '#263c3f'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#6b9a76'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry',
+              stylers: [{color: '#38414e'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#212a37'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#9ca5b3'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry',
+              stylers: [{color: '#746855'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#1f2835'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#f3d19c'}]
+            },
+            {
+              featureType: 'transit',
+              elementType: 'geometry',
+              stylers: [{color: '#2f3948'}]
+            },
+            {
+              featureType: 'transit.station',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'geometry',
+              stylers: [{color: '#17263c'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#515c6d'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.stroke',
+              stylers: [{color: '#17263c'}]
+            }
+          ]  
+        }
 
         // New Map
-        var map = new google.maps.Map(document.getElementById("map1"), options);
-        var map2 = new google.maps.Map(document.getElementById("map2"), options);
+        var map = new google.maps.Map(document.getElementById("map1"), options_jd);
+        var map2 = new google.maps.Map(document.getElementById("map2"), options_gc);
 
         var marker = new google.maps.Marker({
           position: {lat: 22.304832, lng: 114.172025},
           map: map,
+        });
+
+        var marker1 = new google.maps.Marker({
+          position: {lat: 22.372312, lng: 113.992353},
+          map: map2,
         });
 
         var infoWindow = new google.maps.Infowindow({
@@ -595,7 +684,7 @@
     </script>
     
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5TtzdlqZAU-LbHV83tmdCI_BCQoa-YGg&callback=initMap&libraries=&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6Ikqehw67A2oM-Y2Gb5WANuY-XMKjSF0&callback=initMap&libraries=&v=weekly"
       defer
     ></script>
     <script src="main.js"></script>
