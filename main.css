@@ -70,7 +70,7 @@ section {
   background-position: top center;
   min-height: 8vh;
   /* background: rgba(31, 30, 30, 0.24); */
-  transition: .3s ease background-color;
+  /* transition: background .2s ease; */
   box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.459);
   border-bottom-left-radius: 2%;
   border-bottom-right-radius: 2%;
@@ -424,6 +424,7 @@ section {
 #aboutUs {
   background: linear-gradient(90deg, #D1F0F7 70%, #95C6D1 30%);
 }
+
 #aboutUs .aboutUs {
   min-height: 100vh;
   position: relative;
@@ -580,6 +581,7 @@ section {
 #caseStudies {
   background-color: #95C6D1;
   min-height: 90vh;
+  transition: background-color .4s ease-out;
 }
 
 #caseStudies .caseStudies {
@@ -737,7 +739,7 @@ section {
   color: #5B7781;
 }
 
-#contactUs .table{
+#contactUs .table{ /* Timetable Container */
   border-collapse: collapse;
   border-spacing: 0;
   border-bottom: 1px dotted #999;
@@ -857,21 +859,23 @@ section {
   letter-spacing: .6rem;
 }
 
-.contactUs-bottom {
-  width: 100%;
-  padding: 1rem 0;
-}
-.contactUs-bottom h3 {
-  font-size: .9rem;
-  color: #5B7781;
-  padding: 0.2rem;
-  letter-spacing: .15rem;
-  text-align: right;
-  text-transform: uppercase;
-}
-
 .contactUs .timetable-container{
   padding-top: 4rem;
+}
+
+.contactUs .timetable-container .table-special{
+  padding: 2rem;
+  width: fit-content;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+.contactUs .timetable-container .table-special h3{
+  font-family: 'Noto Sans HK', sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem !important;
+  letter-spacing: 0.15rem;
+  color: #5B7781;
 }
 
 .contactUs .phone-details{
@@ -883,7 +887,7 @@ section {
   position: relative;
   padding-top: 7rem;
   padding-bottom: 2rem;
-  margin-top: 7rem;
+  margin-top: 4rem;
   margin-bottom: 3rem;
 }
 
@@ -904,16 +908,6 @@ section {
   font-size: 1.6rem;
   font-weight: 200;
 }
-
-/* .contactUs .phone-details:before{
-  content: "";
-  position: absolute;
-  height: 5rem;
-  width: 80%;
-  background-color: #95C6D1;
-  left: 3.5rem;
-  top: -1rem;
-} */
 
 .contactUs .phone-detail-title{
   background-color: #D1F0F7;
@@ -947,6 +941,19 @@ section {
 #map {
   width: 100%;
   height: 300px;
+}
+
+.contactUs-bottom {
+  width: 100%;
+  padding: 1rem 0;
+}
+.contactUs-bottom h3 {
+  font-size: .9rem;
+  color: #5B7781;
+  padding: 0.2rem;
+  letter-spacing: .15rem;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 /* End of Contact Us */
