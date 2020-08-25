@@ -143,3 +143,72 @@
   letter-spacing: .1rem;
 }
 /* ---------- End of Features ---------- */
+
+
+/* ---------- ourVision ---------- */
+#vision .vision{
+  width: 85%;
+  text-transform: uppercase;
+  margin: 0 auto;
+  justify-content: initial;
+  align-items: initial;
+  flex-direction: column;
+}
+
+#vision .vision .vision-title{
+  background-color: #5B7781;
+  padding: 1rem;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 10vh;
+
+}
+
+#vision .vision .vision-title-chi{
+  font-size: 1.8rem;
+  font-weight: 200;
+  letter-spacing: .1rem;
+
+}
+
+#vision .vision .vision-title-eng{
+  font-size: 1.6rem;
+  letter-spacing: .4rem;
+  line-height: 1.3rem;
+}
+/* ---------- End of ourVision ---------- */
+
+
+/* physiotherapist */
+#doctor .doctor{
+  width: 85%;
+  text-transform: uppercase;
+  margin: 0 auto;
+  justify-content: initial;
+  align-items: initial;
+  flex-direction: column;
+}
+
+#doctor .doctor .doctor-title{
+  background-color: #5B7781;
+  padding: 1rem;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 10vh;
+
+}
+
+#doctor .doctor .doctor-title-chi{
+  font-size: 1.6rem;
+  font-weight: 200;
+  letter-spacing: .1rem;
+  line-height: 2rem;
+}
+
+#doctor .doctor .doctor-title-eng{
+  font-size: 1.1rem;
+  letter-spacing: .3rem;
+  line-height: 1.3rem;
+}
