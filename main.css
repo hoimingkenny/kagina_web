@@ -1,4 +1,4 @@
-/* Hero Section */
+/* -------------------- Hero Section -------------------- */
 #hero { 
   background-image: url(./background/cloud.png);
   background-size: cover;
@@ -30,11 +30,6 @@
   width: fit-content;
   position: relative;
   color: #95C6D1;
-
-
-  /* color: transparent; */
-  /* animation: text_reveal .5s ease forwards; */
-  /* animation-delay: 1s; */
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -142,7 +137,7 @@
 /* End of Hero Section */
 
 
-/* About Us */
+/* -------------------- About Us --------------------*/
 #aboutUs {
   background: linear-gradient(90deg, #D1F0F7 70%, #95C6D1 30%);
 }
@@ -209,7 +204,7 @@
 /* End of About Us */
 
 
-/* Treatment */
+/* -------------------- Treatment -------------------- */
 #treatment .treatment {
   flex-direction: column;
   width: 85%;
@@ -276,7 +271,6 @@
   text-transform: uppercase;
 }
 
-
 #treatment .treatment-row-last {
   text-align: center;
 }
@@ -298,7 +292,8 @@
 }
 /* End of Treatment */
 
-/* Case Study */
+
+/* -------------------- Case Study --------------------*/
 #caseStudies {
   background-color: #95C6D1;
   min-height: 90vh;
@@ -344,7 +339,6 @@
 }
 
 .post-wrapper .post{
-  /* background-color: yellow; */
   margin: 0 10px;
   width: 100%;
 }
@@ -353,7 +347,6 @@
   position: absolute;
   font-size: 4.6rem;
   left: -6%;
-  
   cursor: pointer;
 }
 
@@ -371,7 +364,6 @@
 }
 
 .caseStudy-title {
-  /* background-color: #D1F0F7; */
   background: linear-gradient(180deg, #D1F0F7 95%, #5b7781 5%);
   padding: .7rem;
   width: 90%;
@@ -425,11 +417,10 @@
   text-align: right;
   text-transform: uppercase;
 }
-
 /* End of Case Study */
 
 
-/* Contact Us */
+/* -------------------- Contact Us -------------------- */
 #contactUs {
   min-height: 80vh;
   background-color: #D1F0F7;
@@ -513,7 +504,8 @@
   letter-spacing: .6rem;
 }
 
-#contactUs .table{ /* Timetable Container */
+/* Timetable Container */
+#contactUs .table{ 
   border-collapse: collapse;
   border-spacing: 0;
   border-bottom: 1px dotted #999;
@@ -552,7 +544,6 @@
 .table tbody tr th h3{
   font-weight: lighter;
 }
-
 
 .table tbody tr th .table-time-top{
   padding: 1rem 0;
@@ -624,7 +615,6 @@
   height: 15px;
 }
 
-
 .timetable-container .table .triangle{
   padding-top: 7px;
 }
@@ -663,18 +653,17 @@
   letter-spacing: .1rem;
   font-size: 1rem;
   font-weight: 200;
-
 }
 
 .location-circle .circle-fe .circle-fe-circle{
   padding-top: .4rem;
   padding-left: .4rem;
 }
+
 .contactUs .timetable-container .table-special{
   padding: 2rem;
   width: fit-content;
   margin: 0 auto;
-  /* text-align: center; */
 }
 
 .contactUs .timetable-container .table-special h3{
@@ -684,8 +673,6 @@
   letter-spacing: 0.15rem;
   color: #5B7781;
 }
-
-
 
 .contactUs .contact-details{
   width: 100%;
@@ -806,10 +793,10 @@
   padding-top: 1rem;
 }
 
-
 .contactUs-bottom {
   width: 100%;
 }
+
 .contactUs-bottom h3 {
   font-size: .9rem;
   color: #5B7781;

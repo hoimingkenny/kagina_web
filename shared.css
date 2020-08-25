@@ -35,20 +35,20 @@ section {
   align-items: center;
 }
 
-.section-title-chi {
-  font-family: 'Noto Sans HK', sans-serif;
-  font-weight: 300;
-  font-size: 3rem;
-  letter-spacing: 0.15rem;
-  color: #5B7781;
-}
-
 .chi{
   font-family: 'Noto Sans HK', sans-serif;
 }
 
 .eng{
   font-family: "HelveticaNeue", "Montserrat", sans-serif;
+}
+
+.section-title-chi {
+  font-family: 'Noto Sans HK', sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+  letter-spacing: 0.15rem;
+  color: #5B7781;
 }
 
 .section-title-eng {
@@ -64,7 +64,7 @@ section {
   outline: none;
 }
 
-/* Header */
+/* -------------------- Header --------------------*/
 #header{
   position: fixed;
   z-index: 1000;
@@ -173,16 +173,6 @@ section {
   transform: scale(.8);
 }
 
-#header .hamburger:after{
-  /* position: absolute;
-  content: '';
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  border: 3px solid white; */
-  /* animation: hamburger_plus 3s ease infinite; */
-}
-
 #header .hamburger .bar{
   height: 3px;
   width: 40px;
@@ -221,7 +211,7 @@ section {
 /* End of header */
 
 
-/* Button Bar */
+/* -------------------- Button Bar --------------------*/
 #button-bar .button-bar{
   position: fixed;
   z-index: 100;
@@ -235,7 +225,6 @@ section {
 
 #button-bar ul{
   list-style: none;
-
 }
 
 #button-bar a{
@@ -274,7 +263,7 @@ section {
 /* End of Button Bar */
 
 
-/* Footer */
+/* -------------------- Footer --------------------*/
 #footer {
   background-color: #5B7781;
 }
@@ -326,31 +315,7 @@ section {
 }
 /* End of Footer */
 
-/* Test Container */
-
-
-/* End of Test Container */
-
-
-
-/* Keyframes */
-@keyframes text_reveal_box{
-  50%{
-    width: 100%;
-    left: 0;
-  }
-  100%{
-    width: 0%;
-    left: 100%;
-  }
-}
-
-@keyframes text_reveal{
-  100% {
-    color: #95C6D1;
-  }
-}
-
+/* -------------------- Keyframes -------------------- */
 @keyframes title_animation{
   0%{
     opacity: 0;
@@ -370,7 +335,6 @@ section {
   }
 }
 
-
 @keyframes scroll-down{
   0%{
     opacity: 0;
@@ -388,7 +352,8 @@ section {
 }
 /* End of Keyframes */
 
-/* Media Query For Tablet*/
+
+/* -------------------- Media Query For Tablet --------------------*/
 @media only screen and (min-width: 768px){
   #hero h1 {
     font-size: 3rem;
