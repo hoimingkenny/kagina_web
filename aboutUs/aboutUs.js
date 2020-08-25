@@ -1,24 +1,3 @@
-// Smooth Scroll
-const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 800
-});
-
-// const scroll1 = new SmoothScroll('#button-bar a[href*="#"]', {
-//   speed: 800,
-// });
-
-// Slick
-$(document).ready(function () {
-  $(".post-wrapper").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: false,
-    autoplaySpeed: 2000,
-    nextArrow: $(".next"),
-    prevArrow: $(".prev"),
-  });
-});
-
 //Humburger Meun
 const hamburger = document.querySelector(
   ".header .nav-bar .nav-list .hamburger"
@@ -38,15 +17,15 @@ document.addEventListener("scroll", () => {
   var scroll_position = window.scrollY;
   if (scroll_position > 570) {
     header.style.backgroundImage = "url('')";
-    home_button.src = "./logo/Kagina-Logo_W.png";
+    home_button.src = "../logo/Kagina-Logo_W.png";
     header.style.backgroundColor = "#5B7781";
     header.style.transition = "background 1s";
   
   } else {
     header.style.backgroundColor = 'transparent';
-    home_button.src = "./logo/Kagina-Logo_B.png";
+    home_button.src = "../logo/Kagina-Logo_B.png";
     header.style.backgroundImage =
-      "url('./background/cloud.png')";
+      "url('../background/cloud.png')";
   }
 });
 

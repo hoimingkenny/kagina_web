@@ -16,13 +16,15 @@
           <a href="../index.html" class="header-brand">
             <img src="../logo/Kagina-Logo_B.png">
           </a>
+        </div>
         <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
           <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="#aboutUs" data-after="About">About</a></li>
-            <li><a href="#treatment-scroll" data-after="Treatment">Treatment</a></li>
-            <li><a href="#caseStudies-scroll" data-after="Case Studies">Case Studies</a></li>
-            <li><a href="#contactUs-scroll" data-after="Contact">Contact</a></li>
+            <li><a href="../index.html" data-after="Home">Home</a></li>
+            <li><a href="./aboutUs.html" data-after="About">About</a></li>
+            <li><a href="../index.html#treatment-scroll" data-after="Treatment">Treatment</a></li>
+            <li><a href="../index.html#caseStudies-scroll" data-after="Case Studies">Case Studies</a></li>
+            <li><a href="../index.html#contactUs-scroll" data-after="Contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -163,7 +165,6 @@
   <!---------- End of Features ---------->
 
 
-
   <!---------- ourVision ---------->
   <section id="vision">
     <div class="vision container">
@@ -189,12 +190,53 @@
       <div class="doctor-img">
         <img src="../photo/benson_cheng.jpg" style="max-width: 100%;">
       </div>
+      <div class="doctor-text">
+        <div class="doctor-text-title">
+          <h3 class="chi doctor-text-title-chi">鄭金坤博士</h3>
+          <h3 class="eng doctor-text-title-eng">dr. benson cheng</h3>
+        </div>
+        <div class="doctor-text-cert-chi">
+          <h3 class="cert-chi">香港理工大學物理治療學哲學博士</h3>
+          <h3 class="cert-chi">香港理工大學物理治療學（榮譽）理學士</h3>
+          <h3 class="cert-chi">香港物理治療學會認可針灸證書</h3>
+          <h3 class="cert-chi">「龍氏」脊椎正骨療法證書</h3>
+          <h3 class="cert-chi">澳洲骨科手法治療證書</h3>
+          <h3 class="cert-chi">香港註冊物理治療師</h3>
+        </div>
+        <div class="doctor-text-cert-eng">
+          <h3 class="cert-eng">Phd (Physiotherapy)</h3>
+          <h3 class="cert-eng">Bsc (Physiotherapy)</h3>
+          <h3 class="cert-eng">Acupuncture Accreditation (HKPA)</h3>
+          <h3 class="cert-eng">Cert. In Dr Lung’s Bone Setting For Spinal Vertebrae</h3>
+          <h3 class="cert-eng">Cert. In Orthopaedic Manual Therapy (Manual Concepts, Australia)</h3>
+          <h3 class="cert-eng">Registered Physiotherapist (HK)</h3>
+        </div>
+      </div>
+
     </div>
   </section>
   <!---------- End of physiotherapist ---------->
 
 
   <!---------- provided treatment  ---------->
+  <section id="provided-treatment">
+    <div class="provided-treatment">
+      <div class="provided-treatment-top">
+        <h3 class="chi provided-treatment-chi">治療提供</h3>
+        <h3 class="eng provided-treatment-eng">Treatment</h3>
+        <h3 class="chi provided-treatment-small">我們一直從患者的角度堅持 “優質及先進的治療方案”</h3>
+      </div>
+      <div class="provided-treatment-mid">
+        <img src="../photo/shockWaveHandle.png" style="max-width: 100%;">
+      </div>
+      <div class="provided-treatment-bottom">
+        <a href="">
+          <h3 class="chi treatment-bottom-chi">了解更多</h3>
+          <h3 class="eng treatment-bottom-eng">Learn More</h3>
+        </a>
+      </div>
+    </div>
+  </section>
   <!---------- End of provided treatment  ---------->
 
 
@@ -232,6 +274,16 @@
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
   <!-- Slick Carouse -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="../main.js"></script>
+  <script src="./aboutUs.js"></script>
+  <script>
+    $(function(){
+
+    //get the section name from hash
+    var sectionName = window.location.hash.slice(1);
+
+    //then show the section
+    $('#' + sectionName ).show();
+    })
+  </script>
 </body>
 </html>

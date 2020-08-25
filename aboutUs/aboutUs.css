@@ -136,11 +136,13 @@
 #features .feature-box .feature-chi{
   font-weight: 200;
   letter-spacing: .3rem;
+  line-height: 2.4rem;
 }
 
 #features .feature-box .feature-eng{
   font-weight: lighter;
   letter-spacing: .1rem;
+  line-height: 1.7rem;
 }
 /* ---------- End of Features ---------- */
 
@@ -182,12 +184,12 @@
 
 /* physiotherapist */
 #doctor .doctor{
-  width: 85%;
-  text-transform: uppercase;
+  width: 90%;
   margin: 0 auto;
   justify-content: initial;
   align-items: initial;
   flex-direction: column;
+  color: #5B7781;
 }
 
 #doctor .doctor .doctor-title{
@@ -204,11 +206,114 @@
   font-size: 1.6rem;
   font-weight: 200;
   letter-spacing: .1rem;
-  line-height: 2rem;
+  line-height: 2.35rem;
 }
 
 #doctor .doctor .doctor-title-eng{
   font-size: 1.1rem;
   letter-spacing: .3rem;
   line-height: 1.3rem;
+  text-transform: uppercase;
+}
+
+#doctor .doctor-img img{
+  margin-top: 1.5rem;
+}
+
+#doctor .doctor-text{
+  padding: 2rem;
+}
+
+#doctor .doctor-text-title .doctor-text-title-chi{
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: .3rem;
+}
+
+#doctor .doctor-text-title .doctor-text-title-eng{
+  font-size: 1.7rem;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+}
+
+#doctor .doctor-text-cert-chi{
+  margin: 2.5rem 0;
+  margin-bottom: 3.5rem;
+}
+
+
+#doctor .doctor-text-cert-eng{
+  margin-bottom: 2rem;
+}
+
+#doctor .doctor-text .doctor-text-cert-chi h3{
+  font-size: 1.2rem;
+  font-weight: 200;
+  letter-spacing: .1rem;
+  padding-top: .8rem;
+}
+
+#doctor .doctor-text .doctor-text-cert-eng h3{
+  font-size: 1.2rem;
+  font-weight: lighter;
+  letter-spacing: .02rem;
+  padding-top: .6rem;
+}
+
+
+/* Provided Treatment */
+#provided-treatment{
+  background-color: #D1F0F7;
+}
+
+#provided-treatment .provided-treatment{
+  height: 60vh;
+  width: 90%;
+  margin: 0 auto;
+  color: #5B7781;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#provided-treatment .provided-treatment-top{
+  padding: 2rem;
+}
+
+#provided-treatment .provided-treatment-mid{
+  margin-top: 1.5rem;  
+}
+
+#provided-treatment .provided-treatment-chi{
+  letter-spacing: 1rem;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+#provided-treatment .provided-treatment-eng{
+  letter-spacing: .4rem;
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+}
+
+#provided-treatment .provided-treatment-small{
+  font-size: 1.3rem;
+  font-weight: 200;
+  margin-top: 1rem;
+}
+
+#provided-treatment .provided-treatment-bottom{
+  padding: 3rem;
+  color: #5B7781;
+}
+
+#provided-treatment .treatment-bottom-chi{
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+#provided-treatment .treatment-bottom-eng{
+  font-size: 1.2rem;
+  font-weight: lighter;
+  letter-spacing: .15rem;
 }
