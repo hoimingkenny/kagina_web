@@ -1,0 +1,32 @@
+/* ---------- Hero: About Us ----------*/
+#hero .hero .hero-aboutUs-chi{
+  font-weight: 200;
+  letter-spacing: .8rem;
+}
+
+#hero .hero .hero-aboutUs-eng{
+  font-size: 2.6rem;
+  letter-spacing: .8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: .8rem;
+}
+
+#hero .hero .animated-third-row,
+#hero .hero .animated-fourth-row{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#hero .hero .animated-third-row{
+  padding-top: 2rem;
+}
+#hero .hero .animated-third-row span,
+#hero .hero .animated-fourth-row span{
+  font-size: 1.3rem;
+  font-weight: 200;
+  letter-spacing: 0;
+}
+
+
+/* ---------- End of Hero: About Us ----------*/

@@ -12,11 +12,14 @@
   box-sizing: border-box;
 }
 
+*:focus{
+  outline: none;
+}
+
 html {
   font-size: 10px;
   font-family: "HelveticaNeue", "Montserrat", sans-serif;
   scroll-behavior: smooth;
-  /* scroll-snap-type: y mandatory;  */
 }
 
 a{
@@ -60,9 +63,6 @@ section {
   color: #5B7781;
 }
 
-*:focus{
-  outline: none;
-}
 
 /* -------------------- Header --------------------*/
 #header{
@@ -79,8 +79,6 @@ section {
   background-size: cover;
   background-position: top center;
   min-height: 8vh;
-  /* background: rgba(31, 30, 30, 0.24); */
-  /* transition: background .2s ease; */
   box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.459);
   border-bottom-left-radius: 2%;
   border-bottom-right-radius: 2%;
@@ -161,15 +159,12 @@ section {
   height: 70px;
   width: 70px;
   display: inline-block;
-  /* border: 3px solid white; */
-  /* border-radius: 50%; */
   position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   cursor: pointer;
   margin-right: 10px;
-  /* padding-top: 10px; */
   transform: scale(.8);
 }
 
@@ -209,6 +204,102 @@ section {
   bottom: 0;
 }
 /* End of header */
+
+
+/* -------------------- Hero Section -------------------- */
+#hero { 
+  background-image: url(./background/cloud.png);
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  min-height: 100vh;
+}
+
+#hero::after{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#hero .hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 18vh 30px;
+  text-align: center;
+  align-items: normal;
+}
+
+#hero h1{
+  display: block;
+  font-size: 4vw;
+  width: fit-content;
+  position: relative;
+  color: #95C6D1;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#hero h3{
+  position: relative;
+  display: block;
+  width: fit-content;
+  color: #95C6D1;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3.7rem;
+}
+
+#hero .letter {
+  opacity: 0;
+  animation: title_animation 1s ease-in forwards;
+  animation-iteration-count: 1;
+  display: inline-block;
+  font-size: 32px;
+  color: #95C6D1;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
+#hero .eng-letter {
+  font-size: 2.7rem;
+  letter-spacing: 0rem;
+}
+
+.scroll-down {
+  height: 50px;
+  width: 30px;
+  /* border: 2px solid #95C6D1; */
+  position: absolute;
+  left: 50%;
+  bottom: 25vh;
+  transform: translateX(-50%);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.scroll-down::before,
+.scroll-down::after {
+  content: "";
+  position: absolute;
+  top: 22%;
+  left: 50;
+  border: 2px solid #95C6D1;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border-top: transparent;
+  border-left: transparent; 
+  animation: scroll-down 1s ease-in-out infinite;
+}
+
+.scroll-down::after {
+  top: 28%;
+  animation-delay: .3s;
+}
+/* End of Hero Section */
+
 
 
 /* -------------------- Button Bar --------------------*/
