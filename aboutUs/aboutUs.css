@@ -303,9 +303,9 @@
 }
 
 #provided-treatment .provided-treatment-bottom{
-  padding: 3rem;
+  padding: 2rem;
   color: #5B7781;
-  margin-top: 1rem;
+  margin: 1rem 0;
 }
 
 #provided-treatment .treatment-bottom-chi{
