@@ -1135,6 +1135,12 @@ section {
   margin-bottom: 15px;
 }
 
+#footer .logo-bottom img{
+  width: 15rem;
+  height: auto;
+  /* transform: scale(.5); */
+}
+
 #footer .social-icon {
   display: flex;
 }
