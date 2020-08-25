@@ -53,7 +53,8 @@
 }
 
 #wtsKagina .wtsKagina .first-row-photo img{
-  height: 30vh;
+  /* height: 30vh; */
+  max-width: 100%;
 }
 
 #wtsKagina .wtsKagina .second-row-photo .photo-box{
