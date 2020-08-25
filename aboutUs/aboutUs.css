@@ -32,7 +32,7 @@
 
 /* ---------- WtsKagina ----------*/
 #wtsKagina{
-  background: linear-gradient(to bottom, #D1F0F7, #D1F0F7 25%, #95C6D1 25%, #95C6D1 70%)
+  background: linear-gradient(to bottom, #D1F0F7, #D1F0F7 32%, #95C6D1 32%, #95C6D1 70%)
 }
 
 #wtsKagina .wtsKagina{
@@ -40,6 +40,7 @@
   margin: 0 auto;
   flex-direction: column;
   justify-content: initial;
+  padding-bottom: 4rem;
 }
 
 #wtsKagina .wtsKagina h3{
@@ -49,6 +50,7 @@
   letter-spacing: .5rem;
   padding: 4rem;
   padding-left: 0rem;
+  margin-top: 4rem;
   align-self: flex-start;
 }
 
@@ -84,6 +86,60 @@
   font-weight: 200;
 }
 
-
-
 /* ---------- End of WtsKagina ----------*/
+
+/* ---------- Features ---------- */
+#features .features{
+  width: 90%;
+  flex-direction: column;
+  margin: 2rem auto;
+  color: #5B7781;
+  text-transform: uppercase;
+}
+
+#features .features .first-feature,
+#features .features .second-feature,
+#features .features .third-feature{
+  width: 100%;
+  overflow: hidden;
+  margin-top: 12rem;
+  position: relative;
+}
+
+#features .features .second-feature{
+  height: 225px;
+}
+
+#features .features .third-feature{
+  margin-top: .5rem;
+}
+
+#features .features .second-feature img{
+  margin-top: -160px;
+}
+
+#features .feature-box{
+  background-color: #D1F0F7;
+  height: 8rem;
+  padding: 1.5rem;
+  padding-top: .8rem;
+  font-size: 1.6rem;
+  width: 85%;
+  position: relative;
+  bottom: 20px;
+}
+
+#features .second-feature .feature-box {
+  bottom: -20px;
+}
+
+#features .feature-box .feature-chi{
+  font-weight: 200;
+  letter-spacing: .3rem;
+}
+
+#features .feature-box .feature-eng{
+  font-weight: lighter;
+  letter-spacing: .1rem;
+}
+/* ---------- End of Features ---------- */
