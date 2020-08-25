@@ -267,7 +267,7 @@
 }
 
 #provided-treatment .provided-treatment{
-  height: 60vh;
+  height: 65vh;
   width: 90%;
   margin: 0 auto;
   color: #5B7781;
@@ -297,7 +297,7 @@
 }
 
 #provided-treatment .provided-treatment-small{
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 200;
   margin-top: 1rem;
 }
@@ -305,6 +305,7 @@
 #provided-treatment .provided-treatment-bottom{
   padding: 3rem;
   color: #5B7781;
+  margin-top: 1rem;
 }
 
 #provided-treatment .treatment-bottom-chi{
