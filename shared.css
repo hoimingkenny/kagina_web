@@ -361,6 +361,7 @@ section {
 #button-bar h3{
   font-size: 1rem;
   color: white;
+  font-weight: lighter;
 }
 /* End of Button Bar */
 
