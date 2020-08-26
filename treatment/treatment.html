@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kagina | About</title>
+  <title>Kagina | Treatment</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" href="../shared.css">
-  <link rel="stylesheet" href="./aboutUs.css">
+  <link rel="stylesheet" href="./treatment.css">
 </head>
 <body>
   <!---------- Header ---------->
@@ -21,8 +23,8 @@
           <div class="hamburger"><div class="bar"></div></div>
           <ul>
             <li style="margin-top: 10%;"><a href="../index.html" data-after="Home">Home</a></li>
-            <li><a href="./aboutUs.html" data-after="About">About</a></li>
-            <li><a href="../treatment/treatment.html" data-after="Treatment">Treatment</a></li>
+            <li><a href="../aboutUs/aboutUs.html" data-after="About">About</a></li>
+            <li><a href="./treatment.html" data-after="Treatment">Treatment</a></li>
             <li><a href="../index.html#caseStudies-scroll" data-after="Case Studies">Case Studies</a></li>
             <li><a href="../index.html#contactUs-scroll" data-after="Contact">Contact</a></li>
           </ul>
@@ -67,14 +69,14 @@
     </div>
   </section>
   <!---------- End of button bar ---------->
-
-
+  
+  
   <!---------- Hero_aboutUs ---------->
   <section id="hero">
     <div class="hero container">
       <div style="padding-top: 4rem;">
-        <h3 class="hero-aboutUs-chi chi">關於我們</h3>
-        <h3 class="hero-aboutUs-eng eng">About us</h3>
+        <h3 class="hero-aboutUs-chi chi">治療方案</h3>
+        <h3 class="hero-aboutUs-eng eng">treatment</h3>
         <div class="animated-third-row">
           <span class="letter chi" style="animation-delay: 0s;">我</span>
           <span class="letter chi" style="animation-delay: .1s;">們</span>
@@ -103,142 +105,178 @@
           <span class="letter chi" style="animation-delay: 2.3s;">"</span>
         </div>
       </div>
-      <a href="#wtsKagina">
+      <a href="#treatment">
         <div class="scroll-down"></div>
       </a>
     </div>
   </section>
   <!---------- End of Hero_aboutUs ---------->
 
+  <!---------- Treatment  ---------->
+  <section id="treatment">
+    <div class="treatment container">
+      <div class="treatment-top">
+        <h1 class="section-title-chi treatment-title-chi">治療方案</h1>
+        <h1 class="section-title-eng treatment-title-eng">Treatment</h1>
+      </div>
+      <div class="treatment-middle">
+        <div class="treatment-row">
+          <div class="treatment-logo">
+            <div class="logo-container">
+              <img src="../icon/treatment_elec_nerve_simu.svg" alt="Electrical Nerve Stimulation">
+            </div>
+            <h1 class="chi">電刺激療法</h1>
+            <h1 class="treatment-logo-eng">Electrical Nerve Stimulation</h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum esse, laborum cum officia eum nesciunt quas modi aliquam beatae molestiae magnam et fuga quos quia mollitia soluta neque culpa libero.</p>
+          </div>
+          <div class="treatment-logo">
+            <div class="logo-container">
+              <img src="../icon/treatment_manual_therapy.svg" alt="Bone setting">
+            </div>
+            <h1 class="chi">手法治療</h1>
+            <h1 class="treatment-logo-eng">Manual Theray</h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum esse, laborum cum officia eum nesciunt quas modi aliquam beatae molestiae magnam et fuga quos quia mollitia soluta neque culpa libero.</p>
+          </div>
+        </div>
+        <div class="treatment-row">
+          <div class="treatment-logo">
+            <div class="logo-container">
+              <img src="../icon/treatment_shockWave.svg" alt="Shock Wave Therapy" />
+            </div>
+            <h1 class="chi">衝擊波</h1>
+            <h1 class="treatment-logo-eng">Shock Wave Therapy</h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum esse, laborum cum officia eum nesciunt quas modi aliquam beatae molestiae magnam et fuga quos quia mollitia soluta neque culpa libero.</p>
+          </div>
+          <div class="treatment-logo">
+            <div class="logo-container">
+              <img src="../icon/treatment_ultrasound.svg" alt="Ultrasound Therapy" />
+            </div>
+            <h1 class="chi">超聲波</h1>
+            <h1 class="treatment-logo-eng">Ultrasound Therapy</h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum esse, laborum cum officia eum nesciunt quas modi aliquam beatae molestiae magnam et fuga quos quia mollitia soluta neque culpa libero.</p>
+          </div>
+        </div>
+        <div class="treatment-row">
+          <div class="treatment-logo">
+            <div class="logo-container">
+              <img src="../icon/treatment_cold.svg" alt="Cold Therapy" />
+            </div>
+            <h1 class="chi">冷敷</h1>
+            <h1 class="treatment-logo-eng">Cold Therapy</h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum esse, laborum cum officia eum nesciunt quas modi aliquam beatae molestiae magnam et fuga quos quia mollitia soluta neque culpa libero.</p>
+          </div>
+          <div class="treatment-logo">
+            <div class="logo-container">
+              <img src="../icon/treatment_hot.svg" alt="Hot Therapy" />
+            </div>
+            <h1 class="chi">熱敷</h1>
+            <h1 class="treatment-logo-eng">Hot Therapy</h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum esse, laborum cum officia eum nesciunt quas modi aliquam beatae molestiae magnam et fuga quos quia mollitia soluta neque culpa libero.</p>
+          </div>
+        </div>
+        <div class="treatment-row">
+          <div class="treatment-logo">
+            <div class="logo-container">
+              <img src="../icon/treatment_accupunture.svg" alt="Accupunture" />
+            </div>
+            <h1 class="chi">針灸</h1>
+            <h1 class="treatment-logo-eng">Accupunture</h1><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum esse, laborum cum officia eum nesciunt quas modi aliquam beatae molestiae magnam et fuga quos quia mollitia soluta neque culpa libero.</p>
+          </div>
+          <div class="treatment-logo">
+            <div class="logo-container">
+              <img src="../icon/treatment_rehab_exercise.svg" alt="Rehabilitation Exercise">
+            </div>
+            <h1 class="chi">運動療法</h1>
+            <h1 class="chi">(鍛練/拉伸)</h1>
+            <h1 class="treatment-logo-eng">Rehabilitation Exercise</h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum esse, laborum cum officia eum nesciunt quas modi aliquam beatae molestiae magnam et fuga quos quia mollitia soluta neque culpa libero.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!---------- End of Treatment  ---------->
 
-  <!---------- wtsKagina ---------->  
-  <section id="wtsKagina">
-    <div class="wtsKagina container">
-      <h3 class="eng">About</h3>
-      <div class="first-row-photo">
-        <img src="../photo/jd_bigBed.jpg">
+
+  <!-- Features Treatment -->
+  <section id="featured-treatment">
+    <div class="featured-treatment container">
+      <div class="featured-treatment-top">
+        <h1 class="chi featured-treatment-title-chi">特色治療</h1>
+        <h1 class="eng featured-treatment-title-eng">Featured Treatment</h1>
       </div>
-      <div class="second-row-photo">
-        <div class="photo-box left-photo">
-          <img src="../photo/NameTag.jpg">
+      <div class="featured-treatment-bottom">
+        <div class="post-slider">
+          <div class="post-wrapper">
+            <div class="post">
+              <div class="featured-treatment-item">
+                <div>
+                  <img src="../photo/shockWaveHandle.png"/>
+                </div>
+                <div class="featured-treatment-title">
+                  <h3 class="chi">衝擊波</h3>
+                  <h3 class="eng">shock wave</h3>
+                </div>
+              </div>
+            </div>
+            <div class="post">
+              <div class="featured-treatment-item">
+                <div>
+                  <img src="../photo/shockWaveHandle.png" style="max-width: 100%;"/>
+                </div>
+                <div class="featured-treatment-title">
+                  <h3 class="chi">衝擊波</h3>
+                  <h3 class="eng">shock wave</h3>
+                </div>
+              </div>
+            </div>
+            <div class="post">
+              <div class="featured-treatment-item">
+                <div>
+                  <img src="../photo/shockWaveHandle.png" style="max-width: 100%;"/>
+                </div>
+                <div class="featured-treatment-title">
+                  <h3 class="chi">衝擊波</h3>
+                  <h3 class="eng">shock wave</h3>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="photo-box right-photo">
-          <img src="../photo/door_logo.jpg">
-        </div>
-      </div>
-      <p class="chi">
-        本中心成立於2011年，一直致力於為有長期痛症、運動創傷及中風的患者提供物理治療及復康服務。我們以電療、衝擊波、針灸、正骨手法及其他設備等為患者進行治療。服務十載，一直受顧客支持。
-      </p>
-      <p class="chi">
-        我們針對每個患者量身定制康復療程。我們團隊宗旨是“一切為了客戶”，治療成功，這就是我們團隊的喜悅。
-      </p>
+        <i class="fa fa-chevron-circle-right next"></i>
+      </div>  
     </div>
   </section>
-  <!---------- End of wtsKagina ---------->
-
-  <!---------- Features ---------->
-  <section id="features">
-    <div class="features container">
-      <div class="first-feature">
-        <img src="../photo/gc_bed.jpg" style="max-width: 100%">
-        <div class="feature-box">
-          <h3 class="chi feature-chi">舒適環境</h3>
-          <h3 class="eng feature-eng">Comfy Environment</h3>
-        </div>
-      </div>
-      <!-- <div class="second-feature">
-        <img src="../photo/shockWave.jpg" style="max-width: 100%;">
-        <div class="feature-box">
-          <h3 class="chi feature-chi">先進設備</h3>
-          <h3 class="eng feature-eng">latest techonogies</h3>
-        </div>
-      </div> -->
-      <div class="third-feature">
-        <img src="../photo/private_room.jpg" style="max-width:100%">
-        <div class="feature-box">
-          <h3 class="chi feature-chi">獨立診症室</h3>
-          <h3 class="eng feature-eng">Private room</h3>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!---------- End of Features ---------->
+  <!-- End of Features Treatment -->
 
 
-  <!---------- ourVision ---------->
-  <section id="vision">
-    <div class="vision container">
-      <div class="vision-title">
-        <h3 class="chi vision-title-chi">我們的目標</h3>
-        <h3 class="eng vision-title-eng">our vision</h3>
+  <!---------- moreCaseStudies  ---------->
+  <section id="moreCaseStudies">
+    <div class="moreCaseStudies">
+      <div class="moreCaseStudies-top">
+        <h3 class="chi moreCaseStudies-chi">個案研究</h3>
+        <h3 class="eng moreCaseStudies-eng">Case studies</h3>
+        <h3 class="chi moreCaseStudies-small">我們一直從患者的角度堅持 “優質及先進的治療方案”</h3>
       </div>
-      <div style="max-width: 100%;">
-      </div>
-    </div>
-  </section>
-  <!---------- End of ourVision ---------->
-
-
-  <!---------- physiotherapist ---------->
-  <section id="doctor">
-    <div class="doctor container">
-      <div class="doctor-title">
-        <h3 class="chi doctor-title-chi">註冊物理治療師</h3>
-        <h3 class="eng doctor-title-eng">Chartered</h3>
-        <h3 class="eng doctor-title-eng">Physiotherapist</h3>
-      </div>
-      <div class="doctor-img">
-        <img src="../photo/benson_cheng.jpg" style="max-width: 100%;">
-      </div>
-      <div class="doctor-text">
-        <div class="doctor-text-title">
-          <h3 class="chi doctor-text-title-chi">鄭金坤博士</h3>
-          <h3 class="eng doctor-text-title-eng">dr. benson cheng</h3>
-        </div>
-        <div class="doctor-text-cert-chi">
-          <h3 class="cert-chi">香港理工大學物理治療學哲學博士</h3>
-          <h3 class="cert-chi">香港理工大學物理治療學（榮譽）理學士</h3>
-          <h3 class="cert-chi">香港物理治療學會認可針灸證書</h3>
-          <h3 class="cert-chi">「龍氏」脊椎正骨療法證書</h3>
-          <h3 class="cert-chi">澳洲骨科手法治療證書</h3>
-          <h3 class="cert-chi">香港註冊物理治療師</h3>
-        </div>
-        <div class="doctor-text-cert-eng">
-          <h3 class="cert-eng">Phd (Physiotherapy)</h3>
-          <h3 class="cert-eng">Bsc (Physiotherapy)</h3>
-          <h3 class="cert-eng">Acupuncture Accreditation (HKPA)</h3>
-          <h3 class="cert-eng">Cert. In Dr Lung’s Bone Setting For Spinal Vertebrae</h3>
-          <h3 class="cert-eng">Cert. In Orthopaedic Manual Therapy (Manual Concepts, Australia)</h3>
-          <h3 class="cert-eng">Registered Physiotherapist (HK)</h3>
-        </div>
-      </div>
-
-    </div>
-  </section>
-  <!---------- End of physiotherapist ---------->
-
-
-  <!---------- provided treatment  ---------->
-  <section id="provided-treatment">
-    <div class="provided-treatment">
-      <div class="provided-treatment-top">
-        <h3 class="chi provided-treatment-chi">治療提供</h3>
-        <h3 class="eng provided-treatment-eng">Treatment</h3>
-        <h3 class="chi provided-treatment-small">我們一直從患者的角度堅持 “優質及先進的治療方案”</h3>
-      </div>
-      <div class="provided-treatment-mid">
+      <div class="moreCaseStudies-mid">
         <img src="../photo/shockWaveHandle.png" style="max-width: 100%;">
       </div>
-      <div class="provided-treatment-bottom">
+      <div class="moreCaseStudies-bottom">
         <a href="">
-          <h3 class="chi treatment-bottom-chi">了解更多</h3>
-          <h3 class="eng treatment-bottom-eng">Learn More</h3>
+          <h3 class="chi moreCaseStudies-bottom-chi">了解更多</h3>
+          <h3 class="eng moreCaseStudies-bottom-eng">Learn More</h3>
         </a>
       </div>
     </div>
   </section>
-  <!---------- End of provided treatment  ---------->
-
+  <!---------- End of moreCaseStudies  ---------->
 
   <!-- Footer -->
   <section id="footer">
@@ -267,13 +305,11 @@
   </section>
   <!-- End of Footer -->
 
-
   <!-- Jquery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-  <!-- Smooth Scroll -->
-  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
   <!-- Slick Carouse -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="./aboutUs.js"></script>
+  <!-- My script -->
+  <script src="treatment.js"></script>
 </body>
 </html>

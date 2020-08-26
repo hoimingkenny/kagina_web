@@ -1,0 +1,275 @@
+/* ---------- Hero: About Us ----------*/
+#hero .hero .hero-aboutUs-chi{
+  font-weight: 200;
+  letter-spacing: .8rem;
+}
+
+#hero .hero .hero-aboutUs-eng{
+  font-size: 2.6rem;
+  letter-spacing: .8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: .8rem;
+}
+
+#hero .hero .animated-third-row,
+#hero .hero .animated-fourth-row{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#hero .hero .animated-third-row{
+  padding-top: 2rem;
+}
+#hero .hero .animated-third-row span,
+#hero .hero .animated-fourth-row span{
+  font-size: 1.3rem;
+  font-weight: 200;
+  letter-spacing: 0;
+}
+/* ---------- End of Hero: About Us ----------*/
+
+
+
+/* -------------------- Treatment -------------------- */
+#treatment {
+  background-color: #D1F0F7;
+  padding: 2rem;
+}
+
+#treatment .treatment {
+  background-color: white;
+  flex-direction: column;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 3rem 0;
+  color: #5B7781;
+  text-transform: uppercase;
+}
+
+/* Title */
+#treatment .treatment-top{
+  padding: 0 1rem;
+  margin-bottom: 2.5rem;
+}
+
+#treatment .treatment-top h1{
+  text-align: left;
+  letter-spacing: 1rem;
+}
+
+/* Treatment Icons */
+#treatment .treatment-row {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 1.5rem;
+}
+
+#treatment .treatment-logo {
+  text-align: center;
+  margin-top: .7rem;
+  margin: 0 10px;
+}
+
+/* Animation: Scale up the img*/
+#treatment .treatment-logo:hover{
+  transform: scale(1.1) rotate(0.01deg);
+}
+
+#treatment .treatment-logo {
+  transition: .3s ease transform;
+  -webkit-transition: .3s ease transform;
+}
+
+#treatment .treatment-logo h1{
+  letter-spacing: 3px;
+}
+
+#treatment .logo-container {
+  max-width: 120px;
+  margin: 5px 10px;
+}
+
+#treatment .treatment-logo h1 {
+  text-align: center;
+  font-weight: 300;
+  width: 140px;
+}
+
+#treatment .treatment-logo .treatment-logo-eng{
+  font-size: 1.2rem;
+  letter-spacing: 1.2px;
+}
+
+#treatment .treatment-logo p{
+  width: 120px;
+  margin: 0 auto;
+}
+/* End of Treatment */
+
+
+/* -------------------- Case Study --------------------*/
+#featured-treatment {
+  background-color: #5B7781;
+}
+
+#featured-treatment .featured-treatment {
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 61vh;
+  text-transform: uppercase;
+  justify-content: initial;
+}
+
+.featured-treatment-top{
+  color: white;
+  align-self: flex-start;
+  padding: 3rem;
+}
+
+#featured-treatment .featured-treatment-title-chi{
+  letter-spacing: 1rem;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+#featured-treatment .featured-treatment-title-eng{
+  letter-spacing: .4rem;
+  font-size: 2.3rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+.featured-treatment-bottom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.featured-treatment-bottom .post-slider{ /* Post Slider */
+  width: 90%;
+  overflow: hidden;
+}
+
+.featured-treatment-bottom .post-wrapper {
+  display: flex;
+}
+ 
+.featured-treatment-bottom .post-wrapper .post{
+  margin: 0 10px;
+  width: 100%;
+}
+
+.featured-treatment-bottom i{
+  position: absolute;
+  font-size: 4.6rem;
+  left: -6%;
+  cursor: pointer;
+}
+
+.featured-treatment-bottom .next {
+  left: 87%;
+  top: 42%;
+  color: #D1F0F7;
+}
+
+.featured-treatment-item img{
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
+  max-width: 100%;
+  height: auto;
+}
+
+.featured-treatment-title {
+  background-color: #D1F0F7;
+  height: 8rem;
+  padding: 1.5rem;
+  padding-top: .8rem;
+  font-size: 1.6rem;
+  width: 100%;
+  color: #5B7781;
+}
+
+.featured-treatment-title h3:first-of-type{
+  font-weight: 200;
+  letter-spacing: .3rem;
+  line-height: 2.4rem;
+}
+
+.featured-treatment-title h3:last-of-type{
+  font-weight: lighter;
+  letter-spacing: .1rem;
+  line-height: 1.7rem;
+}
+
+.featured-treatment-example h3::before{
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f13a";
+  margin-right: 5px;
+}
+/* End of Case Study */
+
+
+
+/* moreCaseStudies */
+#moreCaseStudies{
+  background-color: white;
+}
+
+#moreCaseStudies .moreCaseStudies{
+  height: 65vh;
+  width: 90%;
+  margin: 0 auto;
+  color: #5B7781;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#moreCaseStudies .moreCaseStudies-top{
+  padding: 2rem;
+}
+
+#moreCaseStudies .moreCaseStudies-mid{
+  margin-top: 1.5rem;  
+}
+
+#moreCaseStudies .moreCaseStudies-chi{
+  letter-spacing: 1rem;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+#moreCaseStudies .moreCaseStudies-eng{
+  letter-spacing: .4rem;
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+}
+
+#moreCaseStudies .moreCaseStudies-small{
+  font-size: 1.1rem;
+  font-weight: 200;
+  margin-top: 1rem;
+}
+
+#moreCaseStudies .moreCaseStudies-bottom{
+  padding: 2rem;
+  color: #5B7781;
+  margin: 1rem 0;
+}
+
+#moreCaseStudies .moreCaseStudies-bottom-chi{
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+#moreCaseStudies .moreCaseStudies-bottom-eng{
+  font-size: 1.2rem;
+  font-weight: lighter;
+  letter-spacing: .15rem;
+}
