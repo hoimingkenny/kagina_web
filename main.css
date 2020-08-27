@@ -107,6 +107,9 @@
 #treatment .treatment-logo {
   transition: .3s ease transform;
   -webkit-transition: .3s ease transform;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
 }
 
 #treatment .treatment-logo h1{
@@ -115,13 +118,17 @@
 }
 
 #treatment .logo-container {
-  max-width: 120px;
-  margin: 5px 10px;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+
+#treatment .logo-container img{
+  max-width: 100%;
+  height: 120px;
 }
 
 #treatment .treatment-logo h1 {
   text-align: center;
-  color: ;
   font-weight: 300;
   width: 140px;
 }

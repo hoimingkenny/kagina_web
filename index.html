@@ -79,8 +79,8 @@
     <section id="hero">
       <div class="hero container">
         <div>
-          <h1>PROVIDE A PROFESSIONAL AND COMPREHENSIVE TREATMENT ACROSS DIFFERENT GENERATION<span></span></h1>
-          <div>
+          <h1 class="rellax" data-rellax-speed="-2.8">PROVIDE A PROFESSIONAL AND COMPREHENSIVE TREATMENT ACROSS DIFFERENT GENERATION<span></span></h1>
+          <div class="rellax" data-rellax-speed="-3.2">
             <span class="letter chi" style="animation-delay: 0s;">專</span>
             <span class="letter chi" style="animation-delay: 0.25s;">業</span>
             <span class="letter chi" style="animation-delay: 0.5s;">稱</span>
@@ -91,7 +91,7 @@
             <span class="letter chi" style="animation-delay: 1.5s;">為</span>
             <span class="letter chi" style="animation-delay: 1.75s;">你</span>
           </div>
-          <div>
+          <div class="rellax " data-rellax-speed="-3.2">
             <span class="letter eng-letter" style="animation-delay: 0s;">b</span>
             <span class="letter eng-letter" style="animation-delay: 0.125s;">e</span>
             <span class="letter eng-letter" style="animation-delay: 0.19s;">&nbsp</span>
@@ -109,6 +109,9 @@
             <span class="letter eng-letter" style="animation-delay: 1.375s;">y</span>
             <span class="letter eng-letter" style="animation-delay: 1.5s;">o</span>
             <span class="letter eng-letter" style="animation-delay: 1.625s;">u</span>
+          </div>
+          <div class="rellax" data-rellax-speed="5">
+            <img src="./icon/clouds-100.png" style="margin-top: 5rem;">
           </div>
           <a href="#aboutUs">
             <div class="scroll-down"></div>
@@ -155,15 +158,15 @@
               <div class="logo-container">
                 <img src="./icon/treatment_elec_nerve_simu.svg" alt="Electrical Nerve Stimulation">
               </div>
-              <h1>電刺激療法</h1>
-              <h1 class="treatment-logo-eng">Electrical Nerve Stimulation</h1>
+              <!-- <h1>電刺激療法</h1>
+              <h1 class="treatment-logo-eng">Electrical Nerve Stimulation</h1> -->
             </div>
             <div class="treatment-logo">
               <div class="logo-container">
                 <img src="./icon/treatment_manual_therapy.svg" alt="Bone setting">
               </div>
-              <h1>手法治療</h1>
-              <h1 class="treatment-logo-eng">Manual Theray</h1>
+              <!-- <h1>手法治療</h1>
+              <h1 class="treatment-logo-eng">Manual Theray</h1> -->
             </div>
           </div>
           <div class="treatment-row">
@@ -171,15 +174,15 @@
               <div class="logo-container">
                 <img src="./icon/treatment_shockWave.svg" alt="Shock Wave Therapy" />
               </div>
-              <h1>衝擊波</h1>
-              <h1 class="treatment-logo-eng">Shock Wave Therapy</h1>
+              <!-- <h1>衝擊波</h1>
+              <h1 class="treatment-logo-eng">Shock Wave Therapy</h1> -->
             </div>
             <div class="treatment-logo">
               <div class="logo-container">
                 <img src="./icon/treatment_ultrasound.svg" alt="Ultrasound Therapy" />
               </div>
-              <h1>超聲波</h1>
-              <h1 class="treatment-logo-eng">Ultrasound Therapy</h1>
+              <!-- <h1>超聲波</h1>
+              <h1 class="treatment-logo-eng">Ultrasound Therapy</h1> -->
             </div>
           </div>
           <div class="treatment-row">
@@ -187,15 +190,15 @@
               <div class="logo-container">
                 <img src="./icon/treatment_cold.svg" alt="Cold Therapy" />
               </div>
-              <h1>冷敷</h1>
-              <h1 class="treatment-logo-eng">Cold Therapy</h1>
+              <!-- <h1>冷敷</h1>
+              <h1 class="treatment-logo-eng">Cold Therapy</h1> -->
             </div>
             <div class="treatment-logo">
               <div class="logo-container">
                 <img src="./icon/treatment_hot.svg" alt="Hot Therapy" />
               </div>
-              <h1>熱敷</h1>
-              <h1 class="treatment-logo-eng">Hot Therapy</h1>
+              <!-- <h1>熱敷</h1>
+              <h1 class="treatment-logo-eng">Hot Therapy</h1> -->
             </div>
           </div>
           <div class="treatment-row">
@@ -203,16 +206,16 @@
               <div class="logo-container">
                 <img src="./icon/treatment_accupunture.svg" alt="Accupunture" />
               </div>
-              <h1>針灸</h1>
-              <h1 class="treatment-logo-eng">Accupunture</h1>
+              <!-- <h1>針灸</h1>
+              <h1 class="treatment-logo-eng">Accupunture</h1> -->
             </div>
             <div class="treatment-logo">
               <div class="logo-container">
                 <img src="./icon/treatment_rehab_exercise.svg" alt="Rehabilitation Exercise">
               </div>
-              <h1>運動療法</h1>
+              <!-- <h1>運動療法</h1>
               <h1>(鍛練/拉伸)</h1>
-              <h1 class="treatment-logo-eng">Rehabilitation Exercise</h1>
+              <h1 class="treatment-logo-eng">Rehabilitation Exercise</h1> -->
             </div>
           </div>
         </div>
@@ -485,6 +488,8 @@
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
     <!-- Slick Carouse -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Rellax Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
     <!-- Google Map API -->
     <!-- <script>
       function initMap() {
@@ -529,7 +534,7 @@
       defer>
     </script> -->
     <script src="main.js"></script>
-    
+    <script>rellax = new Rellax('.rellax');</script> 
   </body>
 </html>
 
