@@ -57,3 +57,18 @@ menu_item.forEach((item) => {
     mobile_menu.classList.toggle("active");
   });
 });
+
+// Rellax Parallel
+rellax = new Rellax('.rellax');
+
+
+//Card-flip
+var card = document.querySelectorAll('.treatment-card');
+
+console.log(card);
+
+card.forEach((item) => {
+  item.addEventListener('click', function(){
+    item.classList.toggle('is-flipped');
+  })
+})
