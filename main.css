@@ -109,7 +109,7 @@
   -webkit-perspective: 1000;
   -moz-perspective: 1000;
   perspective: 600px;
-  margin: .5rem;
+  margin: .5rem 1.1rem;
 }
 
 #treatment .treatment-card {
@@ -188,7 +188,7 @@
   flex-direction: column;
   width: 85%;
   margin: 0 auto;
-  padding-top: 1.5rem;
+  padding-top: 2rem;
   padding-bottom: 3rem;
 }
 
@@ -307,11 +307,10 @@
 #contactUs {
   min-height: 80vh;
   background-color: #D1F0F7;
-  padding-top: 2.5rem;
+  padding: 2rem;
 }
 #contactUs .contactUs {
   flex-direction: column;
-  width: 92%;
   margin: 0 auto;
   padding: 2rem 2rem;
   margin-bottom: 2rem;
