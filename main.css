@@ -125,7 +125,7 @@
   width: 100%;
   backface-visibility: hidden;
   background-color: white;
-  color: white;
+  /* color: white; */
 }
 
 .face-back {
