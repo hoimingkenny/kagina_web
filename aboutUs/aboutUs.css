@@ -106,16 +106,8 @@
   position: relative;
 }
 
-#features .features .second-feature{
-  height: 225px;
-}
-
 #features .features .third-feature{
   margin-top: .5rem;
-}
-
-#features .features .second-feature img{
-  margin-top: -160px;
 }
 
 #features .feature-box{
@@ -127,10 +119,6 @@
   width: 85%;
   position: relative;
   bottom: 20px;
-}
-
-#features .second-feature .feature-box {
-  bottom: -20px;
 }
 
 #features .feature-box .feature-chi{
