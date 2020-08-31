@@ -87,7 +87,7 @@
 }
 
 #treatment .logo-container {
-  max-width: 120px;
+  max-width: 140x;
   margin: 5px 10px;
 }
 
@@ -103,8 +103,10 @@
 }
 
 #treatment .treatment-logo p{
-  width: 120px;
+  width: 140px;
   margin: 0 auto;
+  font-size: 1.5rem;
+  letter-spacing: .2rem;
 }
 /* End of Treatment */
 

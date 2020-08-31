@@ -46,7 +46,7 @@ document.addEventListener("scroll", () => {
     header.style.backgroundColor = 'transparent';
     home_button.src = "./logo/Kagina-Logo_B.png";
     header.style.backgroundImage =
-      "url('./background/cloud.png')";
+      "url('./background/background.jpg')";
   }
 });
 

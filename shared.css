@@ -76,7 +76,7 @@ section {
 }
 
 #header .header{
-  background-image: url(./background/cloud.png);
+  background-image: url(./background/background.jpg);
   background-size: cover;
   background-position: top center;
   min-height: 8vh;
@@ -219,7 +219,7 @@ section {
 
 /* -------------------- Hero Section -------------------- */
 #hero { 
-  background-image: url(./background/cloud.png);
+  background-image: url(./background/background.jpg);
   background-size: cover;
   background-position: top center;
   position: relative;
