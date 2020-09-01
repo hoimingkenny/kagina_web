@@ -73,7 +73,7 @@
   position: relative;
   text-align: center;
   transition: height 1000ms;
-  height: 195px;
+  height: 240px;
   /* border: 2px solid black; */
 }
 
@@ -116,17 +116,14 @@
 
 #treatment .treatment-logo h1{
   letter-spacing: 3px;
+  text-align: center;
+  font-weight: 300;
+  width: 160px;
 }
 
 #treatment .logo-container {
   max-width: 140x;
   /* margin: 5px 10px; */
-}
-
-#treatment .treatment-logo h1 {
-  text-align: center;
-  font-weight: 300;
-  width: 160px;
 }
 
 #treatment .treatment-logo .treatment-logo-eng{
@@ -139,11 +136,12 @@
   margin: 0 auto;
   font-size: 1.5rem;
   letter-spacing: .2rem;
+  padding-top: .8rem;
 }
 
 .treatment-logo .chevron{
   position: absolute;
-  bottom: 15px;
+  bottom: .5rem;
   /* Center the element by setting it 50% and deduce the half of the element's width. */
   left: calc(50% - 15px);
   transform-origin: 50%;
