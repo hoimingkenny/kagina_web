@@ -45,6 +45,7 @@
   padding: 3rem 0;
   color: #5B7781;
   text-transform: uppercase;
+  justify-content: initial;
 }
 
 /* Title */
@@ -67,19 +68,50 @@
 }
 
 #treatment .treatment-logo {
-  text-align: center;
   margin-top: .7rem;
   margin: 0 10px;
+  position: relative;
+  text-align: center;
+  transition: height 1000ms;
+  height: 195px;
+  /* border: 2px solid black; */
 }
 
-/* Animation: Scale up the img*/
+/* Animation: Scale up the img
 #treatment .treatment-logo:hover{
   transform: scale(1.1) rotate(0.01deg);
+} */
+
+.treatment-logo.expanded {
+  height: 460px !important;
 }
 
-#treatment .treatment-logo {
-  transition: .3s ease transform;
-  -webkit-transition: .3s ease transform;
+#treatment-logo .label{
+  transform: translateY(10px);
+  transition: transform 1000ms;
+}
+
+.treatment-logo .text1{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  transition: clip-path 1000ms;
+  /* border: 2px solid black; */
+  margin-top: 10px;
+
+}
+
+.treatment-logo.expanded .text1 {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  /* translate: transformY(10px); */
+  margin-top: 10px;
+}
+
+.text-content {
+  transform: translateY(-200px);
+  transition: transform 1000ms;
+}
+
+.treatment-logo.expanded .text-content {
+  transform: translateY(0px) !important;
 }
 
 #treatment .treatment-logo h1{
@@ -88,7 +120,7 @@
 
 #treatment .logo-container {
   max-width: 140x;
-  margin: 5px 10px;
+  /* margin: 5px 10px; */
 }
 
 #treatment .treatment-logo h1 {
@@ -108,6 +140,20 @@
   font-size: 1.5rem;
   letter-spacing: .2rem;
 }
+
+.treatment-logo .chevron{
+  position: absolute;
+  bottom: .2rem;
+  left: calc(50% - 15px);
+  transform-origin: 50%;
+  transform: rotate(180deg);
+  transition: transform 1000ms;
+  color: #5B7781;
+}
+
+.treatment-logo.expanded .chevron{
+  transform: rotate(0deg);
+}
 /* End of Treatment */
 
 
@@ -120,7 +166,7 @@
   flex-direction: column;
   width: 100%;
   margin: 0 auto;
-  min-height: 61vh;
+  min-height: 70vh;
   text-transform: uppercase;
   justify-content: initial;
 }

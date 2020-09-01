@@ -121,24 +121,35 @@
       </div>
       <div class="treatment-middle">
         <div class="treatment-row">
-          <div class="treatment-logo">
+          <div class="treatment-logo" onclick="this.classList.toggle('expanded')">
             <div class="logo-container">
               <img src="../icon/treatment_elec_nerve_simu.svg" alt="Electrical Nerve Stimulation">
             </div>
-            <h1 class="chi">電刺激療法</h1>
-            <h1 class="treatment-logo-eng">Electrical Nerve Stimulation</h1>
-            <br>
-            <p>電脈衝可以減少到達脊髓和大腦的疼痛信號，這可能有助於緩解疼痛和放鬆肌肉。它也可能刺激安多酚的產生，而安多酚可作為體內止痛藥。</p>
+            <div class="text1">
+              <div class="text-content">
+                <h1 class="chi">電刺激療法</h1>
+                <h1 class="treatment-logo-eng">Electrical Nerve Stimulation</h1>
+                <br>
+                <p>電脈衝可以減少到達脊髓和大腦的疼痛信號，這可能有助於緩解疼痛和放鬆肌肉。它也可能刺激安多酚的產生，而安多酚可作為體內止痛藥。</p>
+                <!-- <br>
+                <p>Electrical impulses can reduce the pain signals goting to the spinal cord & brain, which may help relieve pain & relax muscule. It may also stimulate the production of endorphins, which acts as the body natured pain killers.</p> -->
+              </div>
+            </div>
+            <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#5B7781" stroke-width="8"/></svg>
           </div>
-          <div class="treatment-logo">
+          <div class="treatment-logo" onclick="this.classList.toggle('expanded')">
             <div class="logo-container">
               <img src="../icon/treatment_manual_therapy.svg" alt="Bone setting">
             </div>
-            <h1 class="chi">手法治療</h1>
-            <h1 class="treatment-logo-eng">Manual Theray</h1>
-            <br>
-            <br>
-            <p>利用手法診斷和治療軟組織和關節，以減輕疼痛，增加運動範圍，減少肌筋膜限制以改善肌肉長度；減少腫脹/發炎，因為它可以修復肌肉/軟組織中的身體，延展性和穩定性以及促進運動的功能，從而改善功能。</p>
+            <div class="text1">
+              <div class="text-content" style="transform: translateY(-270px)">
+                <h1 class="chi">手法治療</h1>
+                <h1 class="treatment-logo-eng">Manual Theray</h1>
+                <br>
+                <p  style="padding-top: 15px;">利用手法診斷和治療軟組織和關節，以減輕疼痛，增加運動範圍，減少肌筋膜限制以改善肌肉長度；減少腫脹/發炎，因為它可以修復肌肉/軟組織中的身體，延展性和穩定性以及促進運動的功能，從而改善功能。</p>
+              </div>
+            </div>
+            <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#5B7781" stroke-width="8"/></svg>
           </div>
         </div>
         <div class="treatment-row">
@@ -161,7 +172,7 @@
             <p>它是減輕疼痛和促進組織癒合的一種力學能量。它會引起軟組織的膨脹和收縮，從而有助於減少炎症反應，從而減少組織腫脹，從而減輕疼痛。</p>
           </div>
         </div>
-        <div class="treatment-row">
+        <!-- <div class="treatment-row">
           <div class="treatment-logo">
             <div class="logo-container">
               <img src="../icon/treatment_cold.svg" alt="Cold Therapy" />
@@ -200,7 +211,7 @@
             <br>
             <p>有多種形式的康復鍛煉，可以增強，穩定關節和肌肉。這有助於防止因肌肉失衡做成的受傷。</p>
           </div>
-        </div>
+        </div> -->
       </div>
   </section>
   <!---------- End of Treatment  ---------->
@@ -219,7 +230,7 @@
             <div class="post">
               <div class="featured-treatment-item">
                 <div>
-                  <img src="../photo/shockWaveHandle.png"/>
+                  <img src="../photo/treatment_SW.jpg"/>
                 </div>
                 <div class="featured-treatment-title">
                   <h3 class="chi">衝擊波</h3>
@@ -230,22 +241,33 @@
             <div class="post">
               <div class="featured-treatment-item">
                 <div>
-                  <img src="../photo/shockWaveHandle.png" style="max-width: 100%;"/>
+                  <img src="../photo/treatment_IFT.jpg" style="max-width: 100%;"/>
                 </div>
                 <div class="featured-treatment-title">
-                  <h3 class="chi">衝擊波</h3>
-                  <h3 class="eng">shock wave</h3>
+                  <h3 class="chi">干擾波電療</h3>
+                  <h3 class="eng">Interferential Current</h3>
                 </div>
               </div>
             </div>
             <div class="post">
               <div class="featured-treatment-item">
                 <div>
-                  <img src="../photo/shockWaveHandle.png" style="max-width: 100%;"/>
+                  <img src="../photo/treatment_acupunture.jpg" style="max-width: 100%;"/>
                 </div>
                 <div class="featured-treatment-title">
-                  <h3 class="chi">衝擊波</h3>
-                  <h3 class="eng">shock wave</h3>
+                  <h3 class="chi">針灸</h3>
+                  <h3 class="eng">Acupunture</h3>
+                </div>
+              </div>
+            </div>
+            <div class="post">
+              <div class="featured-treatment-item">
+                <div>
+                  <img src="../photo/treatment_manualT.jpg" style="max-width: 100%;"/>
+                </div>
+                <div class="featured-treatment-title">
+                  <h3 class="chi">手法治療</h3>
+                  <h3 class="eng">Manual Therapy</h3>
                 </div>
               </div>
             </div>
