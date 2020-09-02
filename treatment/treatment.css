@@ -106,7 +106,7 @@
 }
 
 .text-content {
-  transform: translateY(-200px);
+  transform: translateY(-220px);
   transition: transform 1000ms;
 }
 
