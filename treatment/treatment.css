@@ -106,7 +106,7 @@
 }
 
 .text-content {
-  transform: translateY(-14rem);
+  transform: translateY(-20rem);
   transition: transform 1000ms;
 }
 
@@ -129,6 +129,8 @@
 #treatment .treatment-logo .treatment-logo-eng{
   font-size: 1.2rem;
   letter-spacing: 1.2px;
+  width: 15rem;
+  margin: 0 auto;
 }
 
 #treatment .treatment-logo p{
@@ -136,7 +138,6 @@
   margin: 0 auto;
   font-size: 1.5rem;
   letter-spacing: .2rem;
-  padding-top: .8rem;
 }
 
 .treatment-logo .chevron{
