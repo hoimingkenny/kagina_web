@@ -83,7 +83,7 @@
 } */
 
 .treatment-logo.expanded {
-  height: 40rem !important;
+  height: 43rem !important;
 }
 
 #treatment-logo .label{
@@ -132,7 +132,7 @@
 }
 
 #treatment .treatment-logo p{
-  width: 160px;
+  width: 150px;
   margin: 0 auto;
   font-size: 1.5rem;
   letter-spacing: .2rem;
@@ -141,7 +141,7 @@
 
 .treatment-logo .chevron{
   position: absolute;
-  bottom: .5rem;
+  bottom: 2rem;
   /* Center the element by setting it 50% and deduce the half of the element's width. */
   left: calc(50% - 15px);
   transform-origin: 50%;
