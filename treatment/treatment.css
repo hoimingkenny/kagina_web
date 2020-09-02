@@ -137,7 +137,7 @@
   left: calc(50% - 15px);
   transform-origin: 50%;
   transform: rotate(180deg);
-  transition: transform 1000ms;
+  transition: transform 3000ms;
   color: #5B7781;
 }
 
