@@ -87,7 +87,7 @@
 }
 
 #treatment-logo .label{
-  transform: translateY(10px);
+  transform: translateY(1rem);
   transition: transform 1000ms;
 }
 
@@ -106,8 +106,8 @@
 }
 
 .text-content {
-  transform: translateY(-24rem);
-  transition: transform 1000ms;
+  transform: translateY(-25rem);
+  transition: transform 1500ms;
 }
 
 .treatment-logo.expanded .text-content {
