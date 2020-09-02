@@ -72,7 +72,7 @@
   margin: 0 10px;
   position: relative;
   text-align: center;
-  transition: height 1200ms;
+  transition: height 1000ms;
   height: 24rem;
   /* border: 2px solid black; */
 }
