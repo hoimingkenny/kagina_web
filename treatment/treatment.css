@@ -94,9 +94,9 @@
 .treatment-logo .text1{
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   transition: clip-path 1000ms;
-  /* border: 2px solid black; */
+  border: 2px solid black;
   margin-top: 10px;
-
+  height: 200px;
 }
 
 .treatment-logo.expanded .text1 {
