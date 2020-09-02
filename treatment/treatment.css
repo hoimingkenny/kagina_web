@@ -123,7 +123,7 @@
 
 #treatment .logo-container {
   max-width: 140x;
-  /* margin: 5px 10px; */
+  margin: 0 10px;
 }
 
 #treatment .treatment-logo .treatment-logo-eng{
