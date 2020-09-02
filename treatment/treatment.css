@@ -83,7 +83,7 @@
 
 .treatment-logo .text1{
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-  transition: clip-path 2000ms;
+  transition: clip-path 1000ms;
   /* border: 2px solid black; */
   margin-top: 10px;
   height: 25rem;
@@ -97,7 +97,7 @@
 
 .text-content {
   transform: translateY(-25rem);
-  transition: transform 1500ms;
+  transition: transform 1100ms;
 }
 
 .treatment-logo.expanded .text-content {
