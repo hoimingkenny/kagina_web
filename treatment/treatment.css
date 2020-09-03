@@ -113,6 +113,7 @@
 
 .treatment .text-content p:first-of-type{
   font-weight: 200;
+  line-height: 1.7rem;
 }
 
 .treatment .text-content p:last-of-type{
