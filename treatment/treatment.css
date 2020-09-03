@@ -157,7 +157,7 @@
 
 .treatment .chevron{
   position: absolute;
-  bottom: .6rem;
+  bottom: .3rem;
   left: calc(50% - 20px);   /* Center the element by setting it 50% and deduce the half of the element's width. */
   transform-origin: 50%;
   transform: rotate(180deg);
