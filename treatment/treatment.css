@@ -60,45 +60,39 @@
 }
 
 /* Treatment Icons */
-#treatment .treatment-row {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  margin-top: 1.5rem;
-}
-
 .treatment .treatment-middle{
   width: 85%;
 }
 
-#treatment .treatment-logo {
+.treatment .treatment-logo {
   margin-top: .7rem;
   margin: 0 10px;
   position: relative;
   text-align: center;
-  transition: height 1000ms;
-  height: 24rem;
   display: flex;
   flex-direction: column;
   align-content: center;
+  transition: height 1000ms;
+  height: 27rem;
   /* border: 2px solid black; */
 }
 
-.treatment .logo-container {
-  margin: 0 auto;
-  width: 60%;
+.treatment-logo.expanded {
+  height: 60rem !important;
 }
 
-.treatment-logo.expanded {
-  height: 49rem !important;
+.treatment .logo-container {
+  margin: 1rem auto;
+  width: 60%;
 }
 
 .treatment-logo .text1{
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   transition: clip-path 1000ms;
   /* border: 2px solid black; */
-  margin-top: 10px;
+  margin-top: 1.5rem;
   height: 25rem;
+  text-align: left;
 }
 
 .treatment-logo.expanded .text1 {
@@ -107,31 +101,40 @@
   margin-top: 10px;
 }
 
+/* Initial Yoffset when the card collapse*/
 .text-content {
-  transform: translateY(-25rem);
+  transform: translateY(-33rem);
   transition: transform 1100ms;
 }
 
 .treatment-logo.expanded .text-content {
-  transform: translateY(0px) !important;
+  transform: translateY(-5px) !important;
 }
 
-#treatment .treatment-logo h1{
+.treatment .text-content p:first-of-type{
+  font-weight: 200;
+}
+
+.treatment .text-content p:last-of-type{
+  text-transform: none;
+  letter-spacing: .1rem;
+}
+
+.treatment .treatment-logo h1{
+  font-size: 1.9rem;
   letter-spacing: 3px;
   text-align: center;
   font-weight: 300;
 }
 
-
-
-#treatment .treatment-logo .treatment-logo-eng{
-  font-size: 1.2rem;
+.treatment .treatment-logo .treatment-logo-eng{
+  font-size: 1.5rem;
   letter-spacing: 1.2px;
   /* width: 15rem; */
   margin: 0 auto;
 }
 
-#treatment .treatment-logo p{
+.treatment .treatment-logo p{
   /* width: 150px; */
   margin: 0 auto;
   font-size: 1.5rem;
@@ -140,9 +143,8 @@
 
 .treatment-logo .chevron{
   position: absolute;
-  bottom: 2rem;
-  /* Center the element by setting it 50% and deduce the half of the element's width. */
-  left: calc(50% - 15px);
+  bottom: 1rem;
+  left: calc(50% - 15px);   /* Center the element by setting it 50% and deduce the half of the element's width. */
   transform-origin: 50%;
   transform: rotate(180deg);
   transition: transform 1300ms;
@@ -153,7 +155,6 @@
   transform: rotate(0deg);
 }
 /* End of Treatment */
-
 
 /* -------------------- Case Study --------------------*/
 #featured-treatment {
