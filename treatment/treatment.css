@@ -90,6 +90,7 @@
   transition: clip-path 1000ms;
   /* border: 2px solid black; */
   margin-top: 1.5rem;
+  margin-left: .4rem;
   height: 25rem;
   text-align: left;
 }
@@ -97,7 +98,6 @@
 .treatment-logo.expanded .text1 {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   /* translate: transformY(10px); */
-  margin-top: 10px;
 }
 
 /* Initial Yoffset when the card collapse*/
