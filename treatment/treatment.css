@@ -64,7 +64,8 @@
   width: 85%;
 }
 
-.treatment .treatment-logo {
+.treatment .treatment-logo,
+.treatment .treatment-logo-acu{
   margin: 2rem 0;
   position: relative;
   text-align: center;
@@ -72,7 +73,7 @@
   flex-direction: column;
   align-content: center;
   transition: height 1000ms;
-  height: 29rem;
+  height: 29rem; /* Initial height when the card collapsed */
   /* border: 2px solid black; */
 }
 
@@ -80,39 +81,48 @@
   height: 54rem !important;
 }
 
+.treatment-logo-acu.expanded{
+  height: 60rem !important;
+}
+
 .treatment .logo-container {
   margin: 1rem auto;
   width: 60%;
 }
 
-.treatment-logo .text1{
+.treatment-logo .text1,
+.treatment-logo-acu .text1{
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   transition: clip-path 1000ms;
   /* border: 2px solid black; */
   margin-top: 1.5rem;
   margin-left: .4rem;
-  height: 25rem;
+  height: 35rem;
   text-align: left;
 }
 
-.treatment-logo.expanded .text1 {
+.treatment-logo.expanded .text1,
+.treatment-logo-acu.expanded .text1{
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   /* translate: transformY(10px); */
 }
 
 /* Initial Yoffset when the card collapse*/
-.text-content {
+.treatment-logo .text-content,
+.treatment-logo-acu .text-content {
   transform: translateY(-33rem);
   transition: transform 1100ms;
 }
 
-.treatment-logo.expanded .text-content {
+.treatment-logo.expanded .text-content,
+.treatment-logo-acu.expanded .text-content{
   transform: translateY(0px) !important;
 }
 
 .treatment .text-content p:first-of-type{
   font-weight: 200;
   line-height: 1.8rem;
+  text-align: left;
 }
 
 .treatment .text-content p:last-of-type{
@@ -121,28 +131,31 @@
   letter-spacing: .1rem;
 }
 
-.treatment .treatment-logo h1{
+.treatment .treatment-logo h1,
+.treatment .treatment-logo-acu h1{
   font-size: 1.9rem;
   letter-spacing: 4px;
   text-align: center;
   font-weight: 300;
 }
 
-.treatment .treatment-logo .treatment-logo-eng{
+.treatment .treatment-logo .treatment-logo-eng,
+.treatment .treatment-logo-acu .treatment-logo-eng{
   font-size: 1.5rem;
   letter-spacing: 1.2px;
   /* width: 15rem; */
   margin: 0 auto;
 }
 
-.treatment .treatment-logo p{
+.treatment .treatment-logo p,
+.treatment .treatment-logo-acu p{
   /* width: 150px; */
   margin: 0 auto;
   font-size: 1.5rem;
   letter-spacing: .2rem;
 }
 
-.treatment-logo .chevron{
+.treatment .chevron{
   position: absolute;
   bottom: 0rem;
   left: calc(50% - 20px);   /* Center the element by setting it 50% and deduce the half of the element's width. */
@@ -152,7 +165,8 @@
   color: #5B7781;
 }
 
-.treatment-logo.expanded .chevron{
+.treatment-logo.expanded .chevron,
+.treatment-logo-acu.expanded .chevron{
   transform: rotate(0deg);
 }
 /* End of Treatment */
