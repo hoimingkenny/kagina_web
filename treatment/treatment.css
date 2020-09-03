@@ -108,7 +108,7 @@
 }
 
 .treatment-logo.expanded .text-content {
-  transform: translateY(-5px) !important;
+  transform: translateY(0px) !important;
 }
 
 .treatment .text-content p:first-of-type{
@@ -118,7 +118,7 @@
 
 .treatment .text-content p:last-of-type{
   text-transform: none;
-  letter-spacing: .1rem;
+  line-height: 1.5rem;
 }
 
 .treatment .treatment-logo h1{
