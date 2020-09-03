@@ -93,6 +93,7 @@
 
 .treatment-logo .text1,
 .treatment-logo-acu .text1{
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   transition: clip-path 1000ms;
   /* border: 2px solid black; */
@@ -104,6 +105,7 @@
 
 .treatment-logo.expanded .text1,
 .treatment-logo-acu.expanded .text1{
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   /* translate: transformY(10px); */
 }
