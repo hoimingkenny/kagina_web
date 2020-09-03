@@ -67,6 +67,10 @@
   margin-top: 1.5rem;
 }
 
+.treatment .treatment-middle{
+  width: 85%;
+}
+
 #treatment .treatment-logo {
   margin-top: .7rem;
   margin: 0 10px;
@@ -74,7 +78,15 @@
   text-align: center;
   transition: height 1000ms;
   height: 24rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   /* border: 2px solid black; */
+}
+
+.treatment .logo-container {
+  margin: 0 auto;
+  width: 60%;
 }
 
 .treatment-logo.expanded {
@@ -108,23 +120,19 @@
   letter-spacing: 3px;
   text-align: center;
   font-weight: 300;
-  width: 160px;
 }
 
-#treatment .logo-container {
-  max-width: 140px;
-  margin: 0 10px;
-}
+
 
 #treatment .treatment-logo .treatment-logo-eng{
   font-size: 1.2rem;
   letter-spacing: 1.2px;
-  width: 15rem;
+  /* width: 15rem; */
   margin: 0 auto;
 }
 
 #treatment .treatment-logo p{
-  width: 150px;
+  /* width: 150px; */
   margin: 0 auto;
   font-size: 1.5rem;
   letter-spacing: .2rem;
