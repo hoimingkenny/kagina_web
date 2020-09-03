@@ -119,6 +119,7 @@
 .treatment .text-content p:last-of-type{
   text-transform: none;
   line-height: 1.6rem;
+  letter-spacing: .1rem;
 }
 
 .treatment .treatment-logo h1{
