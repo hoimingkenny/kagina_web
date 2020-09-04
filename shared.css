@@ -222,7 +222,6 @@ section {
   background-image: url(./background/background.jpg);
   background-size: cover;
   background-position: top center;
-  position: relative;
   min-height: 100vh;
 }
 
@@ -237,18 +236,19 @@ section {
 #hero .hero {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 30vh 30px;
+  padding-top: 18vh;
   text-align: center;
   align-items: normal;
+  position: relative;
+  overflow: hidden;
 }
 
 #hero h1{
-  display: block;
   font-size: 4vw;
-  width: fit-content;
-  position: relative;
+  width: 80%;
   color: #95C6D1;
   text-align: center;
+  margin: 0 auto;
   margin-bottom: 2rem;
 }
 
@@ -270,7 +270,7 @@ section {
   font-size: 32px;
   color: #95C6D1;
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: .1rem;
 }
 
 #hero .eng-letter {
@@ -308,6 +308,22 @@ section {
 .scroll-down::after {
   top: 28%;
   animation-delay: .3s;
+}
+
+.hero img{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+#elderly {
+
+}
+
+#wave{
+  /* position: absolute;
+  z-index: 1; */
 }
 /* End of Hero Section */
 
