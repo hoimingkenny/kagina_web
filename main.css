@@ -74,7 +74,7 @@
   width: 85%;
   margin: 0 auto;
   padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   color: #5B7781;
   text-transform: uppercase;
 }
@@ -188,10 +188,10 @@
 
 #caseStudies .caseStudies {
   flex-direction: column;
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   padding-top: 2rem;
-  padding-bottom: 3rem;
+  /* padding-bottom: 1rem; */
 }
 
 .caseStudies-top{

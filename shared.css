@@ -290,7 +290,21 @@ section {
   cursor: pointer;
 }
 
-.scroll-down::before,
+.scroll-down::before{
+  content: "";
+  position: absolute;
+  top: 22%;
+  left: 50;
+  border: 2px solid #95C6D1;
+  height: 16px;
+  width: 16px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border-top: transparent;
+  border-left: transparent; 
+  animation: scroll-down 1s ease-in-out infinite;
+}
+
+/* .scroll-down::before,
 .scroll-down::after {
   content: "";
   position: absolute;
@@ -303,12 +317,12 @@ section {
   border-top: transparent;
   border-left: transparent; 
   animation: scroll-down 1s ease-in-out infinite;
-}
+} */
 
-.scroll-down::after {
+/* .scroll-down::after {
   top: 28%;
   animation-delay: .3s;
-}
+} */
 
 .hero img{
   position: absolute;

@@ -27,6 +27,10 @@
   font-weight: 200;
   letter-spacing: 0;
 }
+
+.hero .scroll-down{
+  bottom: 25vh;
+}
 /* ---------- End of Hero: About Us ----------*/
 
 
@@ -204,7 +208,7 @@
   letter-spacing: .4rem;
   font-size: 2.3rem;
   font-weight: bold;
-  line-height: 2rem;
+  line-height: 2.5rem;
 }
 
 .featured-treatment-bottom {
