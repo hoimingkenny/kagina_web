@@ -27,6 +27,7 @@ const mobile_menu = document.querySelector(".header .nav-bar .nav-list ul");
 const menu_item = document.querySelectorAll(".header .nav-bar .nav-list ul li a");
 const header = document.querySelector(".header.container");
 const home_button = document.querySelector(".header-brand img");
+const button_bar = document.querySelector("#button-bar");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
@@ -41,12 +42,14 @@ document.addEventListener("scroll", () => {
     home_button.src = "./logo/Kagina-Logo_W.png";
     header.style.backgroundColor = "#5B7781";
     header.style.transition = "background 1s";
+    button_bar.style.display = "block";
   
   } else {
     header.style.backgroundColor = 'transparent';
     home_button.src = "./logo/Kagina-Logo_B.png";
     header.style.backgroundImage =
       "url('./background/background.jpg')";
+    button_bar.style.display = "none";
   }
 });
 
@@ -64,8 +67,6 @@ rellax = new Rellax('.rellax');
 
 //Card-flip
 var card = document.querySelectorAll('.treatment-card');
-
-console.log(card);
 
 card.forEach((item) => {
   item.addEventListener('click', function(){
