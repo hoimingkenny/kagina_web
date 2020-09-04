@@ -322,8 +322,7 @@ section {
 }
 
 #wave{
-  /* position: absolute;
-  z-index: 1; */
+  bottom: -3rem;
 }
 /* End of Hero Section */
 
