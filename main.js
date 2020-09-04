@@ -27,7 +27,7 @@ const mobile_menu = document.querySelector(".header .nav-bar .nav-list ul");
 const menu_item = document.querySelectorAll(".header .nav-bar .nav-list ul li a");
 const header = document.querySelector(".header.container");
 const home_button = document.querySelector(".header-brand img");
-const button_bar = document.querySelector("#button-bar");
+const button_bar = document.querySelector("#button-bar .button-bar");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
@@ -42,14 +42,16 @@ document.addEventListener("scroll", () => {
     home_button.src = "./logo/Kagina-Logo_W.png";
     header.style.backgroundColor = "#5B7781";
     header.style.transition = "background 1s";
-    button_bar.style.display = "block";
+    button_bar.style.visibility = "visible";
+    button_bar.style.opacity = "1";
   
   } else {
     header.style.backgroundColor = 'transparent';
     home_button.src = "./logo/Kagina-Logo_B.png";
     header.style.backgroundImage =
       "url('./background/background.jpg')";
-    button_bar.style.display = "none";
+    button_bar.style.visibility = "hidden";
+    button_bar.style.opacity = "0";
   }
 });
 
