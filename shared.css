@@ -489,21 +489,130 @@ section {
 }
 /* End of Keyframes */
 
+/* -------------------- Media Query For  --------------------*/
+@media only screen and (min-width: 576px){
+  
+}
 
 /* -------------------- Media Query For Tablet --------------------*/
 @media only screen and (min-width: 768px){
-  #hero h1 {
-    font-size: 3rem;
-  }
-  #hero h3 {
-    font-size: 5rem;
-  }
-  .scroll-down {
-    height: 80px;
-    width: 50px;
-    border: 2px solid #95C6D1;
-  }
-  #aboutUs .aboutUs {
-    min-height: 90vh;
+ 
 }
-/* End of Media Query For Tablet*/
+/* End of Media Query For Tablet */
+
+/* -------------------- Media Query For PC --------------------*/
+@media only screen and (min-width: 1200px){
+  #header .hamburger{
+    display: none;
+  }
+  
+  #header .nav-list{
+    display: flex;
+    align-items: center;
+  }
+
+  #header .nav-list ul{
+    height: auto;
+    position: initial;
+    background-color: transparent;
+    display: block;
+    width: fit-content;
+  }
+  
+  #header .nav-list ul li{
+    display: inline-block;
+    
+  }
+
+  #header .brand img{
+    height: 8vh;
+  }
+
+  .button-bar{
+    display: none;
+  }
+
+  #hero .hero{
+    max-width: none;
+  }
+
+  #hero h1{
+    font-size:2vw;
+  }
+
+  #hero .letter{
+    font-size: 6vh;
+  }
+
+  .hero .scroll-down::before{
+    display: none;
+    width: 40px;
+    height: 40px;
+  }
+
+  #elderly {
+    height: 50%;
+  }
+
+  #wave {
+    bottom: -15rem;
+  }
+
+  .aboutUs-img img{
+    max-width: 50%!important;
+  }
+
+  #treatment .treatment-top{
+    margin-bottom: 6rem !important;
+  }
+
+  #treatment .treatment-top h1{
+    font-size: 6rem;
+  }
+
+  #treatment .treatment-top h1:last-of-type{
+    letter-spacing: 2rem !important;
+  }
+  #treatment .treatment-middle{
+    flex-direction: row !important;
+    flex-wrap: wrap;
+  }
+
+  #treatment .treatment-row{
+    display: initial !important;
+  }
+
+  #treatment .scene{
+    width: 200px !important;
+    height: 200px !important;
+    margin: 4rem 3rem !important;
+  }
+
+  .face-back{
+    border: 7px solid #5B7781 !important;
+  }
+
+  .treatment-bottom h3:first-of-type{
+    font-size: 3rem !important;
+    font-weight: lighter;
+  }
+
+  .treatment-bottom h3:last-of-type{
+    font-size: 3rem !important;
+    font-weight: lighter;
+  }
+
+  #treatment .face-back h1:first-of-type{
+    font-size: 2.5rem !important;
+    margin-top: 4.3rem !important;
+  }
+
+  #treatment .face-back h1:last-of-type{
+    font-size: 2rem !important;
+  }
+
+  .face-back .face-back-exercise-second{
+    font-size: 2.3rem;
+  }
+}
+/* End of Media Query For Tablet */
