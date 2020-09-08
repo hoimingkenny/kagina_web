@@ -12,22 +12,20 @@ $(document).ready(function () {
   $(".post-wrapper").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
-    // infinite: false,
     nextArrow: $(".next"),
     prevArrow: $(".prev"),
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: "unslick"
-      },
-      {
-        breakpoint: 576,
-        settings: {
-          slidesToShow: 1,
-        }
-      },
-    ]
+    // responsive: [
+    //   {
+    //     breakpoint: 1200,
+    //     settings: "unslick"
+    //   },
+    //   {
+    //     breakpoint: 576,
+    //     settings: {
+    //       slidesToShow: 1,
+    //     }
+    //   },
+    // ]
   })
 });
 
