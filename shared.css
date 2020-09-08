@@ -528,6 +528,19 @@ section {
     height: 8vh;
   }
 
+  #header .nav-list ul a::after{
+    display: none;
+  }
+  
+  #header .nav-list ul li:hover a::after{
+    transform: translate(-50%, -50%) scale(1);
+    letter-spacing: initial;
+  }
+  
+  #header .nav-list ul li:hover a{
+    color: white;
+  }
+
   .button-bar{
     display: none;
   }
@@ -556,63 +569,6 @@ section {
 
   #wave {
     bottom: -15rem;
-  }
-
-  .aboutUs-img img{
-    max-width: 50%!important;
-  }
-
-  #treatment .treatment-top{
-    margin-bottom: 6rem !important;
-  }
-
-  #treatment .treatment-top h1{
-    font-size: 6rem;
-  }
-
-  #treatment .treatment-top h1:last-of-type{
-    letter-spacing: 2rem !important;
-  }
-  #treatment .treatment-middle{
-    flex-direction: row !important;
-    flex-wrap: wrap;
-  }
-
-  #treatment .treatment-row{
-    display: initial !important;
-  }
-
-  #treatment .scene{
-    width: 200px !important;
-    height: 200px !important;
-    margin: 4rem 3rem !important;
-  }
-
-  .face-back{
-    border: 7px solid #5B7781 !important;
-  }
-
-  .treatment-bottom h3:first-of-type{
-    font-size: 3rem !important;
-    font-weight: lighter;
-  }
-
-  .treatment-bottom h3:last-of-type{
-    font-size: 3rem !important;
-    font-weight: lighter;
-  }
-
-  #treatment .face-back h1:first-of-type{
-    font-size: 2.5rem !important;
-    margin-top: 4.3rem !important;
-  }
-
-  #treatment .face-back h1:last-of-type{
-    font-size: 2rem !important;
-  }
-
-  .face-back .face-back-exercise-second{
-    font-size: 2.3rem;
   }
 }
 /* End of Media Query For Tablet */

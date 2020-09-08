@@ -699,3 +699,132 @@
 }
 
 /* End of Contact Us */
+
+
+/* -------------------- Media Query For PC --------------------*/
+@media only screen and (min-width: 1200px){
+  .aboutUs-img img{
+    max-width: 50%!important;
+  }
+
+  #treatment .treatment-top{
+    margin-bottom: 6rem !important;
+    align-self: flex-start;
+  }
+
+  #treatment .treatment-top h1{
+    font-size: 6rem;
+  }
+
+  #treatment .treatment-top h1:last-of-type{
+    letter-spacing: 2rem !important;
+    line-height: 5rem;
+  }
+
+  #treatment .treatment-middle{
+    flex-direction: row !important;
+    flex-wrap: wrap;
+  }
+
+  #treatment .treatment-row{
+    display: initial !important;
+  }
+
+  #treatment .scene{
+    width: 200px !important;
+    height: 200px !important;
+    margin: 4rem 3rem !important;
+  }
+
+  .face-back{
+    border: 7px solid #5B7781 !important;
+  }
+
+  .treatment-bottom h3:first-of-type{
+    font-size: 2.5rem !important;
+    font-weight: lighter;
+  }
+
+  .treatment-bottom h3:last-of-type{
+    font-size: 2.5rem !important;
+    font-weight: lighter;
+  }
+
+  #treatment .face-back h1:first-of-type{
+    font-size: 2.5rem !important;
+    margin-top: 4.6rem !important;
+  }
+
+  #treatment .face-back h1:last-of-type{
+    font-size: 2rem !important;
+  }
+
+  .face-back .face-back-exercise-second{
+    font-size: 2.3rem;
+  }
+
+  #caseStudies .caseStudies{
+    padding: 5rem 0;
+    min-height: 95vh;
+  }
+
+  .caseStudies-top{
+    align-self: flex-start;
+  }
+
+  #caseStudies .caseStudies-top h1:first-of-type{
+    font-size: 6rem;
+  }
+
+  #caseStudies .caseStudies-top h1:last-of-type{
+    font-size: 6rem;
+    font-weight: lighter;
+    letter-spacing: 1.3rem;
+    line-height: 4.5rem;
+    margin-bottom: 3rem;
+  }  
+
+  .next,
+  .prev{
+    display: none;
+  }
+
+  .caseStudies-bottom h3:first-of-type{
+    font-size: 2.5rem !important;
+    font-weight: lighter;
+  }
+
+  .caseStudies-bottom h3:last-of-type{
+    font-size: 2.5rem !important;
+    font-weight: lighter;
+  }
+
+  #contactUs{
+    padding: 4rem;
+  }
+
+  #contactUs .contactUs-header{
+    width: 88%;
+    margin-top: 3rem;
+    align-self: unset;
+  }
+
+  #contactUs .contactUs-header h1:first-of-type{
+    width: 90%;
+    font-size: 6rem;
+  }
+
+  #contactUs .contactUs-header h1:last-of-type{
+    font-size: 6rem;
+    font-weight: lighter;
+    letter-spacing: 1.3rem;
+    line-height: 4.5rem;
+    margin-bottom: 3rem;
+  }  
+
+  .contactUs-allLocation{
+    flex-direction: row;
+    align-items: initial;
+  }
+
+}
