@@ -297,8 +297,8 @@ section {
   top: 22%;
   left: 50;
   border: 2px solid #95C6D1;
-  height: 16px;
-  width: 16px;
+  height: 1.3rem;
+  width: 1.3rem;
   transform: translate(-50%, -100%) rotate(45deg);
   border-top: transparent;
   border-left: transparent; 
@@ -338,6 +338,7 @@ section {
 
 #wave{
   bottom: -3rem;
+  opacity: .7;
 }
 /* End of Hero Section */
 
@@ -496,7 +497,9 @@ section {
 
 /* -------------------- Media Query For  --------------------*/
 @media only screen and (min-width: 576px){
-  
+  .onetwozerozero-display-none{
+    display: none;
+  }
 }
 
 /* -------------------- Media Query For Tablet --------------------*/

@@ -59,6 +59,7 @@
   position: absolute;
   top: 160px;
   left: -40px;
+  border-bottom-right-radius: 30px;
 }
 
 .aboutUs-bottom .aboutUs-learnMore {
@@ -192,6 +193,10 @@
   font-size: .9rem;
   padding: 0.2rem;
   letter-spacing: 0.15rem;
+}
+
+.display-none{
+  display: none;
 }
 /* End of Treatment */
 
@@ -816,6 +821,8 @@
     -webkit-transform: none;
     -moz-transform: none;
   }
+
+  
 
   #caseStudies .caseStudies{
     padding: 5rem 0;
