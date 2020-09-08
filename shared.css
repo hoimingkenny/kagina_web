@@ -301,7 +301,7 @@ section {
   transform: translate(-50%, -100%) rotate(45deg);
   border-top: transparent;
   border-left: transparent; 
-  animation: scroll-down 1s ease-in-out infinite;
+  animation: scroll-down 1.5s ease-in-out infinite;
 }
 
 /* .scroll-down::before,
@@ -343,6 +343,10 @@ section {
 
 
 /* -------------------- Button Bar --------------------*/
+#header .nav-list ul a{
+  font-size: 1.5rem;
+}
+
 #button-bar .button-bar{
   position: fixed;
   z-index: 100;
