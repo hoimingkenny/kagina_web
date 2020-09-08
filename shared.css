@@ -288,6 +288,7 @@ section {
   transform: translateX(-50%);
   border-radius: 50px;
   cursor: pointer;
+  opacity: .5;
 }
 
 .scroll-down::before{
