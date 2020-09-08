@@ -14,18 +14,18 @@ $(document).ready(function () {
     slidesToScroll: 1,
     nextArrow: $(".next"),
     prevArrow: $(".prev"),
-    // responsive: [
-    //   {
-    //     breakpoint: 1200,
-    //     settings: "unslick"
-    //   },
-    //   {
-    //     breakpoint: 576,
-    //     settings: {
-    //       slidesToShow: 1,
-    //     }
-    //   },
-    // ]
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: "unslick"
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
   })
 });
 
