@@ -822,7 +822,10 @@
     -moz-transform: none;
   }
 
-  
+  .display-none{
+    display: block;
+    font-weight: 200;
+  }
 
   #caseStudies .caseStudies{
     padding: 5rem 0;

@@ -13,17 +13,18 @@ $(document).ready(function () {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
-    autoplaySpeed: 2000,
+    // infinite: false,
     nextArrow: $(".next"),
     prevArrow: $(".prev"),
     responsive: [
       {
         breakpoint: 1200,
+        settings: "unslick"
+      },
+      {
+        breakpoint: 576,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
+          slidesToShow: 1,
         }
       },
     ]
