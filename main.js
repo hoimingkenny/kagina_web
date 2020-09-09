@@ -10,7 +10,7 @@ const scroll = new SmoothScroll('a[href*="#"]', {
 // Slick
 $(document).ready(function () {
   $(".post-wrapper").slick({
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     nextArrow: $(".next"),
     prevArrow: $(".prev"),
@@ -20,10 +20,9 @@ $(document).ready(function () {
         settings: "unslick"
       },
       {
-        breakpoint: 576,
+        breakpoint: 900,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToShow: 1
         }
       }
     ]
