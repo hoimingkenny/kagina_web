@@ -291,7 +291,7 @@
 }
 
 .caseStudy-title > h3{
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .caseStudy-title >h3:last-of-type{
@@ -299,15 +299,32 @@
 }
 
 .caseStudy-title .caseStudy-example h3 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
 }
 
-.caseStudy-example h3::before{
+.caseStudy-example h3:nth-child(2),
+.caseStudy-example h3:nth-child(4),
+.caseStudy-example h3:nth-child(6){
+  margin-bottom: .8rem;
+}
+
+.caseStudy-example h3:nth-child(1)::before,
+.caseStudy-example h3:nth-child(3)::before,
+.caseStudy-example h3:nth-child(5)::before{
   font-family: "Font Awesome 5 Free"; 
   font-weight: 900; 
   content: "\f13a";
   margin-right: 5px;
+}
+
+.caseStudy-example h3:nth-child(2)::before,
+.caseStudy-example h3:nth-child(4)::before,
+.caseStudy-example h3:nth-child(6)::before{
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f13a";
+  margin-right: 5px;
+  visibility: hidden;
 }
 
 .elderly-title {
@@ -857,10 +874,14 @@
     line-height: 4.5rem;
     margin-bottom: 3rem;
   }  
- .caseStudies-middle .post:nth-child(2) {
-   /* margin: 0 2rem; */
- }
 
+  .caseStudy-title > h3{
+    font-size: 2.3rem;
+  }
+
+  .caseStudy-title .caseStudy-example h3{
+    font-size: 1.6rem;
+  }
  
  .post-wrapper{
    justify-content: space-between;
@@ -993,6 +1014,11 @@
   .contactUs .timetable-container .table-special h3{
     font-size: 1.5rem !important;
   }
+
+  .contactUs .contact-details{
+    padding-bottom: 4rem;
+  }
+
   .contactUs .contact-details .contact-detail-name-gc{
     margin-top: 0;
   }
