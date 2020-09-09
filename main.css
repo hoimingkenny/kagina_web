@@ -15,6 +15,7 @@
   margin: 0 auto;
   text-transform: uppercase;
   padding: 6rem 0;
+  padding-top: 7rem;
 }
 
 .aboutUs-top {
@@ -742,7 +743,7 @@
 
   .aboutUs-img img{
     max-width: 500px !important;
-    position: initial !important;
+    /* position: relative !important; */
     margin-top: 4rem;
   }
 
@@ -752,7 +753,6 @@
   }
   
   #treatment .treatment{
-    height: 80vh;
     padding: 3rem 0 !important;
     justify-content: initial;
     min-height: 85vh;
@@ -806,23 +806,6 @@
     font-weight: lighter;
   }
 
-  .treatment-row .scene h1:last-of-type{
-    /* width: 200px; */
-  }
-
-  /* #treatment .face-back h1:first-of-type{
-    font-size: 2.5rem !important;
-    margin-top: 4.6rem !important;
-  }
-
-  #treatment .face-back h1:last-of-type{
-    font-size: 2rem !important;
-  }
-
-  .face-back .face-back-exercise-second{
-    font-size: 2.3rem;
-  } */
-
   .is-flipped {
     transform: none;
     -webkit-transform: none;
@@ -857,7 +840,7 @@
     margin-bottom: 3rem;
   }  
  .caseStudies-middle .post:nth-child(2) {
-   margin: 0 2rem;
+   /* margin: 0 2rem; */
  }
   .next,
   .prev{
