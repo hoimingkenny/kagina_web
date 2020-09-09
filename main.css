@@ -451,7 +451,7 @@
 } 
 
 .timetable-container .table thead tr th {
-  padding: 5px 5px;
+  padding: .5rem;
   font-size: .9rem;
   vertical-align: middle;
   line-height: 1.3rem;
@@ -614,7 +614,7 @@
   position: absolute;
   font-size: 1.5rem;
   top: -2rem;
-  left: 3.5rem;
+  left: 10%;
 }
 
 .contactUs .contact-details:after{
@@ -622,7 +622,7 @@
   position: absolute;
   height: 6px;
   width: 80%;
-  left: 3rem;
+  left: 10%;
   background: #ccc;
   bottom: -5px;
 }
@@ -767,6 +767,7 @@
   
   #treatment .treatment{
     padding: 3rem 0 !important;
+    padding-top: 5rem !important;
     justify-content: initial;
     min-height: 85vh;
   }
@@ -861,8 +862,7 @@
  }
 
  .post-wrapper{
-   /* justify-content: space-between; */
-   display: initial;
+   justify-content: space-between;
  }
   .next,
   .prev{
@@ -899,12 +899,122 @@
     font-weight: lighter;
     letter-spacing: 1.3rem;
     line-height: 4.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
   }  
 
   .contactUs-allLocation{
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: initial;
   }
 
+  .location-info-eng{
+    letter-spacing: .5rem;
+  }
+
+  .contactUs-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+  }
+
+  .contactUs-allLocation .location .location-img-jordan,
+  .contactUs-allLocation .location .location-img-gc img{
+    width: 250px;
+    height: 250px;
+  }
+
+  .contactUs .contact-map{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+
+  .contactUs .contact-map .contact-map-jd,
+  .contactUs .contact-map .contact-map-gc{
+    width: 40%;
+  }
+
+  .timetable-container .table-title{
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .timetable-container .table thead tr th{
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    padding: 1rem;
+  }
+
+  .table tbody tr th .table-time-top{
+    font-size: 1.5rem;
+  }
+
+  .table tbody tr th .table-time-mid,
+  .table tbody tr th .table-time-bottom{
+    font-size: 1.6rem;
+  }
+
+  .timetable-container .table .triangle svg,
+  .location-circle .circle-fe .circle-fe-circle svg{
+    height: 34px;
+    width: 34px;
+  }
+
+  .timetable-container .table .not-circle img{
+    height: 25px;
+    width: 25px;
+  }
+
+  .table .circleBlue, .timetable-container h3 .circleBlue,
+  .table .circleSmallBlue, .timetable-container h3 .circleSmallBlue,
+  .timetable-container .location-circle .circleBlue,
+  .timetable-container .location-circle .circleSmallBlue{
+    font-size: 7rem;
+  }
+
+  .timetable-container .location-circle{
+    width: 78%;
+    margin: 10px auto;
+  }
+
+  .contactUs .timetable-container .table-special{
+    width: 82%;
+    white-space: nowrap;
+  }
+
+  .timetable-container .location-circle h3,
+  .contactUs .timetable-container .table-special h3{
+    font-size: 1.5rem !important;
+  }
+  .contactUs .contact-details .contact-detail-name-gc{
+    margin-top: 0;
+  }
+
+  .contactUs .contact-detail-title-chi{
+    font-size: 3.5rem;
+  }
+
+  .contactUs .contact-detail-title-eng{
+    font-size: 3rem;
+  }
+
+  .contactUs .contact-details .contact-detail-name{
+    font-size: 2.3rem;
+  }
+  .contactUs .contact-details .contact-detail-name-chi{
+    margin-top: 2.5rem;
+  }
+
+  .contactUs .contact-details .address-title-chi, .contactUs .contact-details .address-title-eng{
+    font-size: 2rem;
+  }
+
+  .contactUs .contact-details .address-eng,
+  .contactUs .contact-details .address-chi{
+    width: 90%;
+    font-size: 1.7rem;
+    margin: 0 auto;
+  }
 }
