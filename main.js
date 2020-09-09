@@ -48,7 +48,7 @@ hamburger.addEventListener("click", () => {
 // Meun Bar Darken
 document.addEventListener("scroll", () => {
   var scroll_position = window.scrollY;
-  if (scroll_position > 570) {
+  if (scroll_position > 50) {
     header.style.backgroundImage = "url('')";
     home_button.src = "./logo/Kagina-Logo_W.png";
     header.style.backgroundColor = "#5B7781";
@@ -66,8 +66,8 @@ document.addEventListener("scroll", () => {
   } else {
     header.style.backgroundColor = 'transparent';
     home_button.src = "./logo/Kagina-Logo_B.png";
-    header.style.backgroundImage =
-      "url('./background/background.jpg')";
+    // header.style.backgroundImage =
+    //   "url('./background/background.jpg')";
     button_bar.style.visibility = "hidden";
     button_bar.style.opacity = "0";
     menu_item.forEach((item) => {

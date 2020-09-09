@@ -76,11 +76,11 @@ section {
 }
 
 #header .header{
-  background-image: url(./background/background.jpg);
+  /* background-image: url(./background/background.jpg);
   background-size: cover;
-  background-position: top center;
+  background-position: top center; */
   min-height: 8vh;
-  box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.459);
+  /* box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.459); */
   border-bottom-left-radius: 2%;
   border-bottom-right-radius: 2%;
 }
