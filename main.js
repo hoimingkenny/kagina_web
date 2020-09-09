@@ -3,31 +3,44 @@ const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 800
 });
 
-// const scroll1 = new SmoothScroll('#button-bar a[href*="#"]', {
-//   speed: 800,
-// });
-
-// Slick
-$(document).ready(function () {
-  $(".post-wrapper").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    nextArrow: $(".next"),
-    prevArrow: $(".prev"),
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: "unslick"
-      },
-      {
-        breakpoint: 900,
-        settings: {
-          slidesToShow: 1
+// setup
+var sliderElem = $(".post-wrapper"),
+    sliderBool = false,
+    sliderBreakpoint = 1200,
+    sliderSettings = {
+      nextArrow: $(".next"),
+      prevArrow: $(".prev"),
+      slidesToShow: 1, 
+      slidesToScroll: 1, 
+      mobileFirst: true,
+      responsive: [
+            {
+                breakpoint: sliderBreakpoint,
+                settings: "unslick"
+            }
+        ]
+    };
+function sliderInit() {
+    if (window.innerWidth <= sliderBreakpoint) {
+        if (sliderBool == false) {
+            sliderElem.slick(sliderSettings);
+            sliderBool = true;
         }
-      }
-    ]
-  })
+    } else {
+        sliderBool = false;
+    }
+}
+
+$(document).ready(function(){
+  sliderInit();
 });
+
+// resize
+$(window).resize(function () {
+  sliderInit();
+  console.log(window.innerWidth)
+});
+
 
 //Humburger Meun
 const hamburger = document.querySelector(
@@ -61,7 +74,6 @@ document.addEventListener("scroll", () => {
     meun_item_hover.forEach((item) => {
       item.style.color = "red";
     })
-    console.log(menu_item);
   
   } else {
     header.style.backgroundColor = 'transparent';

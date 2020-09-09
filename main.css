@@ -861,9 +861,14 @@
    /* margin: 0 2rem; */
  }
 
+ 
  .post-wrapper{
    justify-content: space-between;
- }
+  }
+  
+  .post{
+    width: 30% !important;
+  }
   .next,
   .prev{
     display: none;
@@ -1016,5 +1021,9 @@
     width: 90%;
     font-size: 1.7rem;
     margin: 0 auto;
+  }
+
+  .contactUs .map iframe{
+    height: 400px;
   }
 }
