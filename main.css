@@ -171,6 +171,7 @@
   font-size: 1.5rem;
   letter-spacing: 3px;
   margin-top: 2.5rem;
+  font-weight: 300;
 }
 
 #treatment .logo-container img{
@@ -180,6 +181,12 @@
 
 #treatment .face-back h1:last-of-type{
   font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+#treatment .face-back h1:nth-child(2){
+  /* font-size: 1.2rem; */
+  font-weight: lighter;
 }
 
 
