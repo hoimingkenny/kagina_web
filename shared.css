@@ -382,6 +382,7 @@ section {
   opacity: 0;
   /* visibility: hidden; */
   transition: 1s; /* Dropping Down */
+  box-shadow: 0 2px 0 #615d6cb4;
 }
 
 .button-bar .call.active .action ul{
