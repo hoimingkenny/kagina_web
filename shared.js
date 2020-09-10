@@ -77,3 +77,12 @@ var action_map = document.querySelector('.button-bar .googleMap');
       action_map.classList.toggle('active');
     }
   });
+
+  $(window).scroll(function(){
+    if ($(action_call).hasClass('active')){
+      action_call.classList.toggle('active');
+      // action_map.classList.toggle('active');
+    } else if  ($(action_map).hasClass('active')){
+      action_map.classList.toggle('active');
+    }
+  })

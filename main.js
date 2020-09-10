@@ -34,7 +34,6 @@ $(document).ready(function(){
 // resize
 $(window).resize(function () {
   sliderInit();
-  console.log(window.innerWidth)
 });
 
 // Rellax Parallel
