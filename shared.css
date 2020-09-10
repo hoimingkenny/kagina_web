@@ -377,6 +377,7 @@ section {
   background: #95C6D1;
   min-width: 250px;
   padding: 2rem;
+  border: 5px solid white;
   border-radius: 3%;
   opacity: 0;
   visibility: hidden;
