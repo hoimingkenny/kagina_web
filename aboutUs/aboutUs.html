@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./aboutUs.css">
 </head>
 <body>
-  <!---------- Header ---------->
+  <!-- Header -->
   <section id="header">
     <div class="header container">
       <div class="nav-bar">
@@ -18,20 +18,22 @@
           </a>
         </div>
         <div class="nav-list">
-          <div class="hamburger"><div class="bar"></div></div>
+          <div class="hamburger">
+            <div class="bar">
+            </div>
+          </div>
           <ul>
-            <li style="margin-top: 10%;"><a href="../index.html" data-after="Home">Home</a></li>
-            <li><a href="./aboutUs.html" data-after="About">About</a></li>
-            <li><a href="../treatment/treatment.html" data-after="Treatment">Treatment</a></li>
-            <li><a href="../index.html#caseStudies-scroll" data-after="Case Studies">Case Studies</a></li>
-            <li><a href="../index.html#contactUs-scroll" data-after="Contact">Contact</a></li>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="./aboutUs/aboutUs.html" data-after="About">About</a></li>
+            <li><a href="./treatment/treatment.html" data-after="Treatment">Treatment</a></li>
+            <li><a href="#caseStudies-scroll" data-after="Case Studies">Case Studies</a></li>
+            <li><a href="#contactUs-scroll" data-after="Contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
-  <!---------- End of Header ---------->
-
+  <!-- End of header -->
 
   <!---------- Button-bar ---------->
   <section id=button-bar>
@@ -278,6 +280,37 @@
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
   <!-- Slick Carouse -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="./aboutUs.js"></script>
+  <!-- <script src="./aboutUs.js"></script> -->
+  <script src="../shared.js"></script>
+  <script>
+    document.addEventListener("scroll", () => {
+    var scroll_position = window.scrollY;
+    if (scroll_position > 50) {
+      header.style.backgroundImage = "url('')";
+      home_button.src = "../logo/Kagina-Logo_W.png";
+      header.style.backgroundColor = "#5B7781";
+      header.style.transition = "background 1s";
+      button_bar.style.visibility = "visible";
+      button_bar.style.opacity = "1";
+      menu_item.forEach((item) => {
+        item.style.color = "white";
+      })
+      meun_item_hover.forEach((item) => {
+        item.style.color = "red";
+      })
+    
+    } else {
+      header.style.backgroundColor = 'transparent';
+      home_button.src = "../logo/Kagina-Logo_B.png";
+      // header.style.backgroundImage =
+      //   "url('./background/background.jpg')";
+      button_bar.style.visibility = "hidden";
+      button_bar.style.opacity = "0";
+      menu_item.forEach((item) => {
+        item.style.color = "#5B7781";
+      })
+    }
+  });
+  </script>
 </body>
 </html>

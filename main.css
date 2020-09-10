@@ -73,13 +73,16 @@
   margin: 0 5%;
   margin-top: 3rem;
   align-self: flex-end;
+  text-decoration-color: none;
 } 
 
 .aboutUs-learnMore h3:first-of-type{
+  color: white;
   font-weight: 200;
 }
 
 .aboutUs-learnMore h3:last-of-type{
+  color: white;
   font-weight: lighter;
   letter-spacing: .1rem;
 }
@@ -774,13 +777,11 @@
     line-height: 2rem !important;
   }
 
-  .aboutUs-learnMore{
-
-  }
-  .aboutUs-learnMore h3,
-  .caseStudies-bottom h3{
-    font-size: 1.5rem !important;
-  }
+  /* .aboutUs-learnMore h3,
+  .caseStudies-bottom h3,
+  .treatment .treatment-bottom h3{
+    font-size: 1.8rem !important;
+  } */
   
   #treatment .treatment{
     padding: 3rem 0 !important;
@@ -830,15 +831,19 @@
     border: 7px solid #5B7781 !important;
   }
 
+  .aboutUs-learnMore h3:first-of-type,
+  .caseStudies-bottom h3:first-of-type,
   .treatment-bottom h3:first-of-type,
   .caseStudies-bottom h3:first-of-type{
-    font-size: 1.5rem !important;
+    font-size: 1.9rem !important;
     font-weight: lighter;
   }
 
+  .aboutUs-learnMore h3:last-of-type,
+  .caseStudies-bottom h3:last-of-type,
   .treatment-bottom h3:last-of-type,
   .caseStudies-bottom h3:last-of-type{
-    font-size: 1.5rem !important;
+    font-size: 1.8rem !important;
     font-weight: lighter;
   }
 
@@ -851,7 +856,7 @@
   .display-none{
     display: block;
     font-weight: 200;
-    font-size: 1.5rem !important;
+    font-size: 1.6rem !important;
     letter-spacing: .5rem;
   }
 
@@ -877,7 +882,7 @@
   }  
 
   .caseStudy-title > h3{
-    font-size: 2.3rem;
+    font-size: 2.5rem;
   }
 
   .caseStudy-title .caseStudy-example h3{
@@ -1048,6 +1053,15 @@
     width: 90%;
     font-size: 1.7rem;
     margin: 0 auto;
+  }
+
+  .contactUs .contact-details .phone-detail{
+    font-size: 2rem;
+  }
+
+  .contactUs .phone-detail-reminder,
+  .contactUs .phone-detail-time{
+    font-size: 1.6rem;
   }
 
   .contactUs .map iframe{
