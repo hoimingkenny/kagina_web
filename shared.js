@@ -58,7 +58,22 @@ menu_item.forEach((item) => {
 });
 
 // Floating action button
-  function actionToggle() {
-    var action = document.querySelector('.button-bar .call');
-    action.classList.toggle('active');
-  }
+var action_call = document.querySelector('.button-bar .call');
+var action_map = document.querySelector('.button-bar .googleMap');
+  action_call.addEventListener('click', () => {
+    if ($(action_map).hasClass('active')){
+      action_map.classList.toggle('active');
+      action_call.classList.toggle('active');
+    } else{
+      action_call.classList.toggle('active');
+    }
+  });
+
+  action_map.addEventListener('click', () => {
+    if ($(action_call).hasClass('active')){
+      action_call.classList.toggle('active');
+      action_map.classList.toggle('active');
+    } else{
+      action_map.classList.toggle('active');
+    }
+  });
