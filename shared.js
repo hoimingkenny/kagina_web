@@ -49,6 +49,13 @@ document.addEventListener("scroll", () => {
   }
 });
 
+$(document).ready(function(){
+  button_bar.style.visibility = "hidden";
+  button_bar.style.opacity = "0";
+});
+
+
+
 // Close Hamburger when click
 menu_item.forEach((item) => {
   item.addEventListener("click", () => {
