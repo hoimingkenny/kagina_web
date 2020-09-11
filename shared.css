@@ -108,10 +108,24 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  z-index: 1;
+  z-index: 5;
   overflow-x: hidden;
   transition: .5s ease left;
   filter: drop-shadow(0 0 5px rgba(31, 31, 31, 0.2));
+}
+
+#header .nav-list .backdrop{
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  left: 100%;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#header .backdrop.active{
+  left: 0;
 }
 
 #header .nav-list ul li:first-of-type{
@@ -468,7 +482,7 @@ section {
 }
 
 .button-bar img{
-  height: 34px;
+  height: 32px;
   width: auto;
   opacity: .6;
 }

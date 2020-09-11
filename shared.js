@@ -13,6 +13,7 @@ const home_button = document.querySelector(".header-brand img");
 const button_bar = document.querySelector("#button-bar .button-bar");
 const hamburger_span = document.querySelectorAll(".header .hamburger span");
 const hamburger_last = document.querySelector(".header .hamburger span:last-of-type")
+const backdrop = document.querySelector('#header .nav-list .backdrop');
 // const hamburger_span_after = document.querySelector(".header .bar::after");
 // const hamburger_span_before = document.querySelector(".header .bar::before");
 
@@ -22,6 +23,7 @@ hamburger.addEventListener("click", () => {
   if (!$(hamburger).hasClass('active') && scroll_position < 50){
     hamburger.classList.toggle("active");
     mobile_menu.classList.toggle("active");
+    backdrop.classList.toggle("active");
     hamburger_span.forEach((item) => {
       item.style.backgroundColor = 'white';
     })
@@ -29,12 +31,14 @@ hamburger.addEventListener("click", () => {
   } else if (!$(hamburger).hasClass('active') && scroll_position > 50){
     hamburger.classList.toggle("active");
     mobile_menu.classList.toggle("active");
+    backdrop.classList.toggle("active");
     button_bar.style.height = '0';
     // hamburger_last.style.visibility = 'hidden';
   // Close hamburger when scroll < 50
   } else if ($(hamburger).hasClass('active') && scroll_position < 50){
     hamburger.classList.toggle("active");
     mobile_menu.classList.toggle("active");
+    backdrop.classList.toggle("active");
     hamburger_span.forEach((item) => {
       item.style.backgroundColor = '#95C6D1';
     })
@@ -42,8 +46,26 @@ hamburger.addEventListener("click", () => {
   } else if ($(hamburger).hasClass('active') && scroll_position > 50){
     hamburger.classList.toggle("active");
     mobile_menu.classList.toggle("active");
+    backdrop.classList.toggle("active");
     button_bar.style.height = '43px';
     // hamburger_last.style.visibility = 'visible';
+  }    
+});
+
+backdrop.addEventListener("click", () => {
+  var scroll_position = window.scrollY;
+  hamburger.classList.toggle("active");
+  mobile_menu.classList.toggle("active");
+  backdrop.classList.toggle("active");
+  // Open hamburger when scroll < 50
+  if ($(backdrop).hasClass('active') && scroll_position < 50){
+    hamburger_span.forEach((item) => {
+      item.style.backgroundColor = '#95C6D1';
+    })
+  } else if($(backdrop).hasClass('active') && scroll_position > 50){
+    hamburger_span.forEach((item) => {
+      item.style.backgroundColor = 'white';
+    })
   }    
 });
 
@@ -128,6 +150,8 @@ var map_button = document.querySelector('.button-bar .googleMap');
     } else if($(mobile_menu).hasClass('active')){
       mobile_menu.classList.toggle("active");
       hamburger.classList.toggle('active');
+    } else if($(backdrop).hasClass('active')){
+      backdrop.classList.toggle("active");
     }
   });
 
