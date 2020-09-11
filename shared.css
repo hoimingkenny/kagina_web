@@ -356,13 +356,17 @@ section {
 #button-bar .button-bar{
   position: fixed;
   z-index: 100;
+  height: 0px;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   width: 95vw;
-  /* box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.459); */
   filter: drop-shadow(0 0 5px rgba(31, 31, 31, 0.2));
-  /* border: 5px solid #95C6D1; */
+  transition: height .4s ease-in;
+  
+  /* Effect for fading out
+  visibility: hidden;
+  opacity: 0; */
 }
 
 
@@ -457,7 +461,7 @@ section {
 .button-bar img{
   height: 30px;
   width: auto;
-  opacity: .7;
+  opacity: .6;
 }
   
 .button-bar .googleMap{

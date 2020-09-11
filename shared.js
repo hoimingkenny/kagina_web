@@ -25,8 +25,9 @@ document.addEventListener("scroll", () => {
     home_button.src = "./logo/Kagina-Logo_W.png";
     header.style.backgroundColor = "#5B7781";
     header.style.transition = "background 1s";
-    button_bar.style.visibility = "visible";
-    button_bar.style.opacity = "1";
+
+    button_bar.style.height = '40px';
+
     menu_item.forEach((item) => {
       item.style.color = "white";
     });
@@ -37,10 +38,11 @@ document.addEventListener("scroll", () => {
   } else {
     header.style.backgroundColor = 'transparent';
     home_button.src = "./logo/Kagina-Logo_B.png";
-    // header.style.backgroundImage =
-    //   "url('./background/background.jpg')";
-    button_bar.style.visibility = "hidden";
-    button_bar.style.opacity = "0";
+
+    // button_bar.style.visibility = "hidden";
+    // button_bar.style.opacity = "0";
+    button_bar.style.height = '0';
+
     menu_item.forEach((item) => {
       item.style.color = "#5B7781";
     })
@@ -48,8 +50,9 @@ document.addEventListener("scroll", () => {
 });
 
 $(document).ready(function(){
-  button_bar.style.visibility = "hidden";
-  button_bar.style.opacity = "0";
+  button_bar.style.height = "0";
+  // button_bar.style.visibility = "hidden";
+  // button_bar.style.opacity = "0";
 });
 
 // Close Hamburger when click
