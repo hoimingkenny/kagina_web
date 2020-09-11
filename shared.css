@@ -359,9 +359,8 @@ section {
   bottom: 0;
   left: 0;
   width: 100vw;
-  background-color: #95C6D1;
   box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.459);
-  border: 5px solid #95C6D1;
+  /* border: 5px solid #95C6D1; */
 }
 
 
@@ -377,7 +376,7 @@ section {
 .button-bar .googleMap .action ul{
   position: absolute;
   background: #95C6D1;
-  min-width: 150px;
+  min-width: 100%;
   padding: 1.5rem;
   border: .8rem solid white;
   border-radius: 10%;
@@ -386,10 +385,12 @@ section {
   /* visibility: hidden; */
   transition: 1s; /* Dropping Down */
   box-shadow: 0 2px 0 #615d6cb4;
+  background-color: #95C6D1;
+  z-index: -10;
 }
 
 .button-bar .googleMap .action ul{
-  transform: translate3d(-15px, 0, 0);
+  transform: translate3d(-5px, 0, 0);
 }
 
 .button-bar .call.active .action ul{
@@ -401,7 +402,7 @@ section {
 
 .button-bar .googleMap.active .action ul{
   opacity: 1;
-  transform: translate3d(-15px, -250px, 0);
+  transform: translate3d(-5px, -250px, 0);
   transition: 1s;
 }
 
@@ -440,6 +441,8 @@ section {
   text-align: center;
   padding-top: 2.5px;
   color: white;
+  background-color: #87bbc7;
+  /* opacity: .7; */
   position: relative;
 }
 
