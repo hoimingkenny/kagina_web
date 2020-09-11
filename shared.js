@@ -11,15 +11,37 @@ const meun_item_hover = document.querySelectorAll("#header .nav-list ul li:hover
 const header = document.querySelector(".header.container");
 const home_button = document.querySelector(".header-brand img");
 const button_bar = document.querySelector("#button-bar .button-bar");
+const hamburger_span = document.querySelectorAll(".header .hamburger span");
+// const hamburger_span_after = document.querySelector(".header .bar::after");
+// const hamburger_span_before = document.querySelector(".header .bar::before");
 
 hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
-  mobile_menu.classList.toggle("active");
+  var scroll_position = window.scrollY;
+  // Open hamburger when scroll < 50
+  if (!$(hamburger).hasClass('active') && scroll_position < 50){
+    hamburger.classList.toggle("active");
+    mobile_menu.classList.toggle("active");
+  // Open hamburger when scroll > 50
+  } else if (!$(hamburger).hasClass('active') && scroll_position > 50){
+    hamburger.classList.toggle("active");
+    mobile_menu.classList.toggle("active");
+    button_bar.style.height = '0';
+  // Close hamburger when scroll < 50
+  } else if ($(hamburger).hasClass('active') && scroll_position < 50){
+    hamburger.classList.toggle("active");
+    mobile_menu.classList.toggle("active");
+  // Close hamburger when scroll > 50
+  } else if ($(hamburger).hasClass('active') && scroll_position > 50){
+    hamburger.classList.toggle("active");
+    mobile_menu.classList.toggle("active");
+    button_bar.style.height = '43px';
+  }    
 });
 
 // Meun Bar Darken
 document.addEventListener("scroll", () => {
   var scroll_position = window.scrollY;
+
   if (scroll_position > 50) {
     header.style.backgroundImage = "url('')";
     home_button.src = "./logo/Kagina-Logo_W.png";
@@ -27,30 +49,33 @@ document.addEventListener("scroll", () => {
     header.style.transition = "background 1s";
 
     button_bar.style.height = '43px';
-
     menu_item.forEach((item) => {
       item.style.color = "white";
     });
-    meun_item_hover.forEach((item) => {
-      item.style.color = "red";
-    });
-  
+
+    hamburger_span.forEach((item) => {
+      item.style.backgroundColor = 'white';
+    })
+    
   } else {
     header.style.backgroundColor = 'transparent';
     home_button.src = "./logo/Kagina-Logo_B.png";
 
-    // button_bar.style.visibility = "hidden";
-    // button_bar.style.opacity = "0";
     button_bar.style.height = '0';
-
     menu_item.forEach((item) => {
       item.style.color = "#5B7781";
+    })
+
+    hamburger_span.forEach((item) => {
+      item.style.backgroundColor = 'black';
+      item.style.opacity = '.7';
     })
   }
 });
 
 $(document).ready(function(){
   button_bar.style.height = "0";
+  
   // button_bar.style.visibility = "hidden";
   // button_bar.style.opacity = "0";
 });
@@ -88,8 +113,13 @@ var map_button = document.querySelector('.button-bar .googleMap');
     if ($(call_button).hasClass('active')){
       call_button.classList.toggle('active');
       // map_butto.classList.toggle('active');
-    } else if  ($(map_button).hasClass('active')){
+    } else if ($(map_button).hasClass('active')){
       map_button.classList.toggle('active');
+    } else if ($(timeTable_button).hasClass('active')){
+      timeTable_button.classList.toggle('active');
+    } else if($(mobile_menu).hasClass('active')){
+      mobile_menu.classList.toggle("active");
+      hamburger.classList.toggle('active');
     }
   });
 

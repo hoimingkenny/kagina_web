@@ -111,11 +111,11 @@ section {
   top: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   z-index: 1;
   overflow-x: hidden;
   transition: .5s ease left;
+  filter: drop-shadow(0 0 5px rgba(31, 31, 31, 0.2));
 }
 
 #header .nav-list ul li:first-of-type{
@@ -124,14 +124,14 @@ section {
 
 /* open the meun bar */
 #header .nav-list ul.active{
-  left: 0;
+  left: 40%;
 }
 
 #header .nav-list ul a{
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: .15rem;
-  color: #5B7781;
+  color: white;
   text-transform: uppercase;
   padding: 20px;
   display: block;
@@ -163,28 +163,41 @@ section {
 #header .hamburger{
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   width: 70px;
   height: 70px;
   z-index: 100;
   cursor: pointer;
-  margin-right: 10px;
   transform: all .5s ease-in-out
 }
 
 /* 3 hamburger bars*/
-#header .hamburger .bar{
+#header .hamburger span{
   height: 3px;
   width: 37px;
-  background: #95C6D1;
+  /* background: #95C6D1; */
+  background-color: black;
+  opacity: .7;
   position: relative;
+  top: 8px;
   border-radius: 40px;
-  transition: all .5s ease-in-out;
+  transition: all .08s ease-in-out;
   z-index: 10;
 }
 
-#header .hamburger .bar::after,
+
+
+#header .hamburger span:nth-child(2) {
+  transform: translateY(7px);
+}
+
+#header .hamburger span:last-of-type {
+  transform: translateY(-16px);
+}
+
+/* #header .hamburger .bar::after,
 #header .hamburger .bar::before{
   content: '';
   position: absolute;
@@ -194,27 +207,19 @@ section {
   background-color: #95C6D1;
   border-radius: 1px;
   transition: all .3s ease-in-out;
-}
-
-#header .hamburger .bar::after {
-  transform: translateY(12px);
-}
-
-#header .hamburger .bar::before {
-  transform: translateY(-12px);
-}
+} */
 
 #header .hamburger.active .bar{
   transform: translateX(-50px);
   background-color: transparent;
 }
 
-#header .hamburger.active .bar::after{
-  transform: rotate(45deg) translate(35px, -37px);
+#header .hamburger.active span:nth-child(2){
+  transform: rotate(45deg) translate(10px, -15px);
   background-color: white;
 }
 
-#header .hamburger.active .bar::before{
+#header .hamburger.active span:last-of-type{
   transform: rotate(-45deg) translate(37px, 35px);
   background-color: white;
 }
@@ -371,6 +376,7 @@ section {
 
 
 .button-bar .call.active img,
+.button-bar .timetable.active img,
 .button-bar .googleMap.active img{
   transform: scale(1.1);
   transition: 0.4s ease-in-out;
@@ -485,7 +491,7 @@ section {
   min-height: 40px;
   flex-direction: column;
   padding-top: 15px;
-  padding-bottom: 6rem;  
+  padding-bottom: 4rem;  
 }
 
 #footer .brand {
