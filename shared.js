@@ -68,7 +68,7 @@ document.addEventListener("scroll", () => {
 
     hamburger_span.forEach((item) => {
       item.style.backgroundColor = 'black';
-      item.style.opacity = '.9';
+      item.style.opacity = '.85';
     })
   }
 });
