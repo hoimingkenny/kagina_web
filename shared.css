@@ -205,19 +205,26 @@ section {
   transition: all .3s ease-in-out;
 } */
 
-#header .hamburger.active .bar{
-  transform: translateX(-50px);
-  background-color: transparent;
+
+#header .hamburger.active span:first-of-type{
+  transform: rotate(45deg);
+  background-color: white;
+  position: relative;
+  z-index: 100;
 }
 
 #header .hamburger.active span:nth-child(2){
-  transform: rotate(45deg) translate(10px, -15px);
+  transform: translateY(-3px) rotate(-45deg) ;
   background-color: white;
+  position: relative;
+  z-index: 100;
 }
 
 #header .hamburger.active span:last-of-type{
-  transform: rotate(-45deg) translate(37px, 35px);
-  background-color: white;
+  transform: translateX(200px) ;
+  transition: 0s;
+  /* background-color: white; */
+
 }
 /* End of header */
 
