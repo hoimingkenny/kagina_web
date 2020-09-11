@@ -26,7 +26,7 @@ document.addEventListener("scroll", () => {
     header.style.backgroundColor = "#5B7781";
     header.style.transition = "background 1s";
 
-    button_bar.style.height = '45px';
+    button_bar.style.height = '50px';
 
     menu_item.forEach((item) => {
       item.style.color = "white";
