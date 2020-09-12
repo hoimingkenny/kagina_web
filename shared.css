@@ -380,7 +380,7 @@ section {
 .clouds img{
   position: absolute;
   left: 0;
-  max-height: 50%;
+  max-height: 30%;
   width: auto;
   animation: cloud-hero calc(8s * var(--i)) linear infinite;
 }
