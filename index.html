@@ -7,6 +7,7 @@
     <title>Kagina</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="./shared.css">
     <link rel="stylesheet" href="./main.css">
   </head>
@@ -133,7 +134,7 @@
             <img src="./background/cloud5.png" style="--i:7;">
           </div>
           <a href="#aboutUs" >
-            <div class="scroll-down rellax" data-rellax-speed="4"></div>
+            <div class="scroll-down rellax"></div>
           </a>
         </div>
       </div>
@@ -144,15 +145,16 @@
     <!-- About Us -->
     <section id="aboutUs">
       <div class="aboutUs container">
-        <div id="skrollr-body" data-0 ="opacity:1; left:0px;" data-500="opacity:0; left:200px;" class="aboutUs-top">
+        <!-- <div id="skrollr-body" data-center-center ="opacity:1; left:0px;" data-500="opacity:0; left:200px;" class="aboutUs-top"> -->
+        <div class="aboutUs-top" data-aos="fade-left">
           <h1 class="chi aboutUs-title-chi">關於我們</i></h1>
           <h1 class="eng aboutUs-title-eng">About Us</h1>
         </div>
-        <div class="aboutUs-img">
+        <div class="aboutUs-img" data-aos="fade-left">
           <!-- <img src="all_asset/landing_page/Mask Group 1.png" /> -->
           <img src="./photo/aboutUs.jpg" style="max-width: 100%;">
         </div>
-        <div class="aboutUs-bottom">
+        <div class="aboutUs-bottom" data-aos="fade-left">
           <div style="width: 65%;">
             <h1 class='chi'><i class="fas fa-quote-left"></i>  我們一直從患者的角度堅持優質及先進的治療方案。</h1>
             <!-- <h1 class='chi'>“優質及先進的治療方案”</h1> -->
@@ -627,11 +629,16 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6Ikqehw67A2oM-Y2Gb5WANuY-XMKjSF0&callback=initMap&libraries=&v=weekly"
       defer>
     </script> -->
-    <!-- Skrollr Js -->
-    <script src="skrollr.js"></script>
-    <script type="text/javascript">
-      var s = skrollr.init();
+    <!-- AOS js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 600
+      });
     </script>
+
+    
     <script src="main.js"></script>
     <script src="shared.js"></script>
   </body>
