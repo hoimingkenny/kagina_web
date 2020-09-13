@@ -315,7 +315,7 @@ section {
   width: 30px;
   /* border: 2px solid #95C6D1; */
   position: absolute;
-  left: 50%;
+  left: calc(50% - 15px);
   bottom: 50vh;
   transform: translateX(-50%);
   border-radius: 50px;

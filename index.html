@@ -122,8 +122,8 @@
           </div>
           <!-- 2.2 / .5 /-1.5 -->
           <div>
-            <img id='wave' class="rellax" data-rellax-speed=".5" src="./illustration/case study-wave.svg">
-            <img id='elderly' class="rellax" data-rellax-speed="-1.5" src="./illustration/case study-elderly.svg">
+            <img id='wave' src="./illustration/case study-wave.svg">
+            <img id='elderly' src="./illustration/case study-elderly.svg">
           </div>
           <div class="clouds">
             <img src="./background/cloud1.png" style="--i:3;">
@@ -132,8 +132,8 @@
             <!-- <img src="./background/cloud4.png" style="--i:6"> -->
             <img src="./background/cloud5.png" style="--i:7;">
           </div>
-          <a href="#aboutUs">
-            <div class="scroll-down"></div>
+          <a href="#aboutUs" >
+            <div class="scroll-down rellax" data-rellax-speed="4"></div>
           </a>
         </div>
       </div>
@@ -144,7 +144,7 @@
     <!-- About Us -->
     <section id="aboutUs">
       <div class="aboutUs container">
-        <div class="aboutUs-top">
+        <div id="skrollr-body" data-0 ="opacity:1; left:0px;" data-500="opacity:0; left:200px;" class="aboutUs-top">
           <h1 class="chi aboutUs-title-chi">關於我們</i></h1>
           <h1 class="eng aboutUs-title-eng">About Us</h1>
         </div>
@@ -627,6 +627,11 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6Ikqehw67A2oM-Y2Gb5WANuY-XMKjSF0&callback=initMap&libraries=&v=weekly"
       defer>
     </script> -->
+    <!-- Skrollr Js -->
+    <script src="skrollr.js"></script>
+    <script type="text/javascript">
+      var s = skrollr.init();
+    </script>
     <script src="main.js"></script>
     <script src="shared.js"></script>
   </body>
