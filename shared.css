@@ -269,6 +269,12 @@ section {
   overflow: hidden;
 }
 
+.hero > div > div:first-of-type,
+.hero > div > div:nth-child(3){
+  position: relative;
+  z-index: 1;
+}
+
 #hero h1{
   font-size: 4vw;
   width: 80%;
@@ -365,7 +371,7 @@ section {
 
 #wave{
   bottom: -3rem;
-  opacity: .7;
+  opacity: 1;
 }
 
 .clouds{
