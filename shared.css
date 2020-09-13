@@ -407,7 +407,7 @@ section {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 102vw;
+  width: 100vw;
   filter: drop-shadow(0 0 5px rgba(31, 31, 31, 0.2));
   transition: height .4s ease-in;
   
