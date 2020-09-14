@@ -77,8 +77,6 @@ section {
 
 #header .header{
   min-height: 8vh;
-  /* border-bottom-left-radius: 2%;
-  border-bottom-right-radius: 2%; */
 }
 
 #header .brand img{
@@ -389,7 +387,7 @@ section {
   left: 0;
   max-height: 100%;
   width: auto;
-  animation: cloud-hero calc(10s * var(--i)) linear 2;
+  animation: cloud-hero calc(10s * var(--i)) linear infinite;
 }
 /* End of Hero Section */
 
