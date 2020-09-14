@@ -419,7 +419,7 @@ section {
 .button-bar .call.active img,
 .button-bar .timetable.active img,
 .button-bar .googleMap.active img{
-  transform: scale(1.1);
+  transform: scale(1.1) rotate(360deg);
   transition: 0.4s ease-in-out;
   opacity: 1;
 }
@@ -447,13 +447,13 @@ section {
 .button-bar .call.active .action ul{
   opacity: 1;
   /* visibility: visible; */
-  transform: translate3d(0, -220px, 0);
+  transform: translate3d(0, -215px, 0);
   transition: 1s;
 }
 
 .button-bar .googleMap.active .action ul{
   opacity: 1;
-  transform: translate3d(-5px, -220px, 0);
+  transform: translate3d(-5px, -215px, 0);
   transition: 1s;
 }
 
