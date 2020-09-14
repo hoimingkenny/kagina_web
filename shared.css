@@ -448,13 +448,13 @@ section {
 .button-bar .call.active .action ul{
   opacity: 1;
   /* visibility: visible; */
-  transform: translate3d(0, -215px, 0);
+  transform: translate3d(0, -210px, 0);
   transition: 1s;
 }
 
 .button-bar .googleMap.active .action ul{
   opacity: 1;
-  transform: translate3d(-2px, -215px, 0);
+  transform: translate3d(-2px, -210px, 0);
   transition: 1s;
 }
 
