@@ -410,7 +410,6 @@ section {
   width: 100vw;
   filter: drop-shadow(0 0 5px rgba(31, 31, 31, 0.2));
   transition: height .4s ease-in;
-  
   /* Effect for fading out
   visibility: hidden;
   opacity: 0; */
@@ -448,13 +447,13 @@ section {
 .button-bar .call.active .action ul{
   opacity: 1;
   /* visibility: visible; */
-  transform: translate3d(0, -250px, 0);
+  transform: translate3d(0, -220px, 0);
   transition: 1s;
 }
 
 .button-bar .googleMap.active .action ul{
   opacity: 1;
-  transform: translate3d(-5px, -250px, 0);
+  transform: translate3d(-5px, -220px, 0);
   transition: 1s;
 }
 
@@ -515,11 +514,6 @@ section {
   border: 0px;
 }
 
-.button-bar h3{
-  font-size: 1rem;
-  color: white;
-  font-weight: lighter;
-}
 /* End of Button Bar */
 
 
