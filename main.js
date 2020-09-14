@@ -48,3 +48,37 @@ card.forEach((item) => {
     item.classList.toggle('is-flipped');
   })
 });
+
+// Meun Bar Darken
+document.addEventListener("scroll", () => {
+  var scroll_position = window.scrollY;
+
+  if (scroll_position > 50) {
+    header.style.backgroundImage = "url('')";
+    home_button.src = "./logo/Kagina-Logo_W.png";
+    header.style.backgroundColor = "#5B7781";
+    header.style.transition = "background 1s";
+
+    button_bar.style.height = '46px';
+    menu_item.forEach((item) => {
+      item.style.color = "white";
+    });
+
+    hamburger_span.forEach((item) => {
+      item.style.backgroundColor = 'white';
+    })
+    
+  } else {
+    header.style.backgroundColor = 'transparent';
+    home_button.src = "./logo/Kagina-Logo_B.png";
+
+    button_bar.style.height = '0';
+    menu_item.forEach((item) => {
+      item.style.color = "white";
+    })
+
+    hamburger_span.forEach((item) => {
+      item.style.backgroundColor = '#95C6D1';
+    })
+  }
+});

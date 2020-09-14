@@ -13,26 +13,24 @@
     <div class="header container">
       <div class="nav-bar">
         <div class="brand">
-          <a href="../index.html" class="header-brand">
+          <a href="#hero" class="header-brand">
             <img src="../logo/Kagina-Logo_B.png">
           </a>
         </div>
         <div class="nav-list">
           <div class="hamburger">
-            <span>
-            </span>
-            <span class="bar">
-            </span>
-            <span class="bar">
-            </span>
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
           <ul>
             <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="./aboutUs/aboutUs.html" data-after="About">About</a></li>
-            <li><a href="./treatment/treatment.html" data-after="Treatment">Treatment</a></li>
+            <li><a href="../aboutUs/aboutUs.html" data-after="About">About</a></li>
+            <li><a href="../treatment/treatment.html" data-after="Treatment">Treatment</a></li>
             <li><a href="#caseStudies-scroll" data-after="Case Studies">Case Studies</a></li>
             <li><a href="#contactUs-scroll" data-after="Contact">Contact</a></li>
           </ul>
+          <div class="backdrop"></div>
         </div>
       </div>
     </div>
@@ -47,21 +45,18 @@
           <a href="tel:23283373">
             <!-- <img src="https://img.icons8.com/office/30/000000/phone-ringing.png"/> -->
             <img src="../icon/app_call.png">
-            <h3>call</h3>
           </a>
         </li>
         <li class=timetable>
           <a href="../#timetable-buffer">
             <!-- <img src="https://img.icons8.com/office/30/000000/present.png"/> -->
             <img src="../icon/app_clock.png">
-            <h3>Timetable</h3>
           </a>
         </li>
         <li class=googleMap>
           <a href="https://goo.gl/maps/5cSgrSCkCiuJoqQdA">
             <!-- <img src="https://img.icons8.com/office/30/000000/map-marker.png"/> -->
             <img src="../icon/app_map.png">
-            <h3>MAP</h3>
           </a>
         </li>
         <!-- <li class=backToTop>
@@ -121,22 +116,19 @@
   <section id="wtsKagina">
     <div class="wtsKagina container">
       <h3 class="eng">About</h3>
-      <div class="first-row-photo">
+      <div class="first-row-photo" data-aos="fade-right">
         <img src="../photo/jd_bigBed.jpg">
       </div>
       <div class="second-row-photo">
-        <div class="photo-box left-photo">
+        <div class="photo-box left-photo" data-aos="fade-right">
           <img src="../photo/NameTag.jpg">
         </div>
-        <div class="photo-box right-photo">
+        <div class="photo-box right-photo" data-aos="fade-right">
           <img src="../photo/door_logo.jpg">
         </div>
       </div>
       <p class="chi">
-        本中心成立於2011年，一直致力於為有長期痛症、運動創傷及中風的患者提供物理治療及復康服務。我們以電療、衝擊波、針灸、正骨手法及其他設備等為患者進行治療。服務十載，一直受顧客支持。
-      </p>
-      <p class="chi">
-        我們針對每個患者量身定制康復療程。我們團隊宗旨是“一切為了客戶”，治療成功，這就是我們團隊的喜悅。
+        本中心成立於2011年，一直致力於為有長期痛症、運動創傷及中風的患者提供物理治療及復康服務。我們以衝擊波、電療、針灸、正骨手法及其他設備等為患者進行度身定制的康復療程。服務十載，一直受顧客支持。
       </p>
     </div>
   </section>
@@ -145,21 +137,21 @@
   <!---------- Features ---------->
   <section id="features">
     <div class="features container">
-      <div class="first-feature">
+      <div class="first-feature" data-aos="fade-right">
         <img src="../photo/aboutUs_gc.jpg" style="max-width: 100%">
         <div class="feature-box">
           <h3 class="chi feature-chi">舒適環境</h3>
           <h3 class="eng feature-eng">Comfy Environment</h3>
         </div>
       </div>
-      <div class="second-feature">
+      <div class="second-feature" data-aos="fade-right">
         <img src="../photo/aboutUs_shockWave.jpg" style="max-width: 100%;">
         <div class="feature-box">
           <h3 class="chi feature-chi">先進設備</h3>
           <h3 class="eng feature-eng">latest techonogies</h3>
         </div>
       </div>
-      <div class="third-feature">
+      <div class="third-feature" data-aos="fade-right">
         <img src="../photo/aboutUs_privateRoom.jpg" style="max-width:100%">
         <div class="feature-box">
           <h3 class="chi feature-chi">獨立診症室</h3>
@@ -288,33 +280,52 @@
   <script src="../shared.js"></script>
   <script>
     document.addEventListener("scroll", () => {
-    var scroll_position = window.scrollY;
-    if (scroll_position > 50) {
-      header.style.backgroundImage = "url('')";
-      home_button.src = "../logo/Kagina-Logo_W.png";
-      header.style.backgroundColor = "#5B7781";
-      header.style.transition = "background 1s";
-      button_bar.style.visibility = "visible";
-      button_bar.style.opacity = "1";
-      menu_item.forEach((item) => {
-        item.style.color = "white";
-      })
-      meun_item_hover.forEach((item) => {
-        item.style.color = "red";
-      })
+      var scroll_position = window.scrollY;
+
+      if (scroll_position > 50) {
+        header.style.backgroundImage = "url('')";
+        home_button.src = "../logo/Kagina-Logo_W.png";
+        header.style.backgroundColor = "#5B7781";
+        header.style.transition = "background 1s";
+
+        button_bar.style.height = '46px';
+        menu_item.forEach((item) => {
+          item.style.color = "white";
+        });
+
+        hamburger_span.forEach((item) => {
+          item.style.backgroundColor = 'white';
+        })
+        
+      } else {
+        header.style.backgroundColor = 'transparent';
+        home_button.src = "../logo/Kagina-Logo_B.png";
+
+        button_bar.style.height = '0';
+        menu_item.forEach((item) => {
+          item.style.color = "white";
+        })
+
+        hamburger_span.forEach((item) => {
+          item.style.backgroundColor = '#95C6D1';
+        })
+      }
+    });  
     
-    } else {
-      header.style.backgroundColor = 'transparent';
-      home_button.src = "../logo/Kagina-Logo_B.png";
-      // header.style.backgroundImage =
-      //   "url('./background/background.jpg')";
-      button_bar.style.visibility = "hidden";
-      button_bar.style.opacity = "0";
-      menu_item.forEach((item) => {
-        item.style.color = "#5B7781";
-      })
-    }
-  });
+    $(document).ready(function(){
+    button_bar.style.height = "0";
+
+    // button_bar.style.visibility = "hidden";
+    // button_bar.style.opacity = "0";
+    });
+  </script>
+  <!-- AOS js -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 150,
+      duration: 1000
+    });
   </script>
 </body>
 </html>
