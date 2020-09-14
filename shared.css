@@ -438,10 +438,11 @@ section {
   transition: 1s; /* Dropping Down */
   box-shadow: 0 2px 0 #615d6cb4;
   z-index: -10;
+  left: 1%;
 }
 
 .button-bar .googleMap .action ul{
-  transform: translate3d(-5px, 0, 0);
+  transform: translate3d(-2px, 0, 0);
 }
 
 .button-bar .call.active .action ul{
@@ -453,7 +454,7 @@ section {
 
 .button-bar .googleMap.active .action ul{
   opacity: 1;
-  transform: translate3d(-5px, -215px, 0);
+  transform: translate3d(-2px, -215px, 0);
   transition: 1s;
 }
 
