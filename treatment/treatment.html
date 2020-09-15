@@ -20,14 +20,19 @@
           </a>
         </div>
         <div class="nav-list">
-          <div class="hamburger"><div class="bar"></div></div>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <ul>
-            <li style="margin-top: 10%;"><a href="../index.html" data-after="Home">Home</a></li>
+            <li><a href="#hero" data-after="HomEe">Home</a></li>
             <li><a href="../aboutUs/aboutUs.html" data-after="About">About</a></li>
-            <li><a href="./treatment.html" data-after="Treatment">Treatment</a></li>
-            <li><a href="../index.html#caseStudies-scroll" data-after="Case Studies">Case Studies</a></li>
+            <li><a href="../treatment/treatment.html" data-after="Treatment">Treatment</a></li>
+            <li><a href="#caseStudies-scroll" data-after="Case Studies">Case Studies</a></li>
             <li><a href="../index.html#contactUs-scroll" data-after="Contact">Contact</a></li>
           </ul>
+          <div class="backdrop"></div>
         </div>
       </div>
     </div>
@@ -35,29 +40,39 @@
   <!---------- End of Header ---------->
 
 
-  <!---------- Button-bar ---------->
-  <section id=button-bar>
+   <!-- Button-bar -->
+   <section id=button-bar>
     <div class="button-bar">
       <ul>
         <li class=call>
-          <a href="tel:23283373">
-            <!-- <img src="https://img.icons8.com/office/30/000000/phone-ringing.png"/> -->
-            <img src="../icon/app_call.png">
-            <h3>call</h3>
-          </a>
+          <img src="../icon/app_call.png">
+          <!-- <h3>call</h3> -->
+          <div class="action">
+            <ul style="left: 1%;">
+              <li><h3 style="font-weight: bold">Location</h3></li>
+              <li><a style="font-weight: lighter;" href="tel:23283373">Jordan</a></li>
+              <li><a style="font-weight: lighter;" href="tel:26180199">Gold Coast</a></li>
+            </ul>
+          </div>
         </li>
         <li class=timetable>
           <a href="../index.html#timetable-buffer">
             <!-- <img src="https://img.icons8.com/office/30/000000/present.png"/> -->
             <img src="../icon/app_clock.png">
-            <h3 >Timetable</h3>
+            <!-- <h3>Timetable</h3> -->
           </a>
         </li>
         <li class=googleMap>
-          <a href="https://goo.gl/maps/5cSgrSCkCiuJoqQdA">
             <!-- <img src="https://img.icons8.com/office/30/000000/map-marker.png"/> -->
             <img src="../icon/app_map.png">
-            <h3>MAP</h3>
+            <!-- <h3>MAP</h3> -->
+            <div class="action">
+              <ul>
+                <li><h3 style="font-weight: bold">Location</h3></li>
+                <li><a style="font-weight: lighter;" href="https://goo.gl/maps/5cSgrSCkCiuJoqQdA" target="_blank">Jordan</a></li>
+                <li><a style="font-weight: lighter;" href="https://goo.gl/maps/64BSdUVk3RGvDHRT7" target="_blank">Gold Coast</a></li>
+              </ul>
+            </div>
           </a>
         </li>
         <!-- <li class=backToTop>
@@ -68,7 +83,7 @@
       </ul>
     </div>
   </section>
-  <!---------- End of button bar ---------->
+  <!-- End of button bar -->
   
   
   <!---------- Hero_aboutUs ---------->
@@ -319,7 +334,7 @@
         <h3 class="chi moreCaseStudies-small">我們一直從患者的角度堅持 “優質及先進的治療方案”</h3>
       </div>
       <div class="moreCaseStudies-mid">
-        <img src="../illustration/case study_03.svg" style="max-width: 100%;">
+        <img src="../photo/cS-clonical.png" style="max-width: 100%;">
       </div>
       <div class="moreCaseStudies-bottom">
         <a href="">
@@ -360,9 +375,12 @@
 
   <!-- Jquery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  <!-- Smooth Scroll -->
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
   <!-- Slick Carouse -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <!-- My script -->
+  <script src="../shared.js"></script>
   <script src="treatment.js"></script>
 </body>
 </html>

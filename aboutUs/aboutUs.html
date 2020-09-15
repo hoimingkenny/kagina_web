@@ -24,11 +24,11 @@
               <span></span>
             </div>
             <ul>
-              <li><a href="#hero" data-after="Home">Home</a></li>
+              <li><a href="#hero" data-after="HomEe">Home</a></li>
               <li><a href="../aboutUs/aboutUs.html" data-after="About">About</a></li>
               <li><a href="../treatment/treatment.html" data-after="Treatment">Treatment</a></li>
               <li><a href="#caseStudies-scroll" data-after="Case Studies">Case Studies</a></li>
-              <li><a href="#contactUs-scroll" data-after="Contact">Contact</a></li>
+              <li><a href="../index.html#contactUs-scroll" data-after="Contact">Contact</a></li>
             </ul>
             <div class="backdrop"></div>
           </div>
@@ -37,26 +37,39 @@
     </section>
     <!-- End of header -->
 
-  <!---------- Button-bar ---------->
-  <section id=button-bar>
+   <!-- Button-bar -->
+   <section id=button-bar>
     <div class="button-bar">
       <ul>
         <li class=call>
-          <a href="tel:23283373">
-            <!-- <img src="https://img.icons8.com/office/30/000000/phone-ringing.png"/> -->
-            <img src="../icon/app_call.png">
-          </a>
+          <img src="../icon/app_call.png">
+          <!-- <h3>call</h3> -->
+          <div class="action">
+            <ul style="left: 1%;">
+              <li><h3 style="font-weight: bold">Location</h3></li>
+              <li><a style="font-weight: lighter;" href="tel:23283373">Jordan</a></li>
+              <li><a style="font-weight: lighter;" href="tel:26180199">Gold Coast</a></li>
+            </ul>
+          </div>
         </li>
         <li class=timetable>
-          <a href="../#timetable-buffer">
+          <a href="../index.html#timetable-buffer">
             <!-- <img src="https://img.icons8.com/office/30/000000/present.png"/> -->
             <img src="../icon/app_clock.png">
+            <!-- <h3>Timetable</h3> -->
           </a>
         </li>
         <li class=googleMap>
-          <a href="https://goo.gl/maps/5cSgrSCkCiuJoqQdA">
             <!-- <img src="https://img.icons8.com/office/30/000000/map-marker.png"/> -->
             <img src="../icon/app_map.png">
+            <!-- <h3>MAP</h3> -->
+            <div class="action">
+              <ul>
+                <li><h3 style="font-weight: bold">Location</h3></li>
+                <li><a style="font-weight: lighter;" href="https://goo.gl/maps/5cSgrSCkCiuJoqQdA" target="_blank">Jordan</a></li>
+                <li><a style="font-weight: lighter;" href="https://goo.gl/maps/64BSdUVk3RGvDHRT7" target="_blank">Gold Coast</a></li>
+              </ul>
+            </div>
           </a>
         </li>
         <!-- <li class=backToTop>
@@ -67,7 +80,7 @@
       </ul>
     </div>
   </section>
-  <!---------- End of button bar ---------->
+  <!-- End of button bar -->
 
 
   <!---------- Hero_aboutUs ---------->
@@ -114,17 +127,19 @@
 
   <!---------- wtsKagina ---------->  
   <section id="wtsKagina">
-    <div class="wtsKagina container">
+    <div class=" wtsKagina container">
       <h3 class="eng">About</h3>
-      <div class="first-row-photo" data-aos="fade-right">
-        <img src="../photo/jd_bigBed.jpg">
-      </div>
-      <div class="second-row-photo">
-        <div class="photo-box left-photo" data-aos="fade-right">
-          <img src="../photo/NameTag.jpg">
+      <div>
+        <div class="first-row-photo" data-aos="fade-right">
+          <img src="../photo/jd_bigBed.jpg">
         </div>
-        <div class="photo-box right-photo" data-aos="fade-right">
-          <img src="../photo/door_logo.jpg">
+        <div class="second-row-photo">
+          <div class="photo-box left-photo" data-aos="fade-right">
+            <img src="../photo/NameTag.jpg">
+          </div>
+          <div class="photo-box right-photo" data-aos="fade-right">
+            <img src="../photo/door_logo.jpg">
+          </div>
         </div>
       </div>
       <p class="chi">
@@ -170,10 +185,12 @@
         <h3 class="chi vision-title-chi">我們的目標</h3>
         <h3 class="eng vision-title-eng">our vision</h3>
       </div>
-      <div style="max-width: 100%;">
-        <img src="../illustration/infographic-2011.svg" style="margin: 1rem 0;">
-        <img src="../illustration/infographic-05.svg" style="margin-bottom: 1rem;">
-        <img src="../illustration/infographic-2020.svg" style="margin-bottom: 1rem;">
+      <div>
+        <div>
+          <img src="../illustration/infographic-2011.svg">
+          <img src="../illustration/infographic-05.svg">
+          <img src="../illustration/infographic-2020.svg">
+        </div>
         <img src="../illustration/infographic-map.svg" style="margin-bottom: 1rem;">
       </div>
     </div>
@@ -186,35 +203,36 @@
     <div class="doctor container">
       <div class="doctor-title">
         <h3 class="chi doctor-title-chi">註冊物理治療師</h3>
-        <h3 class="eng doctor-title-eng">Registered</h3>
-        <h3 class="eng doctor-title-eng">Physiotherapist</h3>
+        <h3 class="eng doctor-title-eng">Registered Physiotherapist</h3>
+        <!-- <h3 class="eng doctor-title-eng"></h3> -->
       </div>
-      <div class="doctor-img">
-        <img src="../photo/benson_cheng.jpg" style="max-width: 100%;">
+      <div class="doctor-info-container">
+        <div class="doctor-img">
+          <img src="../photo/benson_cheng.jpg" style="max-width: 100%;">
+        </div>
+        <div class="doctor-text">
+          <div class="doctor-text-title">
+            <h3 class="chi doctor-text-title-chi">鄭金坤博士</h3>
+            <h3 class="eng doctor-text-title-eng">dr. benson cheng</h3>
+          </div>
+          <div class="doctor-text-cert-chi">
+            <h3 class="cert-chi">香港理工大學物理治療學哲學博士</h3>
+            <h3 class="cert-chi">香港理工大學物理治療學（榮譽）理學士</h3>
+            <h3 class="cert-chi">香港物理治療學會認可針灸證書</h3>
+            <h3 class="cert-chi">「龍氏」脊椎正骨療法證書</h3>
+            <h3 class="cert-chi">澳洲骨科手法治療證書</h3>
+            <h3 class="cert-chi">香港註冊物理治療師</h3>
+          </div>
+          <div class="doctor-text-cert-eng">
+            <h3 class="cert-eng">Phd Physiotherapy (PolyU)</h3>
+            <h3 class="cert-eng">Bsc Physiotherapy (PolyU)</h3>
+            <h3 class="cert-eng">Acupuncture Accreditation (HKPA)</h3>
+            <h3 class="cert-eng">Cert. In Dr Lung’s Bone Setting For Spinal Vertebrae</h3>
+            <h3 class="cert-eng">Cert. In Orthopaedic Manual Therapy (Manual Concepts, Australia)</h3>
+            <h3 class="cert-eng">Registered Physiotherapist (HK)</h3>
+          </div>
+        </div>
       </div>
-      <div class="doctor-text">
-        <div class="doctor-text-title">
-          <h3 class="chi doctor-text-title-chi">鄭金坤博士</h3>
-          <h3 class="eng doctor-text-title-eng">dr. benson cheng</h3>
-        </div>
-        <div class="doctor-text-cert-chi">
-          <h3 class="cert-chi">香港理工大學物理治療學哲學博士</h3>
-          <h3 class="cert-chi">香港理工大學物理治療學（榮譽）理學士</h3>
-          <h3 class="cert-chi">香港物理治療學會認可針灸證書</h3>
-          <h3 class="cert-chi">「龍氏」脊椎正骨療法證書</h3>
-          <h3 class="cert-chi">澳洲骨科手法治療證書</h3>
-          <h3 class="cert-chi">香港註冊物理治療師</h3>
-        </div>
-        <div class="doctor-text-cert-eng">
-          <h3 class="cert-eng">Phd (Physiotherapy)</h3>
-          <h3 class="cert-eng">Bsc (Physiotherapy)</h3>
-          <h3 class="cert-eng">Acupuncture Accreditation (HKPA)</h3>
-          <h3 class="cert-eng">Cert. In Dr Lung’s Bone Setting For Spinal Vertebrae</h3>
-          <h3 class="cert-eng">Cert. In Orthopaedic Manual Therapy (Manual Concepts, Australia)</h3>
-          <h3 class="cert-eng">Registered Physiotherapist (HK)</h3>
-        </div>
-      </div>
-
     </div>
   </section>
   <!---------- End of physiotherapist ---------->

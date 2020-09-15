@@ -89,8 +89,8 @@
   letter-spacing: .08rem;
   font-weight: 200;
 }
-
 /* ---------- End of WtsKagina ----------*/
+
 
 /* ---------- Features ---------- */
 #features .features{
@@ -172,6 +172,19 @@
   letter-spacing: .4rem;
   line-height: 1.3rem;
 }
+
+.vision div:nth-child(2) div img:first-of-type{
+  margin: 1rem 0;
+}
+
+.vision div:nth-child(2) div img:nth-child(2){
+  margin-bottom: 1rem;
+}
+
+.vision div:nth-child(2) div img:last-of-type{
+  margin-bottom: 1rem;
+}
+
 /* ---------- End of ourVision ---------- */
 
 
@@ -310,4 +323,203 @@
   font-size: 1.2rem;
   font-weight: lighter;
   letter-spacing: .15rem;
+}
+
+/* -------------------- Media Query For PC --------------------*/
+@media only screen and (min-width: 1200px){
+  #hero{
+    min-height: 50vh;
+  }
+
+  #hero .hero{
+    min-height: 55vh;
+  }
+
+  #hero h3{
+    font-size: 5rem;
+  }
+
+  #hero .hero .hero-aboutUs-eng{
+    font-size: 4rem;
+  }
+
+  #hero .hero .animated-third-row, #hero .hero .animated-fourth-row{
+    display: none;
+  }
+
+  .wtsKagina{
+    align-items: initial;
+    min-height: 95vh;
+  }
+
+  .wtsKagina div:first-of-type{
+    display: flex; 
+    justify-content: space-between;
+  }
+  .wtsKagina .first-row-photo{ 
+    width: 66.5%;
+  }
+
+  .wtsKagina .second-row-photo{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+    justify-content: space-between;
+  }
+
+  #wtsKagina .wtsKagina .second-row-photo .photo-box{
+    padding: 0;
+    width: 100%;
+  }
+
+  #wtsKagina .wtsKagina p{
+    font-size: 2.5rem;
+  }
+
+  #features .features{
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 40vh;
+    margin: 0 auto;
+    align-items: flex-start;
+    top: -2rem;
+  }
+
+  #features .features .first-feature,
+  #features .features .second-feature,
+  #features .features .third-feature{
+    width: 32%;
+  }
+
+  #features .features .third-feature{
+    margin-top: 0;
+  }
+
+  #vision .vision{
+    min-height: 90vh;
+  }
+
+  .vision .vision-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #vision .vision .vision-title-chi{
+    font-size: 2.5rem;
+  }
+
+  #vision .vision .vision-title-eng{
+    font-size: 2.2rem;
+    line-height: normal;
+  }
+
+  .vision div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .vision div:nth-child(2) div{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  .vision div:nth-child(2) div img{
+    /* max-width: 100% */
+  }
+
+  .vision div:nth-child(2) > img{
+    width: 59.5%;
+  }
+
+  .vision div:nth-child(2) div img:first-of-type{
+    margin: 0;
+  }
+  
+  .vision div:nth-child(2) div img:nth-child(2){
+    margin-bottom: 0;
+    margin: .55rem 0;
+  }
+  
+  .vision div:nth-child(2) div img:last-of-type{
+    margin-bottom: 0;
+  }
+
+  #doctor .doctor .doctor-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #doctor .doctor .doctor-title-chi{
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+  }
+
+  #doctor .doctor .doctor-title-eng{
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+  .doctor .doctor-info-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .doctor .doctor-img{
+    width: 40%;
+  }
+
+  .doctor .doctor-text{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #doctor .doctor-text-title .doctor-text-title-chi{
+    font-size: 3.5rem;
+  }
+
+  #doctor .doctor-text-title .doctor-text-title-eng{
+    font-size: 3.3rem;
+  }
+
+  #doctor .doctor-text .doctor-text-cert-chi h3{
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
+
+  #doctor .doctor-text .doctor-text-cert-eng h3{
+    font-size: 2.2rem;
+    line-height: 3.6rem;
+  }
+
+  #doctor .doctor-img img{
+    margin: 1.5rem 0;
+  }
+
+  #provided-treatment .provided-treatment-mid{
+    margin: 0 auto;
+    max-width: 40%;
+  }
+
+  #provided-treatment .provided-treatment{
+    height: 55vh;
+  }
+
+  #provided-treatment .provided-treatment-chi{
+    font-size: 4rem;
+  }
+
+  #provided-treatment .provided-treatment-eng{
+    font-size: 4rem;
+    letter-spacing: .8rem;
+  }
+
+  #provided-treatment .provided-treatment-small{
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
 }

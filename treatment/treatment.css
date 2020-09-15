@@ -342,3 +342,27 @@
   font-weight: lighter;
   letter-spacing: .15rem;
 }
+
+
+/* -------------------- Media Query For PC --------------------*/
+@media only screen and (min-width: 1200px){
+  #hero{
+    min-height: 50vh;
+  }
+
+  #hero .hero{
+    min-height: 55vh;
+  }
+
+  #hero h3{
+    font-size: 5rem;
+  }
+
+  #hero .hero .hero-aboutUs-eng{
+    font-size: 4rem;
+  }
+
+  #hero .hero .animated-third-row, #hero .hero .animated-fourth-row{
+    display: none;
+  }
+}

@@ -387,7 +387,7 @@ section {
   left: 0;
   max-height: 100%;
   width: auto;
-  animation: cloud-hero calc(10s * var(--i)) linear infinite;
+  animation: cloud-hero calc(10s * var(--i)) linear 2;
 }
 /* End of Hero Section */
 
