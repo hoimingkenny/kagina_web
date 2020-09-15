@@ -190,7 +190,7 @@
   flex-direction: column;
   width: 100%;
   margin: 0 auto;
-  min-height: 50vh;
+  min-height: 75vh;
   text-transform: uppercase;
   justify-content: initial;
 }
