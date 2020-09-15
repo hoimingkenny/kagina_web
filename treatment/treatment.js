@@ -1,13 +1,39 @@
-// Slick
-$(document).ready(function () {
-  $(".post-wrapper").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: false,
-    autoplaySpeed: 2000,
-    nextArrow: $(".next"),
-    prevArrow: $(".prev"),
-  });
+// Slick Js for Landing Page - treatment
+var sliderElem = $(".post-wrapper"),
+    sliderBool = false,
+    sliderBreakpoint = 1200,
+    sliderSettings = {
+      nextArrow: $(".next"),
+      prevArrow: $(".prev"),
+      slidesToShow: 1, 
+      slidesToScroll: 1, 
+      mobileFirst: true,
+      responsive: [
+            {
+                breakpoint: sliderBreakpoint,
+                settings: "unslick"
+            }
+        ]
+    };
+function sliderInit() {
+    if (window.innerWidth <= sliderBreakpoint) {
+        if (sliderBool == false) {
+            sliderElem.slick(sliderSettings);
+            sliderBool = true;
+        }
+    } else {
+        sliderBool = false;
+    }
+}
+
+// Only execute once at the begining
+$(document).ready(function(){
+  sliderInit();
+});
+
+// resize
+$(window).resize(function () {
+  sliderInit();
 });
 
 document.addEventListener("scroll", () => {

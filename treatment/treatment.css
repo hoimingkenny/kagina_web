@@ -126,6 +126,8 @@
   transform: translateY(0px) !important;
 }
 
+
+
 .treatment .text-content p:first-of-type{
   font-weight: 200;
   line-height: 1.8rem;
@@ -178,6 +180,7 @@
 }
 /* End of Treatment */
 
+
 /* -------------------- Case Study --------------------*/
 #featured-treatment {
   background-color: #5B7781;
@@ -187,7 +190,7 @@
   flex-direction: column;
   width: 100%;
   margin: 0 auto;
-  min-height: 73vh;
+  min-height: 50vh;
   text-transform: uppercase;
   justify-content: initial;
 }
@@ -220,7 +223,7 @@
 }
 
 .featured-treatment-bottom .post-slider{ /* Post Slider */
-  width: 90%;
+  width: 85%;
   overflow: hidden;
 }
 
@@ -239,11 +242,30 @@
   left: -6%;
   cursor: pointer;
 }
-
+/* 
 .featured-treatment-bottom .next {
   left: 87%;
   top: 42%;
   color: #D1F0F7;
+} */
+
+.featured-treatment-bottom .next{
+  position: absolute;
+  max-width: 50px;
+  top: 35%;
+  right: 2%;
+  cursor: pointer;
+  color: #D1F0F7;
+}
+
+.featured-treatment-bottom .prev{
+  position: absolute;
+  max-width: 50px;
+  top: 35%;
+  left: 2%;
+  cursor: pointer;
+  color: #D1F0F7;
+  transform: scaleX(-1);
 }
 
 .featured-treatment-item img{
@@ -291,7 +313,7 @@
 }
 
 #moreCaseStudies .moreCaseStudies{
-  height: 90vh;
+  /* height: 90vh; */
   width: 85%;
   margin: 0 auto;
   color: #5B7781;
@@ -364,5 +386,70 @@
 
   #hero .hero .animated-third-row, #hero .hero .animated-fourth-row{
     display: none;
+  }
+
+  #treatment .treatment{
+    padding: 5rem 0;
+  }
+
+  #treatment .treatment-top {
+    align-self: flex-start;
+    padding-left: 4rem;
+  }
+  #treatment .treatment-top h1{
+    font-size: 5rem;
+  } 
+
+  #treatment .treatment-middle > div:first-of-type{
+    display: flex;
+  }
+
+  #treatment .treatment-middle > div:last-of-type{
+    display: flex;
+  }
+
+  .treatment .treatment-logo,
+  .treatment .treatment-logo-acu{
+    height: 55rem;
+    width: 25%;
+  }
+
+  .treatment-logo .text-content, 
+  .treatment-logo-acu .text-content{
+    transform: translateY(0);
+  }
+
+  .treatment-logo .text1, 
+  .treatment-logo-acu .text1{
+    padding: 1rem;
+  }
+  .chevron{
+    visibility: hidden;
+  }
+
+  #featured-treatment .featured-treatment-title-chi{
+    font-size: 4.5rem;
+  }
+  
+  #featured-treatment .featured-treatment-title-eng{
+    font-size: 3.5rem;
+  }
+
+  .featured-treatment-bottom{
+    max-width: 1500px;
+  }
+
+  .featured-treatment-bottom .next,
+  .featured-treatment-bottom .prev{
+    display: none;
+  }
+
+  .featured-treatment-item{
+    position: relative;
+  }
+
+  .featured-treatment-title{
+    position: relative;
+    top: -3px;
   }
 }
