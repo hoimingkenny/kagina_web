@@ -326,7 +326,7 @@
 }
 
 /* -------------------- Media Query For PC --------------------*/
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 576px){
   #hero{
     min-height: 50vh;
   }

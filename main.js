@@ -1,7 +1,7 @@
 // Slick Js for Landing Page - treatment
 var sliderElem = $(".post-wrapper"),
     sliderBool = false,
-    sliderBreakpoint = 1200,
+    sliderBreakpoint = 768,
     sliderSettings = {
       nextArrow: $(".next"),
       prevArrow: $(".prev"),

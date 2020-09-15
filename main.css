@@ -744,6 +744,332 @@
 
 
 /* -------------------- Media Query For PC --------------------*/
+@media only screen and (min-width: 756px){
+  #aboutUs .aboutUs{
+    min-height: 70vh;
+  }
+
+  .aboutUs-title-chi{
+    font-size: 5rem;
+  }
+
+  .aboutUs-title-eng{
+    font-size: 5rem;
+  }
+
+  .aboutUs-img img{
+    max-width: 90% !important;
+    /* position: relative !important; */
+  }
+
+  .aboutUs-bottom h1 {
+    width: 100%;
+    color: #5B7781;
+    font-size: 2rem !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.15rem;
+  }
+
+  .aboutUs-bottom > div h1:last-of-type{
+    line-height: 2rem !important;
+  }
+
+  /* .aboutUs-learnMore h3,
+  .caseStudies-bottom h3,
+  .treatment .treatment-bottom h3{
+    font-size: 1.8rem !important;
+  } */
+  
+  #treatment .treatment{
+    padding: 3rem 0 !important;
+    padding-top: 5rem !important;
+    justify-content: initial;
+    min-height: 85vh;
+  }
+
+  #treatment .treatment-top{
+    align-self: flex-start;
+  }
+
+  #treatment .treatment-top h1{
+    font-size: 5rem;
+  }
+
+  #treatment .treatment-top h1:last-of-type{
+    letter-spacing: 2rem !important;
+    line-height: 5rem;
+  }
+
+  #treatment .treatment-middle{
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    min-width: 1200px;
+    margin: 0 auto;
+  }
+
+  #treatment .treatment-row{
+    display: initial !important;
+  }
+
+  #treatment .scene{
+    width: 200px !important;
+    height: 200px !important;
+    margin: 4rem !important;
+  }
+
+  #treatment .treatment-card{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    cursor: initial;
+  }
+
+  .face-back{
+    border: 7px solid #5B7781 !important;
+  }
+
+  .aboutUs-learnMore h3:first-of-type,
+  .caseStudies-bottom h3:first-of-type,
+  .treatment-bottom h3:first-of-type,
+  .caseStudies-bottom h3:first-of-type{
+    font-size: 1.9rem !important;
+    font-weight: lighter;
+  }
+
+  .aboutUs-learnMore h3:last-of-type,
+  .caseStudies-bottom h3:last-of-type,
+  .treatment-bottom h3:last-of-type,
+  .caseStudies-bottom h3:last-of-type{
+    font-size: 1.8rem !important;
+    font-weight: lighter;
+  }
+
+  .is-flipped {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+  }
+
+  .display-none{
+    display: block;
+    font-weight: 200;
+    font-size: 1.6rem !important;
+    letter-spacing: .5rem;
+  }
+
+  #caseStudies .caseStudies{
+    padding: 5rem 0;
+    min-height: 95vh;
+  }
+
+  .caseStudies-top{
+    align-self: flex-start;
+  }
+
+  #caseStudies .caseStudies-top h1:first-of-type{
+    font-size: 5rem;
+  }
+
+  #caseStudies .caseStudies-top h1:last-of-type{
+    font-size: 5rem;
+    font-weight: lighter;
+    letter-spacing: 1.3rem;
+    line-height: 4.5rem;
+    margin-bottom: 3rem;
+  }  
+
+  .caseStudy-title > h3{
+    font-size: 2rem;
+  }
+
+  .caseStudy-title .caseStudy-example h3{
+    font-size: 1.6rem;
+  }
+ 
+ .post-wrapper{
+   justify-content: space-between;
+  }
+  
+  .post{
+    width: 30% !important;
+  }
+  .next,
+  .prev{
+    display: none;
+  }
+
+  /* .caseStudies-bottom h3:first-of-type{
+    font-size: 2.5rem !important;
+    font-weight: lighter;
+  }
+
+  .caseStudies-bottom h3:last-of-type{
+    font-size: 2.5rem !important;
+    font-weight: lighter;
+  } */
+
+  #contactUs{
+    padding: 4rem;
+  }
+
+  #contactUs .contactUs-header{
+    width: 88%;
+    margin-top: 3rem;
+    align-self: unset;
+  }
+
+  #contactUs .contactUs-header h1:first-of-type{
+    width: 90%;
+    font-size: 6rem;
+  }
+
+  #contactUs .contactUs-header h1:last-of-type{
+    font-size: 6rem;
+    font-weight: lighter;
+    letter-spacing: 1.3rem;
+    line-height: 4.5rem;
+    margin-bottom: 6rem;
+  }  
+
+  .contactUs-allLocation{
+    /* flex-direction: row; */
+    align-items: initial;
+  }
+
+  .location-info-eng{
+    letter-spacing: .5rem;
+  }
+
+  .contactUs-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+  }
+
+  .contactUs-allLocation .location .location-img-jordan,
+  .contactUs-allLocation .location .location-img-gc img{
+    width: 250px;
+    height: 250px;
+  }
+
+  .contactUs .contact-map{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+
+  .contactUs .contact-map .contact-map-jd,
+  .contactUs .contact-map .contact-map-gc{
+    width: 40%;
+  }
+
+  .timetable-container .table-title{
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .timetable-container .table thead tr th{
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    padding: 1rem;
+  }
+
+  .table tbody tr th .table-time-top{
+    font-size: 1.5rem;
+  }
+
+  .table tbody tr th .table-time-mid,
+  .table tbody tr th .table-time-bottom{
+    font-size: 1.6rem;
+  }
+
+  .timetable-container .table .triangle svg,
+  .location-circle .circle-fe .circle-fe-circle svg{
+    height: 34px;
+    width: 34px;
+  }
+
+  .timetable-container .table .not-circle img{
+    height: 25px;
+    width: 25px;
+  }
+
+  .table .circleBlue, .timetable-container h3 .circleBlue,
+  .table .circleSmallBlue, .timetable-container h3 .circleSmallBlue,
+  .timetable-container .location-circle .circleBlue,
+  .timetable-container .location-circle .circleSmallBlue{
+    font-size: 7rem;
+  }
+
+  .timetable-container .location-circle{
+    width: 78%;
+    margin: 10px auto;
+  }
+
+  .contactUs .timetable-container .table-special{
+    width: 82%;
+    white-space: nowrap;
+  }
+
+  .timetable-container .location-circle h3,
+  .contactUs .timetable-container .table-special h3{
+    font-size: 1.5rem !important;
+  }
+
+  .contactUs .contact-details{
+    padding-bottom: 4rem;
+  }
+
+  .contactUs .contact-details .contact-detail-name-gc{
+    margin-top: 0;
+  }
+
+  .contactUs .contact-detail-title-chi{
+    font-size: 3.5rem;
+  }
+
+  .contactUs .contact-detail-title-eng{
+    font-size: 3rem;
+  }
+
+  .contactUs .contact-details .contact-detail-name{
+    font-size: 2.3rem;
+  }
+  .contactUs .contact-details .contact-detail-name-chi{
+    margin-top: 2.5rem;
+  }
+
+  .contactUs .contact-details .address-title-chi, .contactUs .contact-details .address-title-eng{
+    font-size: 2rem;
+  }
+
+  .contactUs .contact-details .address-eng,
+  .contactUs .contact-details .address-chi{
+    width: 90%;
+    font-size: 1.7rem;
+    margin: 0 auto;
+  }
+
+  .contactUs .contact-details .phone-detail{
+    font-size: 2rem;
+  }
+
+  .contactUs .phone-detail-reminder,
+  .contactUs .phone-detail-time{
+    font-size: 1.6rem;
+  }
+
+  .contactUs .map iframe{
+    height: 400px;
+  }
+}
+/* -------------------- End of Media Query For Tablet -------------------- */
+
+
+
+/* -------------------- Media Query For PC --------------------*/
 @media only screen and (min-width: 1200px){
   #aboutUs .aboutUs{
     min-height: 70vh;

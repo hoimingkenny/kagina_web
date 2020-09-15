@@ -615,15 +615,82 @@ section {
 /* End of Keyframes */
 
 /* -------------------- Media Query For  --------------------*/
-@media only screen and (min-width: 576px){
-  .onetwozerozero-display-none{
-    display: none;
-  }
-}
+
 
 /* -------------------- Media Query For Tablet --------------------*/
 @media only screen and (min-width: 768px){
- 
+  #header .hamburger{
+    display: none;
+  }
+  
+  #header .nav-list{
+    display: flex;
+    align-items: center;
+  }
+
+  #header .nav-list ul{
+    height: auto;
+    position: initial;
+    background-color: transparent;
+    display: block;
+    width: fit-content;
+  }
+  
+  #header .nav-list ul li{
+    display: inline-block;
+    
+  }
+
+  #header .brand img{
+    height: 8vh;
+  }
+
+  #header .nav-list ul a {
+    font-size: 1.5rem;
+  }
+
+  #header .nav-list ul a::after{
+    display: none;
+  }
+  
+  #header .nav-list ul li:hover a::after{
+    transform: translate(-50%, -50%) scale(1);
+    letter-spacing: initial;
+  }
+  
+  #header .nav-list ul li:hover a{
+    color: white;
+  }
+
+  .button-bar{
+    display: none;
+  }
+
+  #hero .hero{
+    max-width: none;
+  }
+
+  #hero h1{
+    font-size:2vw;
+  }
+
+  #hero .letter{
+    font-size: 6vh;
+  }
+
+  .hero .scroll-down::before{
+    display: none;
+    width: 40px;
+    height: 40px;
+  }
+
+  #elderly {
+    height: 50%;
+  }
+
+  #wave {
+    bottom: -11rem;
+  }
 }
 /* End of Media Query For Tablet */
 

@@ -365,9 +365,15 @@
   letter-spacing: .15rem;
 }
 
+@media only screen and (min-width: 532px){
+  .treatment .logo-container {
+    margin: 1rem auto;  
+  }
+}
+
 
 /* -------------------- Media Query For PC --------------------*/
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 756px){
   #hero{
     min-height: 50vh;
   }
@@ -425,6 +431,10 @@
   }
   .chevron{
     visibility: hidden;
+  }
+
+  #featured-treatment .featured-treatment{
+    min-height: 50vh;
   }
 
   #featured-treatment .featured-treatment-title-chi{
