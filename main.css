@@ -124,16 +124,13 @@
   }
 
   .product h3:last-of-type{
-    font-size: 3rem;
-    letter-spacing: 1rem;
+    font-size: 2.7rem;
+    letter-spacing: .5rem;
   }
 
   .product .showcase_container{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* opacity: .3;
-    filter: grayscale(1); */
   }
 
   .showcase_container .product-first-row{
