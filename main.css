@@ -131,6 +131,8 @@
   .product .showcase_container{
     display: flex;
     flex-direction: column;
+    width: 85%;
+    padding: 0 1rem;
   }
 
   .showcase_container .product-first-row{
