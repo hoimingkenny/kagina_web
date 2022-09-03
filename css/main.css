@@ -488,13 +488,14 @@
 }
 
 .contactUs-allLocation .location .location-img-jordan{
-  background-image: url(./photo/aboutUs_privateRoom.jpg);
+  background-image: url(../static/photo/aboutUs_privateRoom.jpg);
   background-position: right 15%;
   background-size: cover;
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
+
 
 .location-img-gc img{
   width: 200px;

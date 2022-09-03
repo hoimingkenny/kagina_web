@@ -55,7 +55,7 @@ document.addEventListener("scroll", () => {
 
   if (scroll_position > 50) {
     header.style.backgroundImage = "url('')";
-    home_button.src = "./logo/Kagina-Logo_W.png";
+    home_button.src = "static/logo/Kagina-Logo_W.png";
     header.style.backgroundColor = "#5B7781";
     header.style.transition = "background 1s";
 
@@ -70,7 +70,7 @@ document.addEventListener("scroll", () => {
     
   } else {
     header.style.backgroundColor = 'transparent';
-    home_button.src = "./logo/Kagina-Logo_B.png";
+    home_button.src = "static/logo/Kagina-Logo_B.png";
 
     button_bar.style.height = '0';
     menu_item.forEach((item) => {
